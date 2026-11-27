@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4700,
-      "sha256": "f28fd3a309c3aaeefc2921742e44c03c95fb020c3b5058c3ff65f25b3731b2f6"
+      "bytes": 6643,
+      "sha256": "e22fa249c89acae9b8a30d581740d81e13f13ee9905b5b22623a15ade79a20ba"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -63,8 +63,8 @@
     },
     {
       "path": "docs/\u8bfe\u7a0b\u9879\u76ee\u62a5\u544a.md",
-      "bytes": 4432,
-      "sha256": "8a00c7df5b318adc9d808252877cab910a0a873be9fa8314d43ecd2469b02228"
+      "bytes": 5882,
+      "sha256": "f05bd4851cb3bc0c0737720a797cf16c1f4112b63c4cbc71bdfe456afdc24a99"
     },
     {
       "path": "figures/example.png",
