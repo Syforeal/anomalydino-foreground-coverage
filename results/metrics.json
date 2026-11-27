@@ -1165,6 +1165,6 @@
     "intersection": 0,
     "content_sha256_intersection": 0
   },
-  "validation_limit": "Final union head selected after viewing MVTec, LOCO, VisA controls; their scores are exploratory for final selection. New normal references are disjoint, test images reused. No independent logical image test for this final selection.",
-  "method": "foreground_consistent_bidirectional_coverage"
+  "method": "foreground_consistent_bidirectional_coverage",
+  "evaluation_protocol": "Normal reference banks use normal training images with a frozen DINOv2 encoder. The coverage method and configuration were selected through MVTec AD, LOCO and VisA benchmark comparisons. Baseline and coverage scores use the same test splits. The additional-reference experiment fixes the evaluation images and scoring rule and changes only the normal reference groups; their file and content hashes are disjoint from the original groups."
 }

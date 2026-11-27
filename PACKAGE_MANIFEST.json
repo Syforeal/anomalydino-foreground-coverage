@@ -8,8 +8,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4400,
-      "sha256": "d80f68826a1c969f3b8e6a49c00d152a918a9a8ae625a6d77ab742d29e0d87f9"
+      "bytes": 4585,
+      "sha256": "afeb5ead30538b97af5b301d908eaf4b5704775e2f012f835982a905f7adb16e"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
@@ -38,8 +38,8 @@
     },
     {
       "path": "deployment/README.md",
-      "bytes": 405,
-      "sha256": "42c83fb9dfcadaa716885720911bc478c2017a0c2ff2ef13476b7b61a307066e"
+      "bytes": 429,
+      "sha256": "042abb8faf6945de3e1934f800a6dae3021ef540c625d2a73ac3410259f61df2"
     },
     {
       "path": "deployment/cable_1shot/index.faiss",
@@ -58,28 +58,28 @@
     },
     {
       "path": "docs/\u590d\u73b0\u6307\u5357.md",
-      "bytes": 6185,
-      "sha256": "829b7ea0ea6fe1c4e7f1f78a269b641b861add06bc46e3f1b58fb779ef5009ea"
+      "bytes": 6289,
+      "sha256": "acd4d5f1a22ec837aa986d3ad84d96d8dd5eb90863e463bd29efdf5d63af4b19"
     },
     {
       "path": "docs/\u8bfe\u7a0b\u9879\u76ee\u62a5\u544a.md",
-      "bytes": 4310,
-      "sha256": "06bf93484faf10e10fa8bff07c364f039ac8576521d27ac108d16546cdd9c7a2"
+      "bytes": 4374,
+      "sha256": "012da6f31c430692bd2babe54fb15fcb561490baa6ae7691355c2b0f974325e7"
     },
     {
       "path": "figures/example.png",
-      "bytes": 2502139,
-      "sha256": "bb938ac7272845d27314a3b9488734d09b1aaf55e64004bb74b877b69ab956ca"
+      "bytes": 2502659,
+      "sha256": "47a29c86f2e9ac0deb1c505fa3abd45b8a8d9cc008700b5352f4acfea3d2b3e4"
     },
     {
       "path": "figures/example_selection.json",
-      "bytes": 935,
-      "sha256": "eb7fd95f15dc7ffa689a6827fd6da89f27ff92c502c73f305c1194f570211b96"
+      "bytes": 982,
+      "sha256": "839668f47ce0058438ddda93ec2de75ae3c630a87a41042e3fe76a79f333d16d"
     },
     {
       "path": "figures/results.png",
-      "bytes": 83671,
-      "sha256": "c8ba533e9058c032e40b6a2e98f939d7b4d8525f4823f8b89bb678d4c5b21661"
+      "bytes": 87569,
+      "sha256": "c19b22f95e720a4ec30673151eb0a92822cd43ab788c415439c5ad3d23fbbee8"
     },
     {
       "path": "requirements.txt",
@@ -118,8 +118,8 @@
     },
     {
       "path": "results/metrics.json",
-      "bytes": 33687,
-      "sha256": "9ce430219f101b003a1b403fa431ab5a63469fb6ac2b514867bc2f7d91e4fbb9"
+      "bytes": 33894,
+      "sha256": "56f215d0b4d81de827bdaa7403678197c46fa6f583c068c14ee11adaa5dc068c"
     },
     {
       "path": "results/per_category.csv",
@@ -1243,8 +1243,8 @@
     },
     {
       "path": "results/provenance.json",
-      "bytes": 62583,
-      "sha256": "f6c3b671daf5326596556835b438ed52c0f394414a5931cdad80455ef8b6772a"
+      "bytes": 62791,
+      "sha256": "8123d5362a01a8642f54aacfcb0236e8d4446870d7143692ea390395cbeccea0"
     },
     {
       "path": "results/raw_image_check.json",
@@ -1258,8 +1258,8 @@
     },
     {
       "path": "scripts/coverage_demo.py",
-      "bytes": 2075,
-      "sha256": "dca9ed420a16cc0002106804f4f5a7bb798d05a54df44cd4f5cfe5ac0dfffe43"
+      "bytes": 2091,
+      "sha256": "13e31b00fd16f0000af2a3e8aa949adbaafce5393f85e1fdb86ca0a7994f7241"
     },
     {
       "path": "scripts/download_mvtec_manifest.py",
@@ -1268,18 +1268,18 @@
     },
     {
       "path": "scripts/evaluate.py",
-      "bytes": 5389,
-      "sha256": "231859d78c5b5919947615e9692fd8e08baf4e0052009120182a0a09c6743e40"
+      "bytes": 5399,
+      "sha256": "21998e57e0382202107a9bd3b9a88fbf90ddc5abcb5c1222633a356854426352"
     },
     {
       "path": "scripts/extract_features.py",
-      "bytes": 3158,
-      "sha256": "cf7f5903b56a006c908ffe4658d957cc313a8f8dfc926c1116789bbe06434866"
+      "bytes": 3168,
+      "sha256": "2d387e4fb4e043da664b3ce4fd3e1a03b8ae7bd9204cb5a3ac0c4d6477591647"
     },
     {
       "path": "scripts/package_release.py",
-      "bytes": 2209,
-      "sha256": "6e5094d3c1c880288f158467aeb2af0f975508930ccde45781d5bc1729c44920"
+      "bytes": 2251,
+      "sha256": "b6c8442aae6351092beffd2ae236d2923ede83e775c7fa13f2bb614e555e89c4"
     },
     {
       "path": "scripts/prepare_loco.py",
@@ -1298,8 +1298,8 @@
     },
     {
       "path": "scripts/summarize.py",
-      "bytes": 1651,
-      "sha256": "f95499942ae94af647712b168f0e3fa6217b4767c3151f51c90ee3588bbc58bd"
+      "bytes": 1647,
+      "sha256": "61a772b3ccb3119bf5b52851329ae6e66b887338b2cfc5c87e8485e12e6d166e"
     },
     {
       "path": "scripts/verify_release.py",
@@ -1333,8 +1333,8 @@
     },
     {
       "path": "vendor/AnomalyDINO/README.md",
-      "bytes": 305,
-      "sha256": "abc932566d281441393d882a9f33dcdf3062d0758f41238a2308d5b15c4af4d8"
+      "bytes": 312,
+      "sha256": "3f2ca1a7048e4a6aaa1644ec1de2ed0918e1d20e760286baed0991ec4089548b"
     },
     {
       "path": "vendor/AnomalyDINO/src/backbones.py",
@@ -1347,6 +1347,6 @@
       "sha256": "abda6cc4c917717877650fb88d03a09682260c2aaf3a62aa00fa6ad1624ab528"
     }
   ],
-  "contents": "Final V11 implementation, baseline comparison, results, report and example bank only.",
+  "contents": "Foreground-consistent bidirectional coverage implementation, baseline comparison, results, report and example bank only.",
   "not_bundled": "Raw datasets, model weights and feature caches."
 }

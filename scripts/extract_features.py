@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Extract V11 features for selected normal references and the test images."""
+"""Extract frozen DINOv2 features for selected normal references and the test images."""
 import argparse
 import json
 from pathlib import Path

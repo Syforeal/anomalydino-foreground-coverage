@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package the V11-only project and verify every archived file."""
+"""Package the foreground-coverage project and verify every archived file."""
 import hashlib
 import json
 from pathlib import Path
@@ -19,11 +19,11 @@ def main():
                 "sha256": hashlib.sha256(p.read_bytes()).hexdigest()} for p in files]
     manifest = PROJECT / "PACKAGE_MANIFEST.json"
     manifest.write_text(json.dumps({"version": 11, "files": records,
-        "contents": "Final V11 implementation, baseline comparison, results, report and example bank only.",
+        "contents": "Foreground-consistent bidirectional coverage implementation, baseline comparison, results, report and example bank only.",
         "not_bundled": "Raw datasets, model weights and feature caches."}, indent=2) + "\n")
     dist = PROJECT / "dist"
     dist.mkdir(exist_ok=True)
-    archive = dist / "anomalydino-foreground-coverage-v11.zip"
+    archive = dist / "anomalydino-foreground-coverage.zip"
     with zipfile.ZipFile(archive, "w", compression=zipfile.ZIP_DEFLATED, compresslevel=6) as z:
         for p in files + [manifest]:
             z.write(p, str(p.relative_to(PROJECT)))

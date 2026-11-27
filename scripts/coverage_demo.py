@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build and run a frozen V11 detector using explicit normal images and raw queries."""
+"""Build and run a frozen foreground-coverage detector using explicit normal images and raw queries."""
 import argparse
 import json
 from pathlib import Path

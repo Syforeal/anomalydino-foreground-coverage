@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Summarize V11 reference-level AUCs using equal class and reference weights."""
+"""Summarize reference-level AUCs using equal class and reference weights."""
 import argparse
 import csv
 from collections import defaultdict

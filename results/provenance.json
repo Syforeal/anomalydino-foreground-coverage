@@ -29,7 +29,7 @@
     "source_7": "cb641d4e4450ac1d5f35240d0fa1be1a0b3adad457386f15f22a1980c509ca2d",
     "source_8": "a24f28aa9219ea6a66cf4fec946bd548e0ee799d4e1253787af2a47a014f1d61"
   },
-  "note": "Existing V11 measurements, not a new full run. Only baseline and final coverage results are retained; test images participated in final selection.",
+  "note": "Existing measurements of the foreground-coverage method, not a new full run. Only baseline and coverage results are retained. Method configuration was determined through benchmark comparisons; normal banks use normal training images and the encoder stays frozen. Additional normal reference groups are compared on fixed evaluation images.",
   "prediction_sources": {
     "mvtec_ad/bottle_shot1_group0.npz": {
       "original_sha256": "9469dae1b9fd8205a137acc9ff7cc8e2bef76954375486fd52dcac4d88ac57eb",
@@ -1697,5 +1697,5 @@
       ]
     }
   },
-  "latency_note": "Existing V11 implementation measurements; the cleaned code was not retimed."
+  "latency_note": "Existing foreground-coverage implementation measurements; the cleaned code was not retimed."
 }

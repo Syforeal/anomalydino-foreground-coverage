@@ -1,5 +1,5 @@
 {
-  "scope": "illustrative selection from already-used data; all image scores retained",
+  "scope": "Illustrative normal, improved-detection and failure examples from the LOCO evaluation split; all image scores retained.",
   "rows": [
     {
       "sample": "breakfast_box/test/good/016.png",

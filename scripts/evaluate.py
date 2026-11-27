@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Evaluate only the original AnomalyDINO score and the final V11 score."""
+"""Evaluate only the original AnomalyDINO score and the foreground-coverage score."""
 import argparse
 import csv
 import json
