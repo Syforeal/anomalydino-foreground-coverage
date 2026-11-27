@@ -1,0 +1,137 @@
+[
+  {
+    "category": "bottle",
+    "url": "https://www.mydrive.ch/shares/163640/9a565b9a02f45cd135e46b1c36e01ec5/download/420937370-1629958698/bottle.tar.xz",
+    "sha256": "726512129cb3b1f47d4f6cd7c7fc9170db7fc209132249c788fec06029cb5dc3",
+    "archive_bytes": 155880244,
+    "train": 209,
+    "test": 83,
+    "masks": 63
+  },
+  {
+    "category": "cable",
+    "url": "https://www.mydrive.ch/shares/163641/97fd0295152453e533cfb3db1d253a35/download/420937413-1629958794/cable.tar.xz",
+    "sha256": "1e3d59b80a6a8da5adf32fb0cf311c7b964cde146d6920aef9ca66380999a9cd",
+    "archive_bytes": 504731120,
+    "train": 224,
+    "test": 150,
+    "masks": 92
+  },
+  {
+    "category": "capsule",
+    "url": "https://www.mydrive.ch/shares/163642/236d4304eaf9526b350b18807789ce86/download/420937454-1629958872/capsule.tar.xz",
+    "sha256": "f6a41cb11f1589d552888fe9c43a1adcbcae15b70073e19093322f836d00a2b6",
+    "archive_bytes": 404252480,
+    "train": 219,
+    "test": 132,
+    "masks": 109
+  },
+  {
+    "category": "carpet",
+    "url": "https://www.mydrive.ch/shares/163643/70e8bebbe9f2d2c55043311a4e67eb1d/download/420937484-1629959013/carpet.tar.xz",
+    "sha256": "d9dd5064515a20bd75cf24d223c570579141abd72388beef892780b74dbaa85d",
+    "archive_bytes": 740285760,
+    "train": 280,
+    "test": 117,
+    "masks": 89
+  },
+  {
+    "category": "grid",
+    "url": "https://www.mydrive.ch/shares/163644/8c7fc7cba43ef5275c87ca750a6d0004/download/420937487-1629959044/grid.tar.xz",
+    "sha256": "d94a9a651cbfaee22c94d06cf8fa8204a590c872362de0489eb34f1645328de8",
+    "archive_bytes": 160763852,
+    "train": 264,
+    "test": 78,
+    "masks": 57
+  },
+  {
+    "category": "hazelnut",
+    "url": "https://www.mydrive.ch/shares/163645/8346f81c9e093d2ebbb3a73f98372217/download/420937545-1629959162/hazelnut.tar.xz",
+    "sha256": "a7f4e7d65a60a235def7236a46fcb854d62e6c6917c16b1ec9cb4ff089d3b0da",
+    "archive_bytes": 617098680,
+    "train": 391,
+    "test": 110,
+    "masks": 70
+  },
+  {
+    "category": "leather",
+    "url": "https://www.mydrive.ch/shares/163646/7e0627b5718d2902bb85d24cff7a51ce/download/420937607-1629959262/leather.tar.xz",
+    "sha256": "704ffa48b1dc2fc44824aa50442d9febc399dd92a5d6fd8156f8aa0373d15f24",
+    "archive_bytes": 524889948,
+    "train": 245,
+    "test": 124,
+    "masks": 92
+  },
+  {
+    "category": "metal_nut",
+    "url": "https://www.mydrive.ch/shares/163647/6d5a833cdee9035a45d5ce0921ecd24d/download/420937637-1629959294/metal_nut.tar.xz",
+    "sha256": "86e3c8e163ceb19146ad3ddc408e85cc34ae02e0da430e07a73bac6bbb48532a",
+    "archive_bytes": 165414484,
+    "train": 220,
+    "test": 115,
+    "masks": 93
+  },
+  {
+    "category": "pill",
+    "url": "https://www.mydrive.ch/shares/163648/f8c4ca0d325888f2ba128a9ed44708f5/download/420938129-1629960351/pill.tar.xz",
+    "sha256": "ac6ce9ec4ec2a5d67c906d82147bd7431980cf00b78f25d63201a5f17e3a2038",
+    "archive_bytes": 275267152,
+    "train": 267,
+    "test": 167,
+    "masks": 141
+  },
+  {
+    "category": "screw",
+    "url": "https://www.mydrive.ch/shares/163649/cfd394b4e3a49013745fab9e2084988a/download/420938130-1629960389/screw.tar.xz",
+    "sha256": "0a27a365a21e472d19b9fb48cb8e4002b49fabe083bff7f4c16fa57d78154f10",
+    "archive_bytes": 195344332,
+    "train": 320,
+    "test": 160,
+    "masks": 119
+  },
+  {
+    "category": "tile",
+    "url": "https://www.mydrive.ch/shares/163650/55ad2038770deff6fe6771bd784af8cc/download/420938133-1629960456/tile.tar.xz",
+    "sha256": "392228153b96d0db9f179d3f7c2d63e131e907154883b57309fcbf798643173c",
+    "archive_bytes": 351279732,
+    "train": 230,
+    "test": 117,
+    "masks": 84
+  },
+  {
+    "category": "toothbrush",
+    "url": "https://www.mydrive.ch/shares/163651/f03d8421ec64b3e3bfa4a2ba2fbafb4f/download/420938134-1629960477/toothbrush.tar.xz",
+    "sha256": "fe72a34b4b0d074f84e844be7ef8c4f64f7f02f20e25f19c9e3b4a231c8bea77",
+    "archive_bytes": 109357096,
+    "train": 60,
+    "test": 42,
+    "masks": 30
+  },
+  {
+    "category": "transistor",
+    "url": "https://www.mydrive.ch/shares/163652/619a88c3d5f3f57b46b00f44f04ad6e6/download/420938166-1629960554/transistor.tar.xz",
+    "sha256": "146b2166c35a1d0cf37ded091366ac01a50338b4ac704632f1239890eaca4449",
+    "archive_bytes": 402874300,
+    "train": 213,
+    "test": 100,
+    "masks": 40
+  },
+  {
+    "category": "wood",
+    "url": "https://www.mydrive.ch/shares/163653/937e0d65bc9c4497d253cb7313868a60/download/420938383-1629960649/wood.tar.xz",
+    "sha256": "3757297ac2a266072eb4f25a97f805f5b37fd583492b20bd709f310736c1ea47",
+    "archive_bytes": 498057680,
+    "train": 247,
+    "test": 79,
+    "masks": 60
+  },
+  {
+    "category": "zipper",
+    "url": "https://www.mydrive.ch/shares/163654/7f6e6aefbf00a9e8a09cc0bbac236eb0/download/420938385-1629960680/zipper.tar.xz",
+    "sha256": "7ab46e0e195da145db30052baea3d3a5d14c5f0e710137c968e0423f02cb942d",
+    "archive_bytes": 159484784,
+    "train": 240,
+    "test": 151,
+    "masks": 119
+  }
+]

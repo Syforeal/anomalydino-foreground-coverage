@@ -1,0 +1,56 @@
+{
+  "dataset": "MVTec AD",
+  "data_root": "work/data/mvtec",
+  "categories": [
+    "bottle",
+    "cable",
+    "capsule",
+    "carpet",
+    "grid",
+    "hazelnut",
+    "leather",
+    "metal_nut",
+    "pill",
+    "screw",
+    "tile",
+    "toothbrush",
+    "transistor",
+    "wood",
+    "zipper"
+  ],
+  "shots": [
+    1,
+    4
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "resolution": 448,
+  "preprocess": "agnostic",
+  "cache_namespace": "v2_448_agnostic_fp32_b938bf1bc15cd2ec_d11bc1ff548a40a7",
+  "query_masking": false,
+  "query_masking_by_category": {
+    "bottle": false,
+    "cable": false,
+    "capsule": true,
+    "carpet": false,
+    "grid": false,
+    "hazelnut": true,
+    "leather": false,
+    "metal_nut": false,
+    "pill": true,
+    "screw": true,
+    "tile": false,
+    "toothbrush": true,
+    "transistor": false,
+    "wood": false,
+    "zipper": false
+  },
+  "version": 11,
+  "method": "foreground_consistent_bidirectional_coverage",
+  "beta": 0.25,
+  "top_fraction": 0.01,
+  "result_dataset": "MVTec AD"
+}

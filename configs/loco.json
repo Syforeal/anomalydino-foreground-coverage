@@ -1,0 +1,29 @@
+{
+  "dataset": "LOCO",
+  "data_root": "work/data/loco",
+  "categories": [
+    "breakfast_box",
+    "juice_bottle",
+    "pushpins",
+    "screw_bag",
+    "splicing_connectors"
+  ],
+  "shots": [
+    1,
+    4
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "resolution": 448,
+  "preprocess": "force_no_mask_rotation",
+  "cache_namespace": "loco_448_nomask_fp32_b938bf1bc15cd2ec_d11bc1ff548a40a7_e2bbcb234fcb7478",
+  "query_masking": false,
+  "version": 11,
+  "method": "foreground_consistent_bidirectional_coverage",
+  "beta": 0.25,
+  "top_fraction": 0.01,
+  "result_dataset": "LOCO original refs"
+}

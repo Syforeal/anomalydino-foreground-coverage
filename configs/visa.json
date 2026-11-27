@@ -1,0 +1,36 @@
+{
+  "dataset": "VisA",
+  "data_root": "work/data/visa",
+  "categories": [
+    "candle",
+    "capsules",
+    "cashew",
+    "chewinggum",
+    "fryum",
+    "macaroni1",
+    "macaroni2",
+    "pcb1",
+    "pcb2",
+    "pcb3",
+    "pcb4",
+    "pipe_fryum"
+  ],
+  "shots": [
+    1,
+    4
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "resolution": 448,
+  "preprocess": "agnostic",
+  "cache_namespace": "visa448_agnostic_fp32_b938bf1bc15cd2ec_d11bc1ff548a40a7_f8a0511b7c2231fb",
+  "query_masking": true,
+  "version": 11,
+  "method": "foreground_consistent_bidirectional_coverage",
+  "beta": 0.25,
+  "top_fraction": 0.01,
+  "result_dataset": "VisA"
+}

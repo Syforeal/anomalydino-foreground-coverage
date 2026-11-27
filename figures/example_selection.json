@@ -1,0 +1,29 @@
+{
+  "scope": "illustrative selection from already-used data; all image scores retained",
+  "rows": [
+    {
+      "sample": "breakfast_box/test/good/016.png",
+      "selection": "Normal example",
+      "F": 0.26601073145866394,
+      "S": 0.36655181646347046,
+      "normal_percentile_before": 50.0,
+      "normal_percentile_after": 49.01960784313725
+    },
+    {
+      "sample": "breakfast_box/test/logical_anomalies/075.png",
+      "selection": "Logical: increased rank",
+      "F": 0.2324874848127365,
+      "S": 0.39650607109069824,
+      "normal_percentile_before": 10.784313725490197,
+      "normal_percentile_after": 91.17647058823529
+    },
+    {
+      "sample": "breakfast_box/test/logical_anomalies/077.png",
+      "selection": "Logical: persisting failure",
+      "F": 0.21045508980751038,
+      "S": 0.31788554787635803,
+      "normal_percentile_before": 0.0,
+      "normal_percentile_after": 0.9803921568627451
+    }
+  ]
+}

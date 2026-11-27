@@ -1,0 +1,94 @@
+{
+  "model": "dinov2_vits14",
+  "resolution": 448,
+  "beta": 0.25,
+  "reverse_top_fraction": 0.01,
+  "query_masking": false,
+  "views": [
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 0,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 45,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 90,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 135,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 180,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 225,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 270,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    },
+    {
+      "path": "cable/train/good/000.png",
+      "angle": 315,
+      "grid": [
+        32,
+        32
+      ],
+      "patches": 1024,
+      "sha256": "7457390d52de2e34f706abcbc1185da287a5dfd90573af23fef6816fa5d7a1aa"
+    }
+  ],
+  "cache_namespace": "v2_448_agnostic_fp32_b938bf1bc15cd2ec_d11bc1ff548a40a7",
+  "weight_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "version": 11,
+  "method": "foreground_consistent_bidirectional_coverage",
+  "recommended_head": "coverage"
+}

@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "version": 11,
+  "formula_and_edge_cases": true,
+  "auc_rows_recomputed": 342,
+  "summary_tables_checked": true,
+  "cached_code_checks": [
+    {
+      "dataset": "mvtec",
+      "sample": "cable/test/good/000.png",
+      "absolute_error": 0.0
+    },
+    {
+      "dataset": "mvtec",
+      "sample": "cable/test/bent_wire/000.png",
+      "absolute_error": 2.9802322387695312e-08
+    },
+    {
+      "dataset": "visa",
+      "sample": "capsules/test/good/011.JPG",
+      "absolute_error": 2.9802322387695312e-08
+    },
+    {
+      "dataset": "visa",
+      "sample": "capsules/test/bad/000.JPG",
+      "absolute_error": 0.0
+    }
+  ],
+  "note": "Retained measurements are unchanged. This cleanup verifies consistency; it is not a new full benchmark or latency measurement."
+}

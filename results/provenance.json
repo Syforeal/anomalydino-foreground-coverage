@@ -1,0 +1,1701 @@
+{
+  "version": 11,
+  "experiment_date": "2026-11-25",
+  "整理日期": "2026-11-27",
+  "method_parameters": {
+    "backbone": "DINOv2-S/14",
+    "resolution": 448,
+    "feature_dimension": 384,
+    "beta": 0.25,
+    "top_fraction": 0.01,
+    "rotation_angles": [
+      0,
+      45,
+      90,
+      135,
+      180,
+      225,
+      270,
+      315
+    ]
+  },
+  "source_result_hashes": {
+    "source_1": "922b1c512df6afd43ee89d9a1b4ef0707bdbb3fa4f66a8553558eb2cbbe92162",
+    "source_2": "41d2158674838fd274b3df72c05c7a674ab062be1ffaa256a4258068a1f27464",
+    "source_3": "092738e2b7bba5d8b46004cc31d409ebcb632a8a1cbcd6444506df037aa95fba",
+    "source_4": "c0731cf129b8c21095c0e3e29a1be558ad7c499ed617d1b0a119cc7cddbc758f",
+    "source_5": "368db3109304146a14b0d15b0ea0057ab87e30ab56ea7179ca1af0aa6097c92a",
+    "source_6": "2aa94954df649b685103e79338856ab7bc5add76ff9b4567c0e3d8883d9cfd9d",
+    "source_7": "cb641d4e4450ac1d5f35240d0fa1be1a0b3adad457386f15f22a1980c509ca2d",
+    "source_8": "a24f28aa9219ea6a66cf4fec946bd548e0ee799d4e1253787af2a47a014f1d61"
+  },
+  "note": "Existing V11 measurements, not a new full run. Only baseline and final coverage results are retained; test images participated in final selection.",
+  "prediction_sources": {
+    "mvtec_ad/bottle_shot1_group0.npz": {
+      "original_sha256": "9469dae1b9fd8205a137acc9ff7cc8e2bef76954375486fd52dcac4d88ac57eb",
+      "reference_files": [
+        "bottle/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/bottle_shot1_group1.npz": {
+      "original_sha256": "9cd06487279186cdca37e6699d69431ae118197eb4d04e5c1ad46e91580aa26b",
+      "reference_files": [
+        "bottle/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/bottle_shot1_group2.npz": {
+      "original_sha256": "41f45b14c5370018332c2556df1840b3d6c8461455b1e3591287d479d8dc2914",
+      "reference_files": [
+        "bottle/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/bottle_shot4_group0.npz": {
+      "original_sha256": "37730db816158e5f5922ad95670f22fd0835658c5005e734c9b2f489d5160057",
+      "reference_files": [
+        "bottle/train/good/000.png",
+        "bottle/train/good/001.png",
+        "bottle/train/good/002.png",
+        "bottle/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/bottle_shot4_group1.npz": {
+      "original_sha256": "f49a8cbe2cb58d8e5a26f72b5d696b31ab9f66b1c7c8d93cef53a478635af225",
+      "reference_files": [
+        "bottle/train/good/004.png",
+        "bottle/train/good/005.png",
+        "bottle/train/good/006.png",
+        "bottle/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/bottle_shot4_group2.npz": {
+      "original_sha256": "a0a97f4c3ddfa8c3c2f5bc2b3e4ce38648d145e2868a738e525128c85f94732c",
+      "reference_files": [
+        "bottle/train/good/008.png",
+        "bottle/train/good/009.png",
+        "bottle/train/good/010.png",
+        "bottle/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/cable_shot1_group0.npz": {
+      "original_sha256": "2a06fe4c9b64962227755a5e58e1f5d982028889d140e8f50c3058aec9f75afe",
+      "reference_files": [
+        "cable/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/cable_shot1_group1.npz": {
+      "original_sha256": "6f64697c902c55d22ade969a575a503a02a20f22582e1845eeea08855dc42e99",
+      "reference_files": [
+        "cable/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/cable_shot1_group2.npz": {
+      "original_sha256": "c5f5b4ee414a3364e634c81337e6f4ef99ac17a612dae27409c55e1f8ecdca6b",
+      "reference_files": [
+        "cable/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/cable_shot4_group0.npz": {
+      "original_sha256": "bfb4c80db9fc55967ec9872f851892d4b0dca95a63587262fd354b507c110771",
+      "reference_files": [
+        "cable/train/good/000.png",
+        "cable/train/good/001.png",
+        "cable/train/good/002.png",
+        "cable/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/cable_shot4_group1.npz": {
+      "original_sha256": "8d097e2dfaedf8df9ffd882086d8403916513df54b754cbac4158486b328a984",
+      "reference_files": [
+        "cable/train/good/004.png",
+        "cable/train/good/005.png",
+        "cable/train/good/006.png",
+        "cable/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/cable_shot4_group2.npz": {
+      "original_sha256": "475becdc50578e6805926b5b7035270b806632828770638197c324d33fcd172a",
+      "reference_files": [
+        "cable/train/good/008.png",
+        "cable/train/good/009.png",
+        "cable/train/good/010.png",
+        "cable/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/capsule_shot1_group0.npz": {
+      "original_sha256": "8106f1f9411e9c47a93994ca2609f0f072a7374c8ac10524375e1f1248b0910e",
+      "reference_files": [
+        "capsule/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/capsule_shot1_group1.npz": {
+      "original_sha256": "ea6a161ad81d31847064b564adb25321d6db71392eadf98ff35685aafad0d25c",
+      "reference_files": [
+        "capsule/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/capsule_shot1_group2.npz": {
+      "original_sha256": "ecbe98930d57ae4fbb3c3119103d183d3b5a1c10f771159ca98faa6c8a1ff8ea",
+      "reference_files": [
+        "capsule/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/capsule_shot4_group0.npz": {
+      "original_sha256": "b2517f68c4f697078d2c6e960fb3bedc337c1ab248888b7311725784889aba63",
+      "reference_files": [
+        "capsule/train/good/000.png",
+        "capsule/train/good/001.png",
+        "capsule/train/good/002.png",
+        "capsule/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/capsule_shot4_group1.npz": {
+      "original_sha256": "39f9e00e9523729dfcd239e74c31375bf71e8f3ca9074189efae28767e69c668",
+      "reference_files": [
+        "capsule/train/good/004.png",
+        "capsule/train/good/005.png",
+        "capsule/train/good/006.png",
+        "capsule/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/capsule_shot4_group2.npz": {
+      "original_sha256": "fdf929915bd0e943c3b16539f7242c7bf1aea9603c6ba3b00135e52efd450e42",
+      "reference_files": [
+        "capsule/train/good/008.png",
+        "capsule/train/good/009.png",
+        "capsule/train/good/010.png",
+        "capsule/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/carpet_shot1_group0.npz": {
+      "original_sha256": "f8d04ab14d1ff96cc06f353bea3d583c83ff59e6b698ad0da5f7c9115bab49a9",
+      "reference_files": [
+        "carpet/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/carpet_shot1_group1.npz": {
+      "original_sha256": "eeb50b74538f6f6b291ae90ffc066ce2b0c1694db58d1eb23e35da4029f0c1c8",
+      "reference_files": [
+        "carpet/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/carpet_shot1_group2.npz": {
+      "original_sha256": "f387eca60ab7cc1022479758acc447cf9d0b55e6f7452250fb8ffe37fdfa7ca2",
+      "reference_files": [
+        "carpet/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/carpet_shot4_group0.npz": {
+      "original_sha256": "2ae947737442320f00ec108c737d33618add6a10780c0d4bae2938879e3d90c6",
+      "reference_files": [
+        "carpet/train/good/000.png",
+        "carpet/train/good/001.png",
+        "carpet/train/good/002.png",
+        "carpet/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/carpet_shot4_group1.npz": {
+      "original_sha256": "a76a9f90cc44d54f6071182f0a2d8592ee21d247c3998eed4e5dfde8543c67c3",
+      "reference_files": [
+        "carpet/train/good/004.png",
+        "carpet/train/good/005.png",
+        "carpet/train/good/006.png",
+        "carpet/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/carpet_shot4_group2.npz": {
+      "original_sha256": "b34c992723d3935f00a6e2eb70f9b937df39fa7bd557efca048dee1150dc96bf",
+      "reference_files": [
+        "carpet/train/good/008.png",
+        "carpet/train/good/009.png",
+        "carpet/train/good/010.png",
+        "carpet/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/grid_shot1_group0.npz": {
+      "original_sha256": "649ff0d28b9fba6707e306602f5379d94142481bb23b644275ce37df75471e39",
+      "reference_files": [
+        "grid/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/grid_shot1_group1.npz": {
+      "original_sha256": "50b56b865ea7bbdabf1ca08b66a7b12a5844e0f9ea8c8d14c8a5d9d5c6078088",
+      "reference_files": [
+        "grid/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/grid_shot1_group2.npz": {
+      "original_sha256": "96fbae6235374d8cc67907dab43592aa5db0a2527a08daa201ec99cbf95b032c",
+      "reference_files": [
+        "grid/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/grid_shot4_group0.npz": {
+      "original_sha256": "36ad3ccb5eeea84faa163e6df6a8459c7c173cb5c2a10cb395359ca76a07c7f6",
+      "reference_files": [
+        "grid/train/good/000.png",
+        "grid/train/good/001.png",
+        "grid/train/good/002.png",
+        "grid/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/grid_shot4_group1.npz": {
+      "original_sha256": "d16cd6f5310d07e09308535ed506214babd7323e8ac16c5da85b89ab1f1fd8f9",
+      "reference_files": [
+        "grid/train/good/004.png",
+        "grid/train/good/005.png",
+        "grid/train/good/006.png",
+        "grid/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/grid_shot4_group2.npz": {
+      "original_sha256": "a326e6a3a1bc89513de64c3c099703fe53307588a565871d4bfde9eb4e17f8c4",
+      "reference_files": [
+        "grid/train/good/008.png",
+        "grid/train/good/009.png",
+        "grid/train/good/010.png",
+        "grid/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/hazelnut_shot1_group0.npz": {
+      "original_sha256": "8cd20167f7a67167e8e1a0b58d1fc9b31e6f34fcb2d8a57962e0e93251bd1495",
+      "reference_files": [
+        "hazelnut/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/hazelnut_shot1_group1.npz": {
+      "original_sha256": "575d2463b05e3d28b140665dd03733fbe947e1e7e399ec4c189ca552df192683",
+      "reference_files": [
+        "hazelnut/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/hazelnut_shot1_group2.npz": {
+      "original_sha256": "216949a6a1549dcf3dda912b191e9ae31fca6953c06812bc3adae9dfaac62de1",
+      "reference_files": [
+        "hazelnut/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/hazelnut_shot4_group0.npz": {
+      "original_sha256": "f77ff9f670749fed925b3f0522a43946eeef7f4a24e1298a4b0f46b64aaed90c",
+      "reference_files": [
+        "hazelnut/train/good/000.png",
+        "hazelnut/train/good/001.png",
+        "hazelnut/train/good/002.png",
+        "hazelnut/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/hazelnut_shot4_group1.npz": {
+      "original_sha256": "84a2ea88dbbc050712ab27b65a2bf9f9bb943a6d10d2ca2c79f9d58182b40df5",
+      "reference_files": [
+        "hazelnut/train/good/004.png",
+        "hazelnut/train/good/005.png",
+        "hazelnut/train/good/006.png",
+        "hazelnut/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/hazelnut_shot4_group2.npz": {
+      "original_sha256": "9a98e75fe4d2de79c3b42e9bcbd135877c442cdd88e09ff3d9e5feab15c9233f",
+      "reference_files": [
+        "hazelnut/train/good/008.png",
+        "hazelnut/train/good/009.png",
+        "hazelnut/train/good/010.png",
+        "hazelnut/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/leather_shot1_group0.npz": {
+      "original_sha256": "2e1ebc3af48bf4f47e5e5afac3ceee3a52c04cf34bbe0ae546984280ecb829bc",
+      "reference_files": [
+        "leather/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/leather_shot1_group1.npz": {
+      "original_sha256": "6583a9735bb7c91177df571d4c87278eb537557b0de8ed2579c7408900624b1d",
+      "reference_files": [
+        "leather/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/leather_shot1_group2.npz": {
+      "original_sha256": "e78dadfb6e5f993def730df3fd8e7d5a91c6a06685715ad64f4bffdc0023fce1",
+      "reference_files": [
+        "leather/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/leather_shot4_group0.npz": {
+      "original_sha256": "0f20837c5a088421802459e9609f4d16e96741192e38383a3c2c945c51736cc9",
+      "reference_files": [
+        "leather/train/good/000.png",
+        "leather/train/good/001.png",
+        "leather/train/good/002.png",
+        "leather/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/leather_shot4_group1.npz": {
+      "original_sha256": "0abf4b41911a760213e998b599a37210923c7f66b2c3b8766973ef07e70eb3d5",
+      "reference_files": [
+        "leather/train/good/004.png",
+        "leather/train/good/005.png",
+        "leather/train/good/006.png",
+        "leather/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/leather_shot4_group2.npz": {
+      "original_sha256": "c4cc34cb84a3a341659528262d87e6e69394846e56d1eab33c18208359cd3c85",
+      "reference_files": [
+        "leather/train/good/008.png",
+        "leather/train/good/009.png",
+        "leather/train/good/010.png",
+        "leather/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/metal_nut_shot1_group0.npz": {
+      "original_sha256": "aa00ddd2f325aa002309424df859ddc6ff47949f14d583c7664733c66b2f659c",
+      "reference_files": [
+        "metal_nut/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/metal_nut_shot1_group1.npz": {
+      "original_sha256": "f1451fbc0c080fc1f9b34327b504a5db72ed93003d5c211981a71525487b0464",
+      "reference_files": [
+        "metal_nut/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/metal_nut_shot1_group2.npz": {
+      "original_sha256": "76fd5c170af057372561c31d9a72e9c7c506d38d63d236403960fd6ff90c02e9",
+      "reference_files": [
+        "metal_nut/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/metal_nut_shot4_group0.npz": {
+      "original_sha256": "0be5f201797c7a2496fa54e63ac94ccbd82f385a690d867d5e235e409a55cd7a",
+      "reference_files": [
+        "metal_nut/train/good/000.png",
+        "metal_nut/train/good/001.png",
+        "metal_nut/train/good/002.png",
+        "metal_nut/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/metal_nut_shot4_group1.npz": {
+      "original_sha256": "eecd7f9c3a209433fae4ebc310dcc7197157dfea5525d0ad574a1bc80701bcaa",
+      "reference_files": [
+        "metal_nut/train/good/004.png",
+        "metal_nut/train/good/005.png",
+        "metal_nut/train/good/006.png",
+        "metal_nut/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/metal_nut_shot4_group2.npz": {
+      "original_sha256": "317ab5d73f1d37dfd592979299a57702ab815bc2d5f14490de7c83981193d781",
+      "reference_files": [
+        "metal_nut/train/good/008.png",
+        "metal_nut/train/good/009.png",
+        "metal_nut/train/good/010.png",
+        "metal_nut/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/pill_shot1_group0.npz": {
+      "original_sha256": "a2b1fd4d6968108e4478884792360b5c7db03ada51a669ff9b79a276f8a8cea5",
+      "reference_files": [
+        "pill/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/pill_shot1_group1.npz": {
+      "original_sha256": "f34bb87e6459106da98587341cb7b5acd689bfd3b5dff5dc9a0f4855bd4546f8",
+      "reference_files": [
+        "pill/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/pill_shot1_group2.npz": {
+      "original_sha256": "852ed955bc42275ee9fa515f4a7b21bac3479f804870e88e7b6dd7c64861b5d6",
+      "reference_files": [
+        "pill/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/pill_shot4_group0.npz": {
+      "original_sha256": "8805fbed8c24eb212a3acbd96ad3dd060f61cbb62b7453b461fca2cb2e6ab8dd",
+      "reference_files": [
+        "pill/train/good/000.png",
+        "pill/train/good/001.png",
+        "pill/train/good/002.png",
+        "pill/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/pill_shot4_group1.npz": {
+      "original_sha256": "f878286adf033af9c907edc8a3f528364b8e6c0f278a788a3dd360676edfba47",
+      "reference_files": [
+        "pill/train/good/004.png",
+        "pill/train/good/005.png",
+        "pill/train/good/006.png",
+        "pill/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/pill_shot4_group2.npz": {
+      "original_sha256": "4758dad39b766b2cb5bbb562396127b3b93ec3240c2284670ba7a9d90d6060ea",
+      "reference_files": [
+        "pill/train/good/008.png",
+        "pill/train/good/009.png",
+        "pill/train/good/010.png",
+        "pill/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/screw_shot1_group0.npz": {
+      "original_sha256": "1c4b61db14d8832d4c6e2539c14e860da95a029df8d9c5331fbc428f2f161ccf",
+      "reference_files": [
+        "screw/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/screw_shot1_group1.npz": {
+      "original_sha256": "461c5bae17be6a42a51a95758e8b14f58f51a57e483885c0a525a854fdaf11a2",
+      "reference_files": [
+        "screw/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/screw_shot1_group2.npz": {
+      "original_sha256": "742702c94cb4e30b53c57bbb43d19044c7daae13156b65dabf61ab3868b95d65",
+      "reference_files": [
+        "screw/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/screw_shot4_group0.npz": {
+      "original_sha256": "de15baa9a00badabd0dbcd1d26b1d0fb0df81e397205687d6e8ae45308f5dda5",
+      "reference_files": [
+        "screw/train/good/000.png",
+        "screw/train/good/001.png",
+        "screw/train/good/002.png",
+        "screw/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/screw_shot4_group1.npz": {
+      "original_sha256": "445b8e552568e5b26fa405f35944549cbc388797ea106c81b4ecf24e08c54d09",
+      "reference_files": [
+        "screw/train/good/004.png",
+        "screw/train/good/005.png",
+        "screw/train/good/006.png",
+        "screw/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/screw_shot4_group2.npz": {
+      "original_sha256": "b7fc22ded84837c2e1a46d800b45917a5371ab77e87b3e3461f899d9297137ef",
+      "reference_files": [
+        "screw/train/good/008.png",
+        "screw/train/good/009.png",
+        "screw/train/good/010.png",
+        "screw/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/tile_shot1_group0.npz": {
+      "original_sha256": "e25515b3779eab2be1b3f2385603f51cf1ed09dd8ccfeab9471f85838dbedc66",
+      "reference_files": [
+        "tile/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/tile_shot1_group1.npz": {
+      "original_sha256": "766e04e2a24a9f5489cb8b5f0c961a8c0c2aa943ffa8b88408a4bc03875382dd",
+      "reference_files": [
+        "tile/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/tile_shot1_group2.npz": {
+      "original_sha256": "8e801bdfcf07402a9ed24ea8b1072fdec604c095fbc4024d6d8ddaaa4f83c2c3",
+      "reference_files": [
+        "tile/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/tile_shot4_group0.npz": {
+      "original_sha256": "32cdd51645a253ae6ca17cb36eeb560fb34d66ea3b4862d4618de3954f97171e",
+      "reference_files": [
+        "tile/train/good/000.png",
+        "tile/train/good/001.png",
+        "tile/train/good/002.png",
+        "tile/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/tile_shot4_group1.npz": {
+      "original_sha256": "6f34972cd8355ee08fbf9ae7db043b3214fabb3d3a6e47566f7e8abe3bd9bb3d",
+      "reference_files": [
+        "tile/train/good/004.png",
+        "tile/train/good/005.png",
+        "tile/train/good/006.png",
+        "tile/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/tile_shot4_group2.npz": {
+      "original_sha256": "0c6bd104ae1cda46e724e4f47d5f964bded394b1c9d954ed4cf396def4fe1aa9",
+      "reference_files": [
+        "tile/train/good/008.png",
+        "tile/train/good/009.png",
+        "tile/train/good/010.png",
+        "tile/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/toothbrush_shot1_group0.npz": {
+      "original_sha256": "96415b2637db4b5d0169689240aa13f2c65e398e01ea0473d8b33b8227727c08",
+      "reference_files": [
+        "toothbrush/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/toothbrush_shot1_group1.npz": {
+      "original_sha256": "9b64fecac599d7eb24f05c97b1b51794608a40b75e01ddb787547237b843419d",
+      "reference_files": [
+        "toothbrush/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/toothbrush_shot1_group2.npz": {
+      "original_sha256": "4cd7eedd51a3fb2ed45f626d4d60c267c4074933d1bb05d1a07b427d38b40758",
+      "reference_files": [
+        "toothbrush/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/toothbrush_shot4_group0.npz": {
+      "original_sha256": "8b20f649a837af4ddbf5478e8b34689578e5efdd0b82ebc86170ab61a1b9f5ef",
+      "reference_files": [
+        "toothbrush/train/good/000.png",
+        "toothbrush/train/good/001.png",
+        "toothbrush/train/good/002.png",
+        "toothbrush/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/toothbrush_shot4_group1.npz": {
+      "original_sha256": "6504ab5b90e460918c833309eb43964bdcde100e733f0e656d94032f53d74db9",
+      "reference_files": [
+        "toothbrush/train/good/004.png",
+        "toothbrush/train/good/005.png",
+        "toothbrush/train/good/006.png",
+        "toothbrush/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/toothbrush_shot4_group2.npz": {
+      "original_sha256": "1fc524f0869cb58b2ee1cde6b8885a6e351ad1b62b998e583a8a2c256893d9fb",
+      "reference_files": [
+        "toothbrush/train/good/008.png",
+        "toothbrush/train/good/009.png",
+        "toothbrush/train/good/010.png",
+        "toothbrush/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/transistor_shot1_group0.npz": {
+      "original_sha256": "c3921b5e04599a436d5a20407118927b1c538e977985ab8f8937e0a4289c69e6",
+      "reference_files": [
+        "transistor/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/transistor_shot1_group1.npz": {
+      "original_sha256": "55c25d40cafc754de00b104da5bd6c104baceed25d94e699446e9a62cfa91456",
+      "reference_files": [
+        "transistor/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/transistor_shot1_group2.npz": {
+      "original_sha256": "13066a2429fde5dad5cdb7ccfbe62d5beb6a55c8a64774b481d7c74668a2e7de",
+      "reference_files": [
+        "transistor/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/transistor_shot4_group0.npz": {
+      "original_sha256": "1824f10cd1acc44e9930aeb0f5c6ab0446dd05c5eba5a6a6cd067e16068b1b31",
+      "reference_files": [
+        "transistor/train/good/000.png",
+        "transistor/train/good/001.png",
+        "transistor/train/good/002.png",
+        "transistor/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/transistor_shot4_group1.npz": {
+      "original_sha256": "ccd40dff960646ba7cd4c18ba10c6deafecb9584d5f858e4c452cc341af4e029",
+      "reference_files": [
+        "transistor/train/good/004.png",
+        "transistor/train/good/005.png",
+        "transistor/train/good/006.png",
+        "transistor/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/transistor_shot4_group2.npz": {
+      "original_sha256": "785ca6927a4ca6dd7de3f3e38170eaa1b7b64bd1e0c16eb4684a006f6650d516",
+      "reference_files": [
+        "transistor/train/good/008.png",
+        "transistor/train/good/009.png",
+        "transistor/train/good/010.png",
+        "transistor/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/wood_shot1_group0.npz": {
+      "original_sha256": "24a744e646177c8febb2423d60b1b7fc168d31cf5f27eb3a86db45a6e745f13c",
+      "reference_files": [
+        "wood/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/wood_shot1_group1.npz": {
+      "original_sha256": "2b73a8c3cf2dfff4e9b9462f9bccc8126d5ed73b2be5bc0aa95b660ab1d11ef7",
+      "reference_files": [
+        "wood/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/wood_shot1_group2.npz": {
+      "original_sha256": "72d62f6f39a61972e32cba6abc18058b61a34beb107c44d9141b6c466ccf8147",
+      "reference_files": [
+        "wood/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/wood_shot4_group0.npz": {
+      "original_sha256": "99d697efd790c64a2adb891dc956abdb166bcaffb835e3404fd65c81b0959ced",
+      "reference_files": [
+        "wood/train/good/000.png",
+        "wood/train/good/001.png",
+        "wood/train/good/002.png",
+        "wood/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/wood_shot4_group1.npz": {
+      "original_sha256": "916307ebe1c75db7e876749fd34e1d692c0867e91c7aba5dd6d331682f790f50",
+      "reference_files": [
+        "wood/train/good/004.png",
+        "wood/train/good/005.png",
+        "wood/train/good/006.png",
+        "wood/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/wood_shot4_group2.npz": {
+      "original_sha256": "6f8fae454634b103f6e912d853f8250df43a363cced0a2bddf0f95bb93d920e8",
+      "reference_files": [
+        "wood/train/good/008.png",
+        "wood/train/good/009.png",
+        "wood/train/good/010.png",
+        "wood/train/good/011.png"
+      ]
+    },
+    "mvtec_ad/zipper_shot1_group0.npz": {
+      "original_sha256": "99dcc564d134014f1c4a0f98ae78791d2270731a581f2954cba7ed71ddb0869a",
+      "reference_files": [
+        "zipper/train/good/000.png"
+      ]
+    },
+    "mvtec_ad/zipper_shot1_group1.npz": {
+      "original_sha256": "999dc7f85620e0ec1c0d21bf9f7ce624ac69e34abd0a5fce6cc2c1ad1e685c1a",
+      "reference_files": [
+        "zipper/train/good/001.png"
+      ]
+    },
+    "mvtec_ad/zipper_shot1_group2.npz": {
+      "original_sha256": "5545390c7995269171a3e0fd6cf3515daf1c3925c288c3100f4dfd5c729f8861",
+      "reference_files": [
+        "zipper/train/good/002.png"
+      ]
+    },
+    "mvtec_ad/zipper_shot4_group0.npz": {
+      "original_sha256": "3893ddbcee2c242de250c7de82b7e0906783130945d7804d03f20423c908ac71",
+      "reference_files": [
+        "zipper/train/good/000.png",
+        "zipper/train/good/001.png",
+        "zipper/train/good/002.png",
+        "zipper/train/good/003.png"
+      ]
+    },
+    "mvtec_ad/zipper_shot4_group1.npz": {
+      "original_sha256": "45c84c109d42faa93af132e9eb15f30df56722e05baa8a60010fa62c803ed9d5",
+      "reference_files": [
+        "zipper/train/good/004.png",
+        "zipper/train/good/005.png",
+        "zipper/train/good/006.png",
+        "zipper/train/good/007.png"
+      ]
+    },
+    "mvtec_ad/zipper_shot4_group2.npz": {
+      "original_sha256": "545fc971a79473a2ccc4007a0763085879ceaf7064eaac2e41780e199cbe4775",
+      "reference_files": [
+        "zipper/train/good/008.png",
+        "zipper/train/good/009.png",
+        "zipper/train/good/010.png",
+        "zipper/train/good/011.png"
+      ]
+    },
+    "visa/candle_shot1_group0.npz": {
+      "original_sha256": "7d20833d3ea68e3ccc28973bed1e680299db1fdb85964c468631704948964a16",
+      "reference_files": [
+        "candle/train/good/0000.JPG"
+      ]
+    },
+    "visa/candle_shot1_group1.npz": {
+      "original_sha256": "19655e69b23ea2433a7347bc522026e8531a113a12d896eabfa50a2a1618f4dd",
+      "reference_files": [
+        "candle/train/good/0001.JPG"
+      ]
+    },
+    "visa/candle_shot1_group2.npz": {
+      "original_sha256": "ab410727c93e2459d4326b18584298261db070e416bbf631d85177879d2d3adc",
+      "reference_files": [
+        "candle/train/good/0002.JPG"
+      ]
+    },
+    "visa/candle_shot4_group0.npz": {
+      "original_sha256": "d71af63820bf4c1cd9840df279cbb0cbec03b4cb44b4f5ee2647bd6b2246069b",
+      "reference_files": [
+        "candle/train/good/0000.JPG",
+        "candle/train/good/0001.JPG",
+        "candle/train/good/0002.JPG",
+        "candle/train/good/0003.JPG"
+      ]
+    },
+    "visa/candle_shot4_group1.npz": {
+      "original_sha256": "f92acc723abb420055113e40f75bb94c91a126743720878076912f6963f9771f",
+      "reference_files": [
+        "candle/train/good/0004.JPG",
+        "candle/train/good/0005.JPG",
+        "candle/train/good/0006.JPG",
+        "candle/train/good/0007.JPG"
+      ]
+    },
+    "visa/candle_shot4_group2.npz": {
+      "original_sha256": "68942af72791aa381bcd2494e7b4c09af7641597b2fb8239594c8b6c7a114fe4",
+      "reference_files": [
+        "candle/train/good/0008.JPG",
+        "candle/train/good/0009.JPG",
+        "candle/train/good/0010.JPG",
+        "candle/train/good/0012.JPG"
+      ]
+    },
+    "visa/capsules_shot1_group0.npz": {
+      "original_sha256": "bd749b313b53267766b8af3e8bfa3991b143860df3cf26524e554dad805570f8",
+      "reference_files": [
+        "capsules/train/good/000.JPG"
+      ]
+    },
+    "visa/capsules_shot1_group1.npz": {
+      "original_sha256": "e67923144442996a12dec346b6ab048f8e744702f40cffd168d528a6568eebf5",
+      "reference_files": [
+        "capsules/train/good/001.JPG"
+      ]
+    },
+    "visa/capsules_shot1_group2.npz": {
+      "original_sha256": "b7a9df49f58d3afe4fe5cec0be536453a9b1a3c3c6e3e0e8c7dce216b638d6cc",
+      "reference_files": [
+        "capsules/train/good/002.JPG"
+      ]
+    },
+    "visa/capsules_shot4_group0.npz": {
+      "original_sha256": "90931dba70e6bd5a7eeca3b7a1c5150e4f99fe65320351c74e78f1ae12c25317",
+      "reference_files": [
+        "capsules/train/good/000.JPG",
+        "capsules/train/good/001.JPG",
+        "capsules/train/good/002.JPG",
+        "capsules/train/good/003.JPG"
+      ]
+    },
+    "visa/capsules_shot4_group1.npz": {
+      "original_sha256": "d8b104a9065cef35a69b4a167c12bead6aed60a57885ace5a0587560ba1a80cd",
+      "reference_files": [
+        "capsules/train/good/004.JPG",
+        "capsules/train/good/005.JPG",
+        "capsules/train/good/006.JPG",
+        "capsules/train/good/007.JPG"
+      ]
+    },
+    "visa/capsules_shot4_group2.npz": {
+      "original_sha256": "a1322fbeca4e0121a7ffc87d0efe40b825d4e7aa7262f87ccc3bd19a0f9faa2c",
+      "reference_files": [
+        "capsules/train/good/008.JPG",
+        "capsules/train/good/009.JPG",
+        "capsules/train/good/010.JPG",
+        "capsules/train/good/012.JPG"
+      ]
+    },
+    "visa/cashew_shot1_group0.npz": {
+      "original_sha256": "dbed6b3f77d2343326df0ec39922d5cba86f2906fb477354cb17ddbc92ceef05",
+      "reference_files": [
+        "cashew/train/good/000.JPG"
+      ]
+    },
+    "visa/cashew_shot1_group1.npz": {
+      "original_sha256": "e2cf6600c2c0471f32c479fc301f7b0a67f750b05740fe024f4cec12aa87761a",
+      "reference_files": [
+        "cashew/train/good/001.JPG"
+      ]
+    },
+    "visa/cashew_shot1_group2.npz": {
+      "original_sha256": "d48ef78238059803941be30133b0287a14d6f60b25ae219a538cbe282a6a1884",
+      "reference_files": [
+        "cashew/train/good/002.JPG"
+      ]
+    },
+    "visa/cashew_shot4_group0.npz": {
+      "original_sha256": "1db5256b120a98a01b8feeb6576065d4f3d5277d51e9a0b4dd5908b6dec4235f",
+      "reference_files": [
+        "cashew/train/good/000.JPG",
+        "cashew/train/good/001.JPG",
+        "cashew/train/good/002.JPG",
+        "cashew/train/good/003.JPG"
+      ]
+    },
+    "visa/cashew_shot4_group1.npz": {
+      "original_sha256": "a0aa81fa15977ea52e6054adb7875e20b29ee621aaee2aae66c59dc813c1b99a",
+      "reference_files": [
+        "cashew/train/good/004.JPG",
+        "cashew/train/good/005.JPG",
+        "cashew/train/good/007.JPG",
+        "cashew/train/good/008.JPG"
+      ]
+    },
+    "visa/cashew_shot4_group2.npz": {
+      "original_sha256": "2ba77bedb19ab5959a2b5a94027f95a254e5101a43a1079b9c3a48210c42ddc4",
+      "reference_files": [
+        "cashew/train/good/009.JPG",
+        "cashew/train/good/010.JPG",
+        "cashew/train/good/011.JPG",
+        "cashew/train/good/014.JPG"
+      ]
+    },
+    "visa/chewinggum_shot1_group0.npz": {
+      "original_sha256": "0d6133e6a6b43c79c38057579b5b2b29a5618c1a85256c9d089125271a73aeeb",
+      "reference_files": [
+        "chewinggum/train/good/000.JPG"
+      ]
+    },
+    "visa/chewinggum_shot1_group1.npz": {
+      "original_sha256": "21a0d4a954616205192873189a8b1a4b83a2dd84a12f0fbfbe7a40eff3b56940",
+      "reference_files": [
+        "chewinggum/train/good/001.JPG"
+      ]
+    },
+    "visa/chewinggum_shot1_group2.npz": {
+      "original_sha256": "740bf685befb1db63194df6125e9dfb461a28e0d2cf728a7e3e3d7c2422f8da0",
+      "reference_files": [
+        "chewinggum/train/good/002.JPG"
+      ]
+    },
+    "visa/chewinggum_shot4_group0.npz": {
+      "original_sha256": "5ea46a8b839ac4b05a52a79f06ccab557c294b439c4f306dc553977c1144819b",
+      "reference_files": [
+        "chewinggum/train/good/000.JPG",
+        "chewinggum/train/good/001.JPG",
+        "chewinggum/train/good/002.JPG",
+        "chewinggum/train/good/003.JPG"
+      ]
+    },
+    "visa/chewinggum_shot4_group1.npz": {
+      "original_sha256": "56feadd9adc7a43c579943354539bc1d301dbb4dcec6a3416ed6b64ddc53bcf2",
+      "reference_files": [
+        "chewinggum/train/good/004.JPG",
+        "chewinggum/train/good/005.JPG",
+        "chewinggum/train/good/007.JPG",
+        "chewinggum/train/good/008.JPG"
+      ]
+    },
+    "visa/chewinggum_shot4_group2.npz": {
+      "original_sha256": "3959c0bc563682dd462db015398c46595fe30cd97ed17d5ab2792a2480e14e77",
+      "reference_files": [
+        "chewinggum/train/good/009.JPG",
+        "chewinggum/train/good/010.JPG",
+        "chewinggum/train/good/011.JPG",
+        "chewinggum/train/good/014.JPG"
+      ]
+    },
+    "visa/fryum_shot1_group0.npz": {
+      "original_sha256": "7a45132c9cf11f67b6bce41eae6ad2294f05d2e69278d0496d126c70733da1d5",
+      "reference_files": [
+        "fryum/train/good/000.JPG"
+      ]
+    },
+    "visa/fryum_shot1_group1.npz": {
+      "original_sha256": "b02ac08d7877c1d0c403d5f7a3762bf416a24f57c8265aaccbcabf6ca63876e5",
+      "reference_files": [
+        "fryum/train/good/001.JPG"
+      ]
+    },
+    "visa/fryum_shot1_group2.npz": {
+      "original_sha256": "ccba3d5055889a8fbc4321f7f18d0fa0a57eba09a33c550e6404bde8ced5a32e",
+      "reference_files": [
+        "fryum/train/good/002.JPG"
+      ]
+    },
+    "visa/fryum_shot4_group0.npz": {
+      "original_sha256": "6141de980ad6892382a8f883cece8c629ebfbaabc1ac414b13273c9f3ad640c9",
+      "reference_files": [
+        "fryum/train/good/000.JPG",
+        "fryum/train/good/001.JPG",
+        "fryum/train/good/002.JPG",
+        "fryum/train/good/003.JPG"
+      ]
+    },
+    "visa/fryum_shot4_group1.npz": {
+      "original_sha256": "2a756cb30f173cd80bed241f5e3a3c1062edfe3972a1ff399b11973a3768be39",
+      "reference_files": [
+        "fryum/train/good/004.JPG",
+        "fryum/train/good/005.JPG",
+        "fryum/train/good/007.JPG",
+        "fryum/train/good/008.JPG"
+      ]
+    },
+    "visa/fryum_shot4_group2.npz": {
+      "original_sha256": "f82bfa81520b9b6459d692b93c6a1de8b85bd30c0cf770fa2b4013ece8ceb34a",
+      "reference_files": [
+        "fryum/train/good/009.JPG",
+        "fryum/train/good/010.JPG",
+        "fryum/train/good/011.JPG",
+        "fryum/train/good/014.JPG"
+      ]
+    },
+    "visa/macaroni1_shot1_group0.npz": {
+      "original_sha256": "556af4e0f7249fddc6e8a69341815a1fa91797707a6e0cdb2474b257d52f9448",
+      "reference_files": [
+        "macaroni1/train/good/0000.JPG"
+      ]
+    },
+    "visa/macaroni1_shot1_group1.npz": {
+      "original_sha256": "ffc5fbaf6823b9443eff9db1597cce5e5a1b8d70748a564407991e6045e2522f",
+      "reference_files": [
+        "macaroni1/train/good/0001.JPG"
+      ]
+    },
+    "visa/macaroni1_shot1_group2.npz": {
+      "original_sha256": "6699cdc1e922ae8f2202a10f835bb3ee0d46aad9f94a9dbb418931e4852470d2",
+      "reference_files": [
+        "macaroni1/train/good/0002.JPG"
+      ]
+    },
+    "visa/macaroni1_shot4_group0.npz": {
+      "original_sha256": "08fe11ba4c76dc3cd1f35cd14511ff1847536d078022c11359b5f6809b41025d",
+      "reference_files": [
+        "macaroni1/train/good/0000.JPG",
+        "macaroni1/train/good/0001.JPG",
+        "macaroni1/train/good/0002.JPG",
+        "macaroni1/train/good/0003.JPG"
+      ]
+    },
+    "visa/macaroni1_shot4_group1.npz": {
+      "original_sha256": "902321f8a6fae23252655c07e5436b2f354f02ffda4b7e49a38fe40f3cd26b91",
+      "reference_files": [
+        "macaroni1/train/good/0004.JPG",
+        "macaroni1/train/good/0005.JPG",
+        "macaroni1/train/good/0006.JPG",
+        "macaroni1/train/good/0007.JPG"
+      ]
+    },
+    "visa/macaroni1_shot4_group2.npz": {
+      "original_sha256": "899fd4b3bf1a126803f00b04f54e6b3bfb4e65a50eba747a6afc3979fcc14373",
+      "reference_files": [
+        "macaroni1/train/good/0008.JPG",
+        "macaroni1/train/good/0009.JPG",
+        "macaroni1/train/good/0010.JPG",
+        "macaroni1/train/good/0012.JPG"
+      ]
+    },
+    "visa/macaroni2_shot1_group0.npz": {
+      "original_sha256": "a9afa9a77f37858d47a5cc115cebed6c52c6ee5f10e025c370b874b48f9f50d3",
+      "reference_files": [
+        "macaroni2/train/good/0000.JPG"
+      ]
+    },
+    "visa/macaroni2_shot1_group1.npz": {
+      "original_sha256": "e244448133852ffb9673deba6eb197a5fac82a8d3f34ff8e4cbf5c79d37cccdc",
+      "reference_files": [
+        "macaroni2/train/good/0001.JPG"
+      ]
+    },
+    "visa/macaroni2_shot1_group2.npz": {
+      "original_sha256": "e7ba62f096650ba7ce5e28ba38861a5aba395caad57f4e35b960a266f6df5d20",
+      "reference_files": [
+        "macaroni2/train/good/0002.JPG"
+      ]
+    },
+    "visa/macaroni2_shot4_group0.npz": {
+      "original_sha256": "4b795757fb4179c7f7dfe5e81ade2590527f2ac7fb0ec18ebd47160aa1f940c0",
+      "reference_files": [
+        "macaroni2/train/good/0000.JPG",
+        "macaroni2/train/good/0001.JPG",
+        "macaroni2/train/good/0002.JPG",
+        "macaroni2/train/good/0003.JPG"
+      ]
+    },
+    "visa/macaroni2_shot4_group1.npz": {
+      "original_sha256": "df3b4d573ed92130bae93f14a3f8c98676e1d078c89c1e2d4a8afe7a013d45ad",
+      "reference_files": [
+        "macaroni2/train/good/0004.JPG",
+        "macaroni2/train/good/0005.JPG",
+        "macaroni2/train/good/0006.JPG",
+        "macaroni2/train/good/0007.JPG"
+      ]
+    },
+    "visa/macaroni2_shot4_group2.npz": {
+      "original_sha256": "ea561fd54e57177a0f14b79e30a797fe5e594e1346ab6605f0125f2cdeb75572",
+      "reference_files": [
+        "macaroni2/train/good/0008.JPG",
+        "macaroni2/train/good/0009.JPG",
+        "macaroni2/train/good/0010.JPG",
+        "macaroni2/train/good/0012.JPG"
+      ]
+    },
+    "visa/pcb1_shot1_group0.npz": {
+      "original_sha256": "139ce13878af7bb1b617241de45f013adb8b72249d622c0195e67195eecdfe3d",
+      "reference_files": [
+        "pcb1/train/good/0000.JPG"
+      ]
+    },
+    "visa/pcb1_shot1_group1.npz": {
+      "original_sha256": "54cd63402fce52ef999a420fc7bab4332493df192d0fe6185b60ad386f13d78e",
+      "reference_files": [
+        "pcb1/train/good/0001.JPG"
+      ]
+    },
+    "visa/pcb1_shot1_group2.npz": {
+      "original_sha256": "0522e5dd57fa2c7d77ca6c9acf4b0f82ae025666f5293e2f12dccef4964eb65c",
+      "reference_files": [
+        "pcb1/train/good/0002.JPG"
+      ]
+    },
+    "visa/pcb1_shot4_group0.npz": {
+      "original_sha256": "4d18e65beeb924a39a2708f4ee70d2079feb5d8dd84ad8f32bad5b526d195926",
+      "reference_files": [
+        "pcb1/train/good/0000.JPG",
+        "pcb1/train/good/0001.JPG",
+        "pcb1/train/good/0002.JPG",
+        "pcb1/train/good/0003.JPG"
+      ]
+    },
+    "visa/pcb1_shot4_group1.npz": {
+      "original_sha256": "8a64a3d21466183a56aac0d2e3e7979265e0453fd27bf624267a14c55bdda5a7",
+      "reference_files": [
+        "pcb1/train/good/0004.JPG",
+        "pcb1/train/good/0005.JPG",
+        "pcb1/train/good/0006.JPG",
+        "pcb1/train/good/0007.JPG"
+      ]
+    },
+    "visa/pcb1_shot4_group2.npz": {
+      "original_sha256": "8cb7447f65b54807d1638efaed02ce6e0763dbb25e924b0ccf4784dcdeb3937d",
+      "reference_files": [
+        "pcb1/train/good/0008.JPG",
+        "pcb1/train/good/0009.JPG",
+        "pcb1/train/good/0010.JPG",
+        "pcb1/train/good/0012.JPG"
+      ]
+    },
+    "visa/pcb2_shot1_group0.npz": {
+      "original_sha256": "c622cc61901a629f7198e7509fe4cc27c5941d4bb1408911ff640fc9b4b1f1b1",
+      "reference_files": [
+        "pcb2/train/good/0000.JPG"
+      ]
+    },
+    "visa/pcb2_shot1_group1.npz": {
+      "original_sha256": "c2656bdc4a3964b30d3e3f460f6d5300c1c9dfa939a4ae0e810b1c0148da7087",
+      "reference_files": [
+        "pcb2/train/good/0001.JPG"
+      ]
+    },
+    "visa/pcb2_shot1_group2.npz": {
+      "original_sha256": "b29332cc4c00db76c4389d6fb6f669777f662578ac2152feaa37927692fd1261",
+      "reference_files": [
+        "pcb2/train/good/0002.JPG"
+      ]
+    },
+    "visa/pcb2_shot4_group0.npz": {
+      "original_sha256": "e7fcbfa65c6d23f95766f0cba165cdbdf09dac75d675669b2a69efd5b8ab018b",
+      "reference_files": [
+        "pcb2/train/good/0000.JPG",
+        "pcb2/train/good/0001.JPG",
+        "pcb2/train/good/0002.JPG",
+        "pcb2/train/good/0003.JPG"
+      ]
+    },
+    "visa/pcb2_shot4_group1.npz": {
+      "original_sha256": "1df25e403d926e7ea19eb1149a997452ae7175d062459910482681fb6a549247",
+      "reference_files": [
+        "pcb2/train/good/0004.JPG",
+        "pcb2/train/good/0005.JPG",
+        "pcb2/train/good/0006.JPG",
+        "pcb2/train/good/0007.JPG"
+      ]
+    },
+    "visa/pcb2_shot4_group2.npz": {
+      "original_sha256": "88ac839e2f85e466e90421a4bced488b9cfa470dd000543899d2cf3d5e09d71c",
+      "reference_files": [
+        "pcb2/train/good/0008.JPG",
+        "pcb2/train/good/0009.JPG",
+        "pcb2/train/good/0010.JPG",
+        "pcb2/train/good/0012.JPG"
+      ]
+    },
+    "visa/pcb3_shot1_group0.npz": {
+      "original_sha256": "f5a352e1ad1065bd4dbe21667c548e9da63236f5f7a60440994dbe15a0039236",
+      "reference_files": [
+        "pcb3/train/good/0000.JPG"
+      ]
+    },
+    "visa/pcb3_shot1_group1.npz": {
+      "original_sha256": "3d1987bcec4b26baac173865fc6d6f10a35ca9a1bd0c01baf1a5c499093ced12",
+      "reference_files": [
+        "pcb3/train/good/0001.JPG"
+      ]
+    },
+    "visa/pcb3_shot1_group2.npz": {
+      "original_sha256": "3e2077b7d90757cbec33cfe764bd8f4a100fe63392cdcf3225359593ba9037a7",
+      "reference_files": [
+        "pcb3/train/good/0002.JPG"
+      ]
+    },
+    "visa/pcb3_shot4_group0.npz": {
+      "original_sha256": "6606063e0b7b9414bf6c17d4a74e2be6838460e014db74d1f5fa5f5a6738d261",
+      "reference_files": [
+        "pcb3/train/good/0000.JPG",
+        "pcb3/train/good/0001.JPG",
+        "pcb3/train/good/0002.JPG",
+        "pcb3/train/good/0003.JPG"
+      ]
+    },
+    "visa/pcb3_shot4_group1.npz": {
+      "original_sha256": "ece0f7dd176ea41eedaa61e8f05f7468a4be2a5ca96053b4bf01bb43890373c3",
+      "reference_files": [
+        "pcb3/train/good/0004.JPG",
+        "pcb3/train/good/0005.JPG",
+        "pcb3/train/good/0006.JPG",
+        "pcb3/train/good/0007.JPG"
+      ]
+    },
+    "visa/pcb3_shot4_group2.npz": {
+      "original_sha256": "184be1d8879b7fd02e247570d519130fab6919756f73cc2394c60d4c13ab35b7",
+      "reference_files": [
+        "pcb3/train/good/0008.JPG",
+        "pcb3/train/good/0009.JPG",
+        "pcb3/train/good/0010.JPG",
+        "pcb3/train/good/0012.JPG"
+      ]
+    },
+    "visa/pcb4_shot1_group0.npz": {
+      "original_sha256": "f86deae0eaa3b79076ef5ba3cf29f17b0c08a0724857bbefabc9a3f2dfa0c8eb",
+      "reference_files": [
+        "pcb4/train/good/0000.JPG"
+      ]
+    },
+    "visa/pcb4_shot1_group1.npz": {
+      "original_sha256": "c7d7046f8dcf5b95fca3ae363744e9e7dd4a047d8d66695430d9251d02961286",
+      "reference_files": [
+        "pcb4/train/good/0001.JPG"
+      ]
+    },
+    "visa/pcb4_shot1_group2.npz": {
+      "original_sha256": "bc461eed2d19aa372ca734ca9c1838813a2de8f712820373349ca629882aa2fa",
+      "reference_files": [
+        "pcb4/train/good/0002.JPG"
+      ]
+    },
+    "visa/pcb4_shot4_group0.npz": {
+      "original_sha256": "64fafb305435b16310cc1e10d424cc14e4529a379b7c8ebd65f53334b583d2b0",
+      "reference_files": [
+        "pcb4/train/good/0000.JPG",
+        "pcb4/train/good/0001.JPG",
+        "pcb4/train/good/0002.JPG",
+        "pcb4/train/good/0003.JPG"
+      ]
+    },
+    "visa/pcb4_shot4_group1.npz": {
+      "original_sha256": "2ba744da64fa7fdbc5fac45893c4d27febe5bd52643d24c3295fbf1a91b150a2",
+      "reference_files": [
+        "pcb4/train/good/0004.JPG",
+        "pcb4/train/good/0005.JPG",
+        "pcb4/train/good/0006.JPG",
+        "pcb4/train/good/0007.JPG"
+      ]
+    },
+    "visa/pcb4_shot4_group2.npz": {
+      "original_sha256": "38698567be025defd45dcd200e7947a4b3a74f113e07d5150b475407b4585952",
+      "reference_files": [
+        "pcb4/train/good/0008.JPG",
+        "pcb4/train/good/0009.JPG",
+        "pcb4/train/good/0010.JPG",
+        "pcb4/train/good/0012.JPG"
+      ]
+    },
+    "visa/pipe_fryum_shot1_group0.npz": {
+      "original_sha256": "968ea8aa596896df3564204064bd02695f7121fc61fb4736615998d242f90196",
+      "reference_files": [
+        "pipe_fryum/train/good/000.JPG"
+      ]
+    },
+    "visa/pipe_fryum_shot1_group1.npz": {
+      "original_sha256": "a69dab4cbe7873b0147cb42d4b8e2d6f9698b7c68c337f7ed0992de503605c70",
+      "reference_files": [
+        "pipe_fryum/train/good/001.JPG"
+      ]
+    },
+    "visa/pipe_fryum_shot1_group2.npz": {
+      "original_sha256": "a963fb68652bd1bd1226cb7b6ba7d999e0f1f8abf7599da02a2289e2f0d44de4",
+      "reference_files": [
+        "pipe_fryum/train/good/002.JPG"
+      ]
+    },
+    "visa/pipe_fryum_shot4_group0.npz": {
+      "original_sha256": "208e090de5cf64ef6a1648cd9e672f8cd2933131bda96fb96ca6ea18443a112e",
+      "reference_files": [
+        "pipe_fryum/train/good/000.JPG",
+        "pipe_fryum/train/good/001.JPG",
+        "pipe_fryum/train/good/002.JPG",
+        "pipe_fryum/train/good/003.JPG"
+      ]
+    },
+    "visa/pipe_fryum_shot4_group1.npz": {
+      "original_sha256": "27d3a4071fdae1e12568ebb75e8f203c0ec35db6622a806178cff9b482f66477",
+      "reference_files": [
+        "pipe_fryum/train/good/004.JPG",
+        "pipe_fryum/train/good/005.JPG",
+        "pipe_fryum/train/good/007.JPG",
+        "pipe_fryum/train/good/008.JPG"
+      ]
+    },
+    "visa/pipe_fryum_shot4_group2.npz": {
+      "original_sha256": "72705de7171c38292c84b8fd9a98425af8d9d9bc2c9eaded597addb22f845546",
+      "reference_files": [
+        "pipe_fryum/train/good/009.JPG",
+        "pipe_fryum/train/good/010.JPG",
+        "pipe_fryum/train/good/011.JPG",
+        "pipe_fryum/train/good/014.JPG"
+      ]
+    },
+    "loco/breakfast_box_shot1_group0.npz": {
+      "original_sha256": "d65cfb61b246b5eaeaaabab70475cb4b4636b097323962ceb5293bc841bfc010",
+      "reference_files": [
+        "breakfast_box/train/good/000.png"
+      ]
+    },
+    "loco/breakfast_box_shot1_group1.npz": {
+      "original_sha256": "1f6fde6ea1e034772dfffc332c62e7e7a4431835f0cae6300bc394d72a519aeb",
+      "reference_files": [
+        "breakfast_box/train/good/001.png"
+      ]
+    },
+    "loco/breakfast_box_shot1_group2.npz": {
+      "original_sha256": "62a30a2962ba03d84b175c46afdaf1fdd7aeb049840aa65ce5f77b3e9cf9fcf4",
+      "reference_files": [
+        "breakfast_box/train/good/002.png"
+      ]
+    },
+    "loco/breakfast_box_shot4_group0.npz": {
+      "original_sha256": "62e47429494ff7fbbb9f240349ca28015aa69e21ebc27342c3a454bd9878c051",
+      "reference_files": [
+        "breakfast_box/train/good/000.png",
+        "breakfast_box/train/good/001.png",
+        "breakfast_box/train/good/002.png",
+        "breakfast_box/train/good/003.png"
+      ]
+    },
+    "loco/breakfast_box_shot4_group1.npz": {
+      "original_sha256": "c68b6fb935a4a98befafe36638931f0c2098a483012d3ebbc8517e8240e56573",
+      "reference_files": [
+        "breakfast_box/train/good/004.png",
+        "breakfast_box/train/good/005.png",
+        "breakfast_box/train/good/006.png",
+        "breakfast_box/train/good/007.png"
+      ]
+    },
+    "loco/breakfast_box_shot4_group2.npz": {
+      "original_sha256": "1b6e5043bc6e35e0419217912ef01183cfc24157830e4a7e8bba15c2b1aba04a",
+      "reference_files": [
+        "breakfast_box/train/good/008.png",
+        "breakfast_box/train/good/009.png",
+        "breakfast_box/train/good/010.png",
+        "breakfast_box/train/good/011.png"
+      ]
+    },
+    "loco/juice_bottle_shot1_group0.npz": {
+      "original_sha256": "788c4901287fe64b2ed5595a6b57a73499ca0c3541d7d5bde140a4f2ab241ebd",
+      "reference_files": [
+        "juice_bottle/train/good/000.png"
+      ]
+    },
+    "loco/juice_bottle_shot1_group1.npz": {
+      "original_sha256": "f4d8bea500adcc0b5fed269147c8958c21dfc332f515474b2116f24af399ecc0",
+      "reference_files": [
+        "juice_bottle/train/good/001.png"
+      ]
+    },
+    "loco/juice_bottle_shot1_group2.npz": {
+      "original_sha256": "9cd71d85c944a861535e5348d1794886e233335b6242ba25d76e86e6e8f57e7c",
+      "reference_files": [
+        "juice_bottle/train/good/002.png"
+      ]
+    },
+    "loco/juice_bottle_shot4_group0.npz": {
+      "original_sha256": "0b9ca7929cf6e08b1859074741b94d8124a33376c3b374288bf0f35b0f5a16d4",
+      "reference_files": [
+        "juice_bottle/train/good/000.png",
+        "juice_bottle/train/good/001.png",
+        "juice_bottle/train/good/002.png",
+        "juice_bottle/train/good/003.png"
+      ]
+    },
+    "loco/juice_bottle_shot4_group1.npz": {
+      "original_sha256": "ea58116681efa7c2a8b40a54c9acc04fdc68205642dcb24118c70eefefcc33ab",
+      "reference_files": [
+        "juice_bottle/train/good/004.png",
+        "juice_bottle/train/good/005.png",
+        "juice_bottle/train/good/006.png",
+        "juice_bottle/train/good/007.png"
+      ]
+    },
+    "loco/juice_bottle_shot4_group2.npz": {
+      "original_sha256": "db015dad527663137731b32a46491499b1bae82d11eeb55261013c7185ac00d4",
+      "reference_files": [
+        "juice_bottle/train/good/008.png",
+        "juice_bottle/train/good/009.png",
+        "juice_bottle/train/good/010.png",
+        "juice_bottle/train/good/011.png"
+      ]
+    },
+    "loco/pushpins_shot1_group0.npz": {
+      "original_sha256": "e455607aba38b47ef6c15852a7d98adf9c7d2bbfc393d38975c2ebc3741659b3",
+      "reference_files": [
+        "pushpins/train/good/000.png"
+      ]
+    },
+    "loco/pushpins_shot1_group1.npz": {
+      "original_sha256": "52f469aa1d1223a2f2132710fb201da5c97cad47821ae4666dcd0c149f109609",
+      "reference_files": [
+        "pushpins/train/good/001.png"
+      ]
+    },
+    "loco/pushpins_shot1_group2.npz": {
+      "original_sha256": "a0f4a4768d59308044056e412f9cfc1b588bc683f71f086d703614df458dc5ef",
+      "reference_files": [
+        "pushpins/train/good/002.png"
+      ]
+    },
+    "loco/pushpins_shot4_group0.npz": {
+      "original_sha256": "94d8e81a68e9e756a5441aef0fb452532902ae437c7a85402ec3b0818b2e0c7a",
+      "reference_files": [
+        "pushpins/train/good/000.png",
+        "pushpins/train/good/001.png",
+        "pushpins/train/good/002.png",
+        "pushpins/train/good/003.png"
+      ]
+    },
+    "loco/pushpins_shot4_group1.npz": {
+      "original_sha256": "a7362286936b1912122827f47a0b7526948436b11dfd6a051df7f4e8258b5c0f",
+      "reference_files": [
+        "pushpins/train/good/004.png",
+        "pushpins/train/good/005.png",
+        "pushpins/train/good/006.png",
+        "pushpins/train/good/007.png"
+      ]
+    },
+    "loco/pushpins_shot4_group2.npz": {
+      "original_sha256": "d4aaa986cf04834f343eebe8286168eeeec9292dbfdd0e93fd03c3f64139e696",
+      "reference_files": [
+        "pushpins/train/good/008.png",
+        "pushpins/train/good/009.png",
+        "pushpins/train/good/010.png",
+        "pushpins/train/good/011.png"
+      ]
+    },
+    "loco/screw_bag_shot1_group0.npz": {
+      "original_sha256": "4ecf8ad486f25cc6635ad856589fb6981237f4e2ffb916737877ee778bfcc405",
+      "reference_files": [
+        "screw_bag/train/good/000.png"
+      ]
+    },
+    "loco/screw_bag_shot1_group1.npz": {
+      "original_sha256": "e490fcc3b7cd4552679ee991f268c8655da83a20fda9bf6216b6fdb66d76398d",
+      "reference_files": [
+        "screw_bag/train/good/001.png"
+      ]
+    },
+    "loco/screw_bag_shot1_group2.npz": {
+      "original_sha256": "4b36f515c7bb225f383cd666adf53c95524d75c690871f33053464b727ca6d43",
+      "reference_files": [
+        "screw_bag/train/good/002.png"
+      ]
+    },
+    "loco/screw_bag_shot4_group0.npz": {
+      "original_sha256": "9febc227c93af42fb7b1bcc30448919e4ca3ca9c58ca8d4642022bf06b4d07b9",
+      "reference_files": [
+        "screw_bag/train/good/000.png",
+        "screw_bag/train/good/001.png",
+        "screw_bag/train/good/002.png",
+        "screw_bag/train/good/003.png"
+      ]
+    },
+    "loco/screw_bag_shot4_group1.npz": {
+      "original_sha256": "8cf37bda7fbe884806294d749e6b36451383f90faaac74cc1add5b00ed3587d3",
+      "reference_files": [
+        "screw_bag/train/good/004.png",
+        "screw_bag/train/good/005.png",
+        "screw_bag/train/good/006.png",
+        "screw_bag/train/good/007.png"
+      ]
+    },
+    "loco/screw_bag_shot4_group2.npz": {
+      "original_sha256": "03aa01c5b939e15fe2463bdac996e4fb333620c791512b19189b5a327a352d4b",
+      "reference_files": [
+        "screw_bag/train/good/008.png",
+        "screw_bag/train/good/009.png",
+        "screw_bag/train/good/010.png",
+        "screw_bag/train/good/011.png"
+      ]
+    },
+    "loco/splicing_connectors_shot1_group0.npz": {
+      "original_sha256": "8f5791e05c07f264ef00d57cab756eb7a91fee6e910fb3b74075f28e78787b50",
+      "reference_files": [
+        "splicing_connectors/train/good/000.png"
+      ]
+    },
+    "loco/splicing_connectors_shot1_group1.npz": {
+      "original_sha256": "5bf835b4667c6c912ad46102b56ca04ae9652ad89334532710725593de21cdf4",
+      "reference_files": [
+        "splicing_connectors/train/good/001.png"
+      ]
+    },
+    "loco/splicing_connectors_shot1_group2.npz": {
+      "original_sha256": "f0d1156ab956a728b1a0d7009cfa0bb4587f8433aea870a3b756cd8f2537da9d",
+      "reference_files": [
+        "splicing_connectors/train/good/002.png"
+      ]
+    },
+    "loco/splicing_connectors_shot4_group0.npz": {
+      "original_sha256": "c95efe0c6a9513caea50af5353ad826feca6ac056c267398bd1d06e606c0b1e6",
+      "reference_files": [
+        "splicing_connectors/train/good/000.png",
+        "splicing_connectors/train/good/001.png",
+        "splicing_connectors/train/good/002.png",
+        "splicing_connectors/train/good/003.png"
+      ]
+    },
+    "loco/splicing_connectors_shot4_group1.npz": {
+      "original_sha256": "3dc9e9b9f3f11247b9684188290a89392066428563f291a7a8611eab253aa737",
+      "reference_files": [
+        "splicing_connectors/train/good/004.png",
+        "splicing_connectors/train/good/005.png",
+        "splicing_connectors/train/good/006.png",
+        "splicing_connectors/train/good/007.png"
+      ]
+    },
+    "loco/splicing_connectors_shot4_group2.npz": {
+      "original_sha256": "35f3e6e9b8a8d1d632ba94638d1f8c52b43d4e1de2387fabb4c1ef1156df269e",
+      "reference_files": [
+        "splicing_connectors/train/good/008.png",
+        "splicing_connectors/train/good/009.png",
+        "splicing_connectors/train/good/010.png",
+        "splicing_connectors/train/good/011.png"
+      ]
+    },
+    "loco_reference_audit/breakfast_box_shot1_group12.npz": {
+      "original_sha256": "cf1e7e5cf37eb603acda55d9f81daf8d93523f4d87640702ed04fe3ecfd8652d",
+      "reference_files": [
+        "breakfast_box/train/good/012.png"
+      ]
+    },
+    "loco_reference_audit/breakfast_box_shot1_group13.npz": {
+      "original_sha256": "0919fecdde987d235633260a1ac5b340dbfdcb60ee61191ef156517668469fda",
+      "reference_files": [
+        "breakfast_box/train/good/013.png"
+      ]
+    },
+    "loco_reference_audit/breakfast_box_shot1_group14.npz": {
+      "original_sha256": "a9733be6b008297ae3e49a39ad22615e676c8523dcad6806af44ed118793c1fd",
+      "reference_files": [
+        "breakfast_box/train/good/014.png"
+      ]
+    },
+    "loco_reference_audit/breakfast_box_shot4_group3.npz": {
+      "original_sha256": "61bf423f0b34e77d454ce60a0e5b6bbfde17e23d1d3a339d68c5c13c6187a150",
+      "reference_files": [
+        "breakfast_box/train/good/012.png",
+        "breakfast_box/train/good/013.png",
+        "breakfast_box/train/good/014.png",
+        "breakfast_box/train/good/015.png"
+      ]
+    },
+    "loco_reference_audit/breakfast_box_shot4_group4.npz": {
+      "original_sha256": "5de7023bcc2dde6c8cc37431536a9d6c0d358aa12a2430e4c945adacb0dd11ce",
+      "reference_files": [
+        "breakfast_box/train/good/016.png",
+        "breakfast_box/train/good/017.png",
+        "breakfast_box/train/good/018.png",
+        "breakfast_box/train/good/019.png"
+      ]
+    },
+    "loco_reference_audit/breakfast_box_shot4_group5.npz": {
+      "original_sha256": "b5c06353fbe9048cbcf186009e4563f8eea37f9092cdb95a7d54f9838f285b44",
+      "reference_files": [
+        "breakfast_box/train/good/020.png",
+        "breakfast_box/train/good/021.png",
+        "breakfast_box/train/good/022.png",
+        "breakfast_box/train/good/023.png"
+      ]
+    },
+    "loco_reference_audit/juice_bottle_shot1_group12.npz": {
+      "original_sha256": "fb91e9526a27c07e0fcabb9b6b4c0510cb9525582930a8d68a96b61d423670d5",
+      "reference_files": [
+        "juice_bottle/train/good/012.png"
+      ]
+    },
+    "loco_reference_audit/juice_bottle_shot1_group13.npz": {
+      "original_sha256": "2bd85ee83ad84fcc24cd800e8af2ab27af1d0f2123942c1904861efe2b35fcce",
+      "reference_files": [
+        "juice_bottle/train/good/013.png"
+      ]
+    },
+    "loco_reference_audit/juice_bottle_shot1_group14.npz": {
+      "original_sha256": "8514b58c505e9b6b63ffcd00bd8c5164c98a0ece71679f3a2bce4d6ab57740b6",
+      "reference_files": [
+        "juice_bottle/train/good/014.png"
+      ]
+    },
+    "loco_reference_audit/juice_bottle_shot4_group3.npz": {
+      "original_sha256": "065d453920a08016f7ac135ff8aa6807c0add4b90a71e6df99b2eecd9a01abdb",
+      "reference_files": [
+        "juice_bottle/train/good/012.png",
+        "juice_bottle/train/good/013.png",
+        "juice_bottle/train/good/014.png",
+        "juice_bottle/train/good/015.png"
+      ]
+    },
+    "loco_reference_audit/juice_bottle_shot4_group4.npz": {
+      "original_sha256": "550bc54c40aa7c0d6b6901ad8b1cce6edcc5220f64dddf4da075b7646ebcf737",
+      "reference_files": [
+        "juice_bottle/train/good/016.png",
+        "juice_bottle/train/good/017.png",
+        "juice_bottle/train/good/018.png",
+        "juice_bottle/train/good/019.png"
+      ]
+    },
+    "loco_reference_audit/juice_bottle_shot4_group5.npz": {
+      "original_sha256": "2c3e96fd5e9120eaf5c0066566c5997eb3ed3f4f5e18efb3390810215851522a",
+      "reference_files": [
+        "juice_bottle/train/good/020.png",
+        "juice_bottle/train/good/021.png",
+        "juice_bottle/train/good/022.png",
+        "juice_bottle/train/good/023.png"
+      ]
+    },
+    "loco_reference_audit/pushpins_shot1_group12.npz": {
+      "original_sha256": "ca28d4ee6cd01cde18dfb0b11be1c367c8f63e7a2e5775e570727fa598669083",
+      "reference_files": [
+        "pushpins/train/good/012.png"
+      ]
+    },
+    "loco_reference_audit/pushpins_shot1_group13.npz": {
+      "original_sha256": "9965d21a0bf3a6259a557ccc6bf08b8f026969e82ded2702a57220a23a2ebb2d",
+      "reference_files": [
+        "pushpins/train/good/013.png"
+      ]
+    },
+    "loco_reference_audit/pushpins_shot1_group14.npz": {
+      "original_sha256": "998708ff92fd6c7b446c00f2adf8159d822496d26def0e24040fb337ccc7dca3",
+      "reference_files": [
+        "pushpins/train/good/014.png"
+      ]
+    },
+    "loco_reference_audit/pushpins_shot4_group3.npz": {
+      "original_sha256": "c0379cf125be976611998088a01a774fdd8baf7ec09b134aa0062501e2773c7c",
+      "reference_files": [
+        "pushpins/train/good/012.png",
+        "pushpins/train/good/013.png",
+        "pushpins/train/good/014.png",
+        "pushpins/train/good/015.png"
+      ]
+    },
+    "loco_reference_audit/pushpins_shot4_group4.npz": {
+      "original_sha256": "a0c57b8a0d4c145d07c8d85c5cf21124a8a688311288959189be3b72cee60a94",
+      "reference_files": [
+        "pushpins/train/good/016.png",
+        "pushpins/train/good/017.png",
+        "pushpins/train/good/018.png",
+        "pushpins/train/good/019.png"
+      ]
+    },
+    "loco_reference_audit/pushpins_shot4_group5.npz": {
+      "original_sha256": "fca9217b712886af208b4e656244bfe2f968a52fa037e016968f3b10160d0deb",
+      "reference_files": [
+        "pushpins/train/good/020.png",
+        "pushpins/train/good/021.png",
+        "pushpins/train/good/022.png",
+        "pushpins/train/good/023.png"
+      ]
+    },
+    "loco_reference_audit/screw_bag_shot1_group12.npz": {
+      "original_sha256": "3df7a486457ec6abe60e98a41eff4ca0c33ed8774ffbe4f2d07309076ce83d57",
+      "reference_files": [
+        "screw_bag/train/good/012.png"
+      ]
+    },
+    "loco_reference_audit/screw_bag_shot1_group13.npz": {
+      "original_sha256": "35895488d4c6b58310235c67c7c2a2935d9a4919b3b53031dc6bc3b35057c033",
+      "reference_files": [
+        "screw_bag/train/good/013.png"
+      ]
+    },
+    "loco_reference_audit/screw_bag_shot1_group14.npz": {
+      "original_sha256": "00ac5b07230d6a9c029136047245e47cbefe787d58cc6e92133534aabc759aa8",
+      "reference_files": [
+        "screw_bag/train/good/014.png"
+      ]
+    },
+    "loco_reference_audit/screw_bag_shot4_group3.npz": {
+      "original_sha256": "cb8e97ee9f50d505505e79751ceb9355efd90122dedc88dfc950f78f91f86830",
+      "reference_files": [
+        "screw_bag/train/good/012.png",
+        "screw_bag/train/good/013.png",
+        "screw_bag/train/good/014.png",
+        "screw_bag/train/good/015.png"
+      ]
+    },
+    "loco_reference_audit/screw_bag_shot4_group4.npz": {
+      "original_sha256": "0911c3b7e459e324478cc4695ffebabe7f0eb2a1784f596f28e9d44ae3d8dfd8",
+      "reference_files": [
+        "screw_bag/train/good/016.png",
+        "screw_bag/train/good/017.png",
+        "screw_bag/train/good/018.png",
+        "screw_bag/train/good/019.png"
+      ]
+    },
+    "loco_reference_audit/screw_bag_shot4_group5.npz": {
+      "original_sha256": "e6acb0b4ae7fea3e9429ed274978f99917e1d1bc5f37fbb40121c45f6600e1c8",
+      "reference_files": [
+        "screw_bag/train/good/020.png",
+        "screw_bag/train/good/021.png",
+        "screw_bag/train/good/022.png",
+        "screw_bag/train/good/023.png"
+      ]
+    },
+    "loco_reference_audit/splicing_connectors_shot1_group12.npz": {
+      "original_sha256": "fa0980a3b33b3f3168d75daf04dca136c6f8ae9f7600371b9e139eba0a84d972",
+      "reference_files": [
+        "splicing_connectors/train/good/012.png"
+      ]
+    },
+    "loco_reference_audit/splicing_connectors_shot1_group13.npz": {
+      "original_sha256": "91333034ceb047d8c34862fbe4c7c28c707de1d33b460fc8fcc95d4266f0e59a",
+      "reference_files": [
+        "splicing_connectors/train/good/013.png"
+      ]
+    },
+    "loco_reference_audit/splicing_connectors_shot1_group14.npz": {
+      "original_sha256": "52a4d713786cdcadba37459ac0063737e92b0a37475e277edcb34c8ab4cc89e4",
+      "reference_files": [
+        "splicing_connectors/train/good/014.png"
+      ]
+    },
+    "loco_reference_audit/splicing_connectors_shot4_group3.npz": {
+      "original_sha256": "1a7977ee900f9dfdf2f0dd3aeeb264ab28ae03115577f9ce94ab1742b815d595",
+      "reference_files": [
+        "splicing_connectors/train/good/012.png",
+        "splicing_connectors/train/good/013.png",
+        "splicing_connectors/train/good/014.png",
+        "splicing_connectors/train/good/015.png"
+      ]
+    },
+    "loco_reference_audit/splicing_connectors_shot4_group4.npz": {
+      "original_sha256": "3f097c90d42823bd9b7b8f5c235b7678eceafb56e4107b4518979597e39189c9",
+      "reference_files": [
+        "splicing_connectors/train/good/016.png",
+        "splicing_connectors/train/good/017.png",
+        "splicing_connectors/train/good/018.png",
+        "splicing_connectors/train/good/019.png"
+      ]
+    },
+    "loco_reference_audit/splicing_connectors_shot4_group5.npz": {
+      "original_sha256": "b18b4d5a682151d45bcf7958f7872a4a2ca23d4075635758aca7a2fd52a57257",
+      "reference_files": [
+        "splicing_connectors/train/good/020.png",
+        "splicing_connectors/train/good/021.png",
+        "splicing_connectors/train/good/022.png",
+        "splicing_connectors/train/good/023.png"
+      ]
+    }
+  },
+  "latency_note": "Existing V11 implementation measurements; the cleaned code was not retimed."
+}

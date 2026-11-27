@@ -1,0 +1,1170 @@
+{
+  "status": "complete",
+  "version": 11,
+  "tables": [
+    {
+      "dataset": "MVTec AD",
+      "task": "all",
+      "shot": 1,
+      "stage": "development_reused",
+      "baseline": {
+        "macro_auroc": 96.51921988152377,
+        "reference_group_sd": 0.48902772918569837,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          97.02397284442046,
+          96.04760276801152,
+          96.48608403213935
+        ],
+        "by_category": {
+          "bottle": 99.47089947089948,
+          "cable": 91.56046976511743,
+          "capsule": 90.0146257146656,
+          "carpet": 100.0,
+          "grid": 99.19242550821498,
+          "hazelnut": 98.00000000000001,
+          "leather": 100.0,
+          "metal_nut": 99.88595633756924,
+          "pill": 92.33496999454445,
+          "screw": 89.15078226412516,
+          "tile": 99.97594997594997,
+          "toothbrush": 99.62962962962963,
+          "transistor": 90.88888888888889,
+          "wood": 98.83040935672514,
+          "zipper": 98.85329131652661
+        }
+      },
+      "candidate": {
+        "macro_auroc": 96.41792088737276,
+        "reference_group_sd": 0.504608098401466,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          96.91110961854784,
+          95.90262038200837,
+          96.44003266156211
+        ],
+        "by_category": {
+          "bottle": 99.44444444444444,
+          "cable": 91.44177911044478,
+          "capsule": 89.84177635952665,
+          "carpet": 100.0,
+          "grid": 99.05318852687273,
+          "hazelnut": 97.48809523809524,
+          "leather": 100.0,
+          "metal_nut": 99.88595633756924,
+          "pill": 91.9894526277505,
+          "screw": 88.67254218760677,
+          "tile": 99.95189995189996,
+          "toothbrush": 99.35185185185186,
+          "transistor": 91.29166666666667,
+          "wood": 98.9766081871345,
+          "zipper": 98.8795518207283
+        }
+      },
+      "delta_pp": -0.10129899415100851,
+      "by_category_delta_pp": {
+        "bottle": -0.026455026455039388,
+        "cable": -0.11869065467264761,
+        "capsule": -0.1728493551389505,
+        "carpet": 0.0,
+        "grid": -0.1392369813422505,
+        "hazelnut": -0.5119047619047734,
+        "leather": 0.0,
+        "metal_nut": 0.0,
+        "pill": -0.34551736679395617,
+        "screw": -0.4782400765183894,
+        "tile": -0.024050024050012553,
+        "toothbrush": -0.27777777777777146,
+        "transistor": 0.4027777777777857,
+        "wood": 0.14619883040936088,
+        "zipper": 0.02626050420168724
+      }
+    },
+    {
+      "dataset": "MVTec AD",
+      "task": "all",
+      "shot": 4,
+      "stage": "development_reused",
+      "baseline": {
+        "macro_auroc": 97.55257103248505,
+        "reference_group_sd": 0.10238142964013207,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          97.67065208347809,
+          97.49849096890686,
+          97.48857004507022
+        ],
+        "by_category": {
+          "bottle": 99.92063492063492,
+          "cable": 93.82808595702149,
+          "capsule": 95.27988299428269,
+          "carpet": 100.0,
+          "grid": 99.22027290448344,
+          "hazelnut": 99.77380952380952,
+          "leather": 100.0,
+          "metal_nut": 100.0,
+          "pill": 95.80832878705218,
+          "screw": 89.80665436906469,
+          "tile": 100.0,
+          "toothbrush": 99.9074074074074,
+          "transistor": 91.90277777777777,
+          "wood": 98.56725146198832,
+          "zipper": 99.2734593837535
+        }
+      },
+      "candidate": {
+        "macro_auroc": 97.49965187942252,
+        "reference_group_sd": 0.08666442618542101,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          97.5993674023998,
+          97.45709710527261,
+          97.44249113059509
+        ],
+        "by_category": {
+          "bottle": 99.94708994708995,
+          "cable": 93.60944527736132,
+          "capsule": 95.55910118335329,
+          "carpet": 100.0,
+          "grid": 99.10888331940964,
+          "hazelnut": 99.66666666666666,
+          "leather": 100.0,
+          "metal_nut": 100.0,
+          "pill": 95.40825604655393,
+          "screw": 89.49921431987428,
+          "tile": 100.0,
+          "toothbrush": 99.72222222222223,
+          "transistor": 92.02777777777777,
+          "wood": 98.74269005847952,
+          "zipper": 99.20343137254902
+        }
+      },
+      "delta_pp": -0.05291915306253259,
+      "by_category_delta_pp": {
+        "bottle": 0.026455026455025177,
+        "cable": -0.21864067966016876,
+        "capsule": 0.2792181890706047,
+        "carpet": 0.0,
+        "grid": -0.1113895850737947,
+        "hazelnut": -0.1071428571428612,
+        "leather": 0.0,
+        "metal_nut": 0.0,
+        "pill": -0.4000727404982456,
+        "screw": -0.30744004919040435,
+        "tile": 0.0,
+        "toothbrush": -0.18518518518517624,
+        "transistor": 0.125,
+        "wood": 0.17543859649120463,
+        "zipper": -0.0700280112044851
+      }
+    },
+    {
+      "dataset": "VisA",
+      "task": "all",
+      "shot": 1,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 85.6475275027503,
+        "reference_group_sd": 1.82834465254408,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          86.39124312431244,
+          83.56452695269529,
+          86.98681243124312
+        ],
+        "by_category": {
+          "candle": 87.33666666666666,
+          "capsules": 98.73333333333333,
+          "cashew": 85.1,
+          "chewinggum": 98.15333333333332,
+          "fryum": 95.64666666666668,
+          "macaroni1": 81.99666666666666,
+          "macaroni2": 60.22,
+          "pcb1": 87.89333333333333,
+          "pcb2": 82.87666666666667,
+          "pcb3": 81.4092409240924,
+          "pcb4": 76.55775577557756,
+          "pipe_fryum": 91.84666666666668
+        }
+      },
+      "candidate": {
+        "macro_auroc": 85.49186927026037,
+        "reference_group_sd": 1.546433856343195,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          85.66379812981299,
+          83.86665566556655,
+          86.94515401540154
+        ],
+        "by_category": {
+          "candle": 87.26333333333334,
+          "capsules": 98.17777777777778,
+          "cashew": 85.80000000000001,
+          "chewinggum": 98.19999999999999,
+          "fryum": 94.96666666666668,
+          "macaroni1": 82.07333333333334,
+          "macaroni2": 58.09666666666667,
+          "pcb1": 88.69666666666667,
+          "pcb2": 83.66000000000001,
+          "pcb3": 81.62046204620462,
+          "pcb4": 76.58085808580857,
+          "pipe_fryum": 90.76666666666667
+        }
+      },
+      "delta_pp": -0.15565823248992672,
+      "by_category_delta_pp": {
+        "candle": -0.07333333333332348,
+        "capsules": -0.5555555555555571,
+        "cashew": 0.700000000000017,
+        "chewinggum": 0.046666666666666856,
+        "fryum": -0.6799999999999926,
+        "macaroni1": 0.0766666666666822,
+        "macaroni2": -2.1233333333333277,
+        "pcb1": 0.8033333333333417,
+        "pcb2": 0.7833333333333456,
+        "pcb3": 0.21122112211222088,
+        "pcb4": 0.023102310231010392,
+        "pipe_fryum": -1.0800000000000125
+      }
+    },
+    {
+      "dataset": "VisA",
+      "task": "all",
+      "shot": 4,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 91.21816373303999,
+        "reference_group_sd": 0.935765606651612,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          90.13772277227723,
+          91.74643564356435,
+          91.77033278327832
+        ],
+        "by_category": {
+          "candle": 90.38333333333334,
+          "capsules": 99.1222222222222,
+          "cashew": 93.51333333333334,
+          "chewinggum": 98.84666666666666,
+          "fryum": 97.44666666666667,
+          "macaroni1": 86.44999999999999,
+          "macaroni2": 68.91333333333334,
+          "pcb1": 91.36000000000001,
+          "pcb2": 87.72999999999999,
+          "pcb3": 91.36303630363037,
+          "pcb4": 94.72937293729373,
+          "pipe_fryum": 94.76
+        }
+      },
+      "candidate": {
+        "macro_auroc": 91.19623854052072,
+        "reference_group_sd": 1.2317458845863358,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          89.77394939493949,
+          91.90312706270628,
+          91.91163916391638
+        ],
+        "by_category": {
+          "candle": 90.54666666666668,
+          "capsules": 98.92222222222222,
+          "cashew": 94.39999999999999,
+          "chewinggum": 98.84666666666666,
+          "fryum": 96.82000000000001,
+          "macaroni1": 86.42999999999999,
+          "macaroni2": 68.92333333333333,
+          "pcb1": 91.91,
+          "pcb2": 88.06666666666666,
+          "pcb3": 91.56105610561056,
+          "pcb4": 94.17491749174917,
+          "pipe_fryum": 93.75333333333334
+        }
+      },
+      "delta_pp": -0.021925192519262282,
+      "by_category_delta_pp": {
+        "candle": 0.1633333333333411,
+        "capsules": -0.19999999999998863,
+        "cashew": 0.8866666666666561,
+        "chewinggum": 0.0,
+        "fryum": -0.6266666666666652,
+        "macaroni1": -0.01999999999999602,
+        "macaroni2": 0.009999999999990905,
+        "pcb1": 0.549999999999983,
+        "pcb2": 0.3366666666666731,
+        "pcb3": 0.19801980198019464,
+        "pcb4": -0.554455445544562,
+        "pipe_fryum": -1.0066666666666606
+      }
+    },
+    {
+      "dataset": "LOCO original refs",
+      "task": "all",
+      "shot": 1,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 61.44976290723739,
+        "reference_group_sd": 1.8355542746709783,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          60.4533416451317,
+          60.32790625679213,
+          63.56804081978835
+        ],
+        "by_category": {
+          "breakfast_box": 75.82077146851033,
+          "juice_bottle": 61.14166366149778,
+          "pushpins": 52.06577912594091,
+          "screw_bag": 53.95738203957382,
+          "splicing_connectors": 64.26321824066413
+        }
+      },
+      "candidate": {
+        "macro_auroc": 62.75271876287203,
+        "reference_group_sd": 1.8710182310230576,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          61.85126625668011,
+          61.50307836282198,
+          64.90381166911396
+        ],
+        "by_category": {
+          "breakfast_box": 79.54399486191393,
+          "juice_bottle": 62.32419761990624,
+          "pushpins": 52.03347938433885,
+          "screw_bag": 54.189435336976324,
+          "splicing_connectors": 65.67248661122478
+        }
+      },
+      "delta_pp": 1.302955855634636,
+      "by_category_delta_pp": {
+        "breakfast_box": 3.7232233934036003,
+        "juice_bottle": 1.182533958408463,
+        "pushpins": -0.03229974160205984,
+        "screw_bag": 0.23205329740250136,
+        "splicing_connectors": 1.4092683705606532
+      }
+    },
+    {
+      "dataset": "LOCO original refs",
+      "task": "all",
+      "shot": 4,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 69.60300427115679,
+        "reference_group_sd": 1.1960970623315985,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          70.12568808858559,
+          70.44879803740137,
+          68.23452668748345
+        ],
+        "by_category": {
+          "breakfast_box": 81.81079753674109,
+          "juice_bottle": 80.58961413631445,
+          "pushpins": 53.40411189753959,
+          "screw_bag": 58.603438381116334,
+          "splicing_connectors": 73.60705940407252
+        }
+      },
+      "candidate": {
+        "macro_auroc": 71.03544937426726,
+        "reference_group_sd": 1.313129663798848,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          71.70512367028543,
+          71.87873011801942,
+          69.52249433449697
+        ],
+        "by_category": {
+          "breakfast_box": 86.00627148740035,
+          "juice_bottle": 81.0629282365669,
+          "pushpins": 53.34793843388383,
+          "screw_bag": 58.961499114205154,
+          "splicing_connectors": 75.79860959928013
+        }
+      },
+      "delta_pp": 1.4324451031104672,
+      "by_category_delta_pp": {
+        "breakfast_box": 4.195473950659263,
+        "juice_bottle": 0.4733141002524519,
+        "pushpins": -0.05617346365576026,
+        "screw_bag": 0.3580607330888199,
+        "splicing_connectors": 2.1915501952076113
+      }
+    },
+    {
+      "dataset": "LOCO original refs",
+      "task": "logical_anomalies",
+      "shot": 1,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 54.31343614015878,
+        "reference_group_sd": 2.1683108982223733,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          53.14819578468867,
+          52.97688114693162,
+          56.81523148885604
+        ],
+        "by_category": {
+          "breakfast_box": 66.04063312071816,
+          "juice_bottle": 56.1807012286485,
+          "pushpins": 46.19631576153315,
+          "screw_bag": 43.057716086314876,
+          "splicing_connectors": 60.0918145035792
+        }
+      },
+      "candidate": {
+        "macro_auroc": 56.752498467335656,
+        "reference_group_sd": 2.1336641114644275,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          55.71564651895945,
+          55.33540743865022,
+          59.20644144439733
+        ],
+        "by_category": {
+          "breakfast_box": 73.63178203008111,
+          "juice_bottle": 58.17101188692438,
+          "pushpins": 46.11403089663959,
+          "screw_bag": 43.16541023493279,
+          "splicing_connectors": 62.68025728810043
+        }
+      },
+      "delta_pp": 2.4390623271768774,
+      "by_category_delta_pp": {
+        "breakfast_box": 7.591148909362957,
+        "juice_bottle": 1.990310658275881,
+        "pushpins": -0.08228486489355902,
+        "screw_bag": 0.1076941486179166,
+        "splicing_connectors": 2.5884427845212272
+      }
+    },
+    {
+      "dataset": "LOCO original refs",
+      "task": "logical_anomalies",
+      "shot": 4,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 62.83608448594548,
+        "reference_group_sd": 1.1507179496356499,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          63.14920586859557,
+          63.79783414931145,
+          61.56121343992942
+        ],
+        "by_category": {
+          "breakfast_box": 73.67509252697063,
+          "juice_bottle": 76.93537109179901,
+          "pushpins": 47.05632531719488,
+          "screw_bag": 47.419329105340836,
+          "splicing_connectors": 69.09430438842205
+        }
+      },
+      "candidate": {
+        "macro_auroc": 65.39337831989286,
+        "reference_group_sd": 1.2632752176415045,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          65.80896126936399,
+          66.39650896676085,
+          63.974664723553744
+        ],
+        "by_category": {
+          "breakfast_box": 82.16788723521536,
+          "juice_bottle": 77.64209369693337,
+          "pushpins": 46.912990391251256,
+          "screw_bag": 47.81420765027322,
+          "splicing_connectors": 72.42971262579104
+        }
+      },
+      "delta_pp": 2.5572938339473836,
+      "by_category_delta_pp": {
+        "breakfast_box": 8.49279470824473,
+        "juice_bottle": 0.7067226051343596,
+        "pushpins": -0.14333492594362696,
+        "screw_bag": 0.39487854493238217,
+        "splicing_connectors": 3.335408237368995
+      }
+    },
+    {
+      "dataset": "LOCO original refs",
+      "task": "structural_anomalies",
+      "shot": 1,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 70.77342755873951,
+        "reference_group_sd": 1.4078364585855094,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          70.1555157662727,
+          69.78021516451642,
+          72.38455174542943
+        ],
+        "by_category": {
+          "breakfast_box": 84.84023238925201,
+          "juice_bottle": 68.63588350686585,
+          "pushpins": 58.65986759706566,
+          "screw_bag": 72.16779954684792,
+          "splicing_connectors": 69.56335475366618
+        }
+      },
+      "candidate": {
+        "macro_auroc": 70.87205070992044,
+        "reference_group_sd": 1.49593151489032,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          70.3758356792195,
+          69.68728032407981,
+          72.55303612646206
+        ],
+        "by_category": {
+          "breakfast_box": 84.99636891793755,
+          "juice_bottle": 68.59815904632563,
+          "pushpins": 58.683723981630585,
+          "screw_bag": 72.60762361721977,
+          "splicing_connectors": 69.47437798648872
+        }
+      },
+      "delta_pp": 0.09862315118093079,
+      "by_category_delta_pp": {
+        "breakfast_box": 0.1561365286855363,
+        "juice_bottle": -0.037724460540218274,
+        "pushpins": 0.02385638456492245,
+        "screw_bag": 0.43982407037185567,
+        "splicing_connectors": -0.0889767671774564
+      }
+    },
+    {
+      "dataset": "LOCO original refs",
+      "task": "structural_anomalies",
+      "shot": 4,
+      "stage": "exploratory_final_selection",
+      "baseline": {
+        "macro_auroc": 78.51783043094953,
+        "reference_group_sd": 1.1848120678853082,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          79.26259098969271,
+          79.13932057513027,
+          77.15157972802562
+        ],
+        "by_category": {
+          "breakfast_box": 89.31372549019608,
+          "juice_bottle": 86.10985362909311,
+          "pushpins": 60.535575833482426,
+          "screw_bag": 77.28908436625349,
+          "splicing_connectors": 79.34091283572252
+        }
+      },
+      "candidate": {
+        "macro_auroc": 78.8037468049801,
+        "reference_group_sd": 1.3300772276122157,
+        "reference_group_ids": [
+          0,
+          1,
+          2
+        ],
+        "reference_group_scores": [
+          79.74323567715221,
+          79.38620288481826,
+          77.28180185296983
+        ],
+        "by_category": {
+          "breakfast_box": 89.54611474219317,
+          "juice_bottle": 86.23057190282178,
+          "pushpins": 60.577324506471044,
+          "screw_bag": 77.5856324137012,
+          "splicing_connectors": 80.0790904597133
+        }
+      },
+      "delta_pp": 0.28591637403056325,
+      "by_category_delta_pp": {
+        "breakfast_box": 0.23238925199709115,
+        "juice_bottle": 0.12071827372867006,
+        "pushpins": 0.04174867298861784,
+        "screw_bag": 0.2965480474477147,
+        "splicing_connectors": 0.7381776239907794
+      }
+    },
+    {
+      "dataset": "LOCO new refs",
+      "task": "all",
+      "shot": 1,
+      "stage": "new_reference_audit_reused_tests",
+      "baseline": {
+        "macro_auroc": 62.6875968837558,
+        "reference_group_sd": 0.755040595294854,
+        "reference_group_ids": [
+          12,
+          13,
+          14
+        ],
+        "reference_group_scores": [
+          62.35412319028192,
+          63.55196025834549,
+          62.15670720264001
+        ],
+        "by_category": {
+          "breakfast_box": 78.35203445540066,
+          "juice_bottle": 61.22580839043156,
+          "pushpins": 52.91259409055162,
+          "screw_bag": 57.157471866656685,
+          "splicing_connectors": 63.790075615738516
+        }
+      },
+      "candidate": {
+        "macro_auroc": 64.3269854725822,
+        "reference_group_sd": 0.3122410297129024,
+        "reference_group_ids": [
+          12,
+          13,
+          14
+        ],
+        "reference_group_scores": [
+          64.1328314788521,
+          64.68716440914963,
+          64.16096052974483
+        ],
+        "by_category": {
+          "breakfast_box": 83.08209603687332,
+          "juice_bottle": 62.37378290659935,
+          "pushpins": 52.92944612964835,
+          "screw_bag": 57.73386231504355,
+          "splicing_connectors": 65.51573997474637
+        }
+      },
+      "delta_pp": 1.6393885888263924,
+      "by_category_delta_pp": {
+        "breakfast_box": 4.730061581472668,
+        "juice_bottle": 1.1479745161677926,
+        "pushpins": 0.016852039096725946,
+        "screw_bag": 0.5763904483868671,
+        "splicing_connectors": 1.725664359007851
+      }
+    },
+    {
+      "dataset": "LOCO new refs",
+      "task": "all",
+      "shot": 4,
+      "stage": "new_reference_audit_reused_tests",
+      "baseline": {
+        "macro_auroc": 70.12232761278743,
+        "reference_group_sd": 1.3725079550984665,
+        "reference_group_ids": [
+          3,
+          4,
+          5
+        ],
+        "reference_group_scores": [
+          69.47405513080798,
+          71.69889555995508,
+          69.19403214759924
+        ],
+        "by_category": {
+          "breakfast_box": 82.27927008953871,
+          "juice_bottle": 76.0097367472052,
+          "pushpins": 53.779069767441854,
+          "screw_bag": 60.18040272475484,
+          "splicing_connectors": 78.36315873499659
+        }
+      },
+      "candidate": {
+        "macro_auroc": 71.39263732094221,
+        "reference_group_sd": 1.2056476824228428,
+        "reference_group_ids": [
+          3,
+          4,
+          5
+        ],
+        "reference_group_scores": [
+          70.80575699193453,
+          72.77935921661121,
+          70.59279575428094
+        ],
+        "by_category": {
+          "breakfast_box": 86.32929086856323,
+          "juice_bottle": 76.40792162519534,
+          "pushpins": 53.640040444893835,
+          "screw_bag": 60.57838660578386,
+          "splicing_connectors": 80.00754706027489
+        }
+      },
+      "delta_pp": 1.2703097081547838,
+      "by_category_delta_pp": {
+        "breakfast_box": 4.050020779024521,
+        "juice_bottle": 0.3981848779901469,
+        "pushpins": -0.13902932254801925,
+        "screw_bag": 0.3979838810290204,
+        "splicing_connectors": 1.6443883252782996
+      }
+    },
+    {
+      "dataset": "LOCO new refs",
+      "task": "logical_anomalies",
+      "shot": 1,
+      "stage": "new_reference_audit_reused_tests",
+      "baseline": {
+        "macro_auroc": 56.069159113288194,
+        "reference_group_sd": 1.5313730575674973,
+        "reference_group_ids": [
+          12,
+          13,
+          14
+        ],
+        "reference_group_scores": [
+          55.24568217141545,
+          57.836079393465134,
+          55.12571577498397
+        ],
+        "by_category": {
+          "breakfast_box": 69.32435624852351,
+          "juice_bottle": 56.210668264908605,
+          "pushpins": 47.972076232945795,
+          "screw_bag": 47.68058713254358,
+          "splicing_connectors": 59.15810768751945
+        }
+      },
+      "candidate": {
+        "macro_auroc": 59.256498911369924,
+        "reference_group_sd": 0.7849579777903936,
+        "reference_group_ids": [
+          12,
+          13,
+          14
+        ],
+        "reference_group_scores": [
+          58.69103454913213,
+          60.15270201125844,
+          58.92576017371922
+        ],
+        "by_category": {
+          "breakfast_box": 79.15583904244428,
+          "juice_bottle": 58.158525621816004,
+          "pushpins": 48.04374369591761,
+          "screw_bag": 48.39455945115871,
+          "splicing_connectors": 62.52982674551303
+        }
+      },
+      "delta_pp": 3.18733979808173,
+      "by_category_delta_pp": {
+        "breakfast_box": 9.83148279392077,
+        "juice_bottle": 1.9478573569073987,
+        "pushpins": 0.07166746297181703,
+        "screw_bag": 0.7139723186151343,
+        "splicing_connectors": 3.3717190579935803
+      }
+    },
+    {
+      "dataset": "LOCO new refs",
+      "task": "logical_anomalies",
+      "shot": 4,
+      "stage": "new_reference_audit_reused_tests",
+      "baseline": {
+        "macro_auroc": 63.03769075854664,
+        "reference_group_sd": 1.4165793346761295,
+        "reference_group_ids": [
+          3,
+          4,
+          5
+        ],
+        "reference_group_scores": [
+          62.67202537692922,
+          64.60125283375562,
+          61.839794064955036
+        ],
+        "by_category": {
+          "breakfast_box": 73.27348610126782,
+          "juice_bottle": 72.80241734092498,
+          "pushpins": 46.214896214896214,
+          "screw_bag": 48.20110885086355,
+          "splicing_connectors": 74.69654528478058
+        }
+      },
+      "candidate": {
+        "macro_auroc": 65.44020725129093,
+        "reference_group_sd": 1.237824250234199,
+        "reference_group_ids": [
+          3,
+          4,
+          5
+        ],
+        "reference_group_scores": [
+          65.46024628883352,
+          66.6678903228856,
+          64.19248514215366
+        ],
+        "by_category": {
+          "breakfast_box": 81.66391054413734,
+          "juice_bottle": 73.44670862051744,
+          "pushpins": 46.021128629824275,
+          "screw_bag": 48.65980615053249,
+          "splicing_connectors": 77.4094823114431
+        }
+      },
+      "delta_pp": 2.40251649274429,
+      "by_category_delta_pp": {
+        "breakfast_box": 8.390424442869516,
+        "juice_bottle": 0.6442912795924656,
+        "pushpins": -0.1937675850719387,
+        "screw_bag": 0.4586972996689411,
+        "splicing_connectors": 2.712937026662516
+      }
+    },
+    {
+      "dataset": "LOCO new refs",
+      "task": "structural_anomalies",
+      "shot": 1,
+      "stage": "new_reference_audit_reused_tests",
+      "baseline": {
+        "macro_auroc": 71.32173734412477,
+        "reference_group_sd": 0.38771127446198606,
+        "reference_group_ids": [
+          12,
+          13,
+          14
+        ],
+        "reference_group_scores": [
+          71.73610722297764,
+          70.96777626573314,
+          71.26132854366352
+        ],
+        "by_category": {
+          "breakfast_box": 86.67755991285404,
+          "juice_bottle": 68.8018711332428,
+          "pushpins": 58.46305242440507,
+          "screw_bag": 72.9908036785286,
+          "splicing_connectors": 69.67539957159335
+        }
+      },
+      "candidate": {
+        "macro_auroc": 71.3019498232816,
+        "reference_group_sd": 0.46844416507596176,
+        "reference_group_ids": [
+          12,
+          13,
+          14
+        ],
+        "reference_group_scores": [
+          71.77966013717423,
+          70.84335714611134,
+          71.28283218655919
+        ],
+        "by_category": {
+          "breakfast_box": 86.70297748729121,
+          "juice_bottle": 68.74151199637845,
+          "pushpins": 58.41832170334585,
+          "screw_bag": 73.33733173397307,
+          "splicing_connectors": 69.30960619541933
+        }
+      },
+      "delta_pp": -0.019787520843166817,
+      "by_category_delta_pp": {
+        "breakfast_box": 0.025417574437170742,
+        "juice_bottle": -0.06035913686434924,
+        "pushpins": -0.04473072105921716,
+        "screw_bag": 0.3465280554444803,
+        "splicing_connectors": -0.3657933761740111
+      }
+    },
+    {
+      "dataset": "LOCO new refs",
+      "task": "structural_anomalies",
+      "shot": 4,
+      "stage": "new_reference_audit_reused_tests",
+      "baseline": {
+        "macro_auroc": 79.38660717479287,
+        "reference_group_sd": 1.37498406977452,
+        "reference_group_ids": [
+          3,
+          4,
+          5
+        ],
+        "reference_group_scores": [
+          78.38500941610123,
+          80.95426248284484,
+          78.82054962543259
+        ],
+        "by_category": {
+          "breakfast_box": 90.58460421205518,
+          "juice_bottle": 80.85483627584125,
+          "pushpins": 62.27709190672154,
+          "screw_bag": 80.19458883113421,
+          "splicing_connectors": 83.02191464821222
+        }
+      },
+      "candidate": {
+        "macro_auroc": 79.50247295544538,
+        "reference_group_sd": 1.4329056589790303,
+        "reference_group_ids": [
+          3,
+          4,
+          5
+        ],
+        "reference_group_scores": [
+          78.19570074036896,
+          81.0347665728857,
+          79.27695155308146
+        ],
+        "by_category": {
+          "breakfast_box": 90.63180827886711,
+          "juice_bottle": 80.8812433982194,
+          "pushpins": 62.19955865688554,
+          "screw_bag": 80.4911368785819,
+          "splicing_connectors": 83.30861756467294
+        }
+      },
+      "delta_pp": 0.11586578065251274,
+      "by_category_delta_pp": {
+        "breakfast_box": 0.047204066811929124,
+        "juice_bottle": 0.026407122378145687,
+        "pushpins": -0.07753324983599441,
+        "screw_bag": 0.29654804744768626,
+        "splicing_connectors": 0.286702916460726
+      }
+    }
+  ],
+  "costs": [
+    {
+      "category": "cable",
+      "shot": 1,
+      "method": "baseline",
+      "n": 30,
+      "median_ms": 61.206269543617964,
+      "iqr_ms": [
+        60.94601238146424,
+        61.70627730898559
+      ],
+      "order_median_range_ms": [
+        60.99491601344198,
+        61.697949073277414
+      ],
+      "peak_cuda_allocated_mib": 202.2255859375,
+      "artifact_bytes": 12584529
+    },
+    {
+      "category": "cable",
+      "shot": 1,
+      "method": "coverage",
+      "n": 30,
+      "median_ms": 61.711187940090895,
+      "iqr_ms": [
+        60.97517715534195,
+        62.24932771874592
+      ],
+      "order_median_range_ms": [
+        61.243577976711094,
+        62.21545999869704
+      ],
+      "peak_cuda_allocated_mib": 202.30029296875,
+      "artifact_bytes": 12592849
+    },
+    {
+      "category": "cable",
+      "shot": 4,
+      "method": "baseline",
+      "n": 30,
+      "median_ms": 62.88952054455876,
+      "iqr_ms": [
+        62.39199894480407,
+        63.27879591844976
+      ],
+      "order_median_range_ms": [
+        62.79683450702578,
+        63.169724540784955
+      ],
+      "peak_cuda_allocated_mib": 526.3193359375,
+      "artifact_bytes": 50336733
+    },
+    {
+      "category": "cable",
+      "shot": 4,
+      "method": "coverage",
+      "n": 30,
+      "median_ms": 64.32047800626606,
+      "iqr_ms": [
+        63.65215976256877,
+        64.92696644272655
+      ],
+      "order_median_range_ms": [
+        63.99501161649823,
+        64.73002140410244
+      ],
+      "peak_cuda_allocated_mib": 526.4755859375,
+      "artifact_bytes": 50369629
+    },
+    {
+      "category": "capsules",
+      "shot": 1,
+      "method": "baseline",
+      "n": 30,
+      "median_ms": 250.03973953425884,
+      "iqr_ms": [
+        143.65143975010142,
+        321.5300355805084
+      ],
+      "order_median_range_ms": [
+        202.037044451572,
+        309.3957304954529
+      ],
+      "peak_cuda_allocated_mib": 226.06103515625,
+      "artifact_bytes": 18876026
+    },
+    {
+      "category": "capsules",
+      "shot": 1,
+      "method": "coverage",
+      "n": 30,
+      "median_ms": 252.8640495147556,
+      "iqr_ms": [
+        155.95505258534104,
+        312.44781671557575
+      ],
+      "order_median_range_ms": [
+        245.60832255519927,
+        274.68107850290835
+      ],
+      "peak_cuda_allocated_mib": 226.11962890625,
+      "artifact_bytes": 18888442
+    },
+    {
+      "category": "capsules",
+      "shot": 4,
+      "method": "baseline",
+      "n": 30,
+      "median_ms": 230.25994701310992,
+      "iqr_ms": [
+        144.1203081049025,
+        299.0612424327992
+      ],
+      "order_median_range_ms": [
+        220.01015848945826,
+        263.7926285387948
+      ],
+      "peak_cuda_allocated_mib": 622.20166015625,
+      "artifact_bytes": 75502670
+    },
+    {
+      "category": "capsules",
+      "shot": 4,
+      "method": "coverage",
+      "n": 30,
+      "median_ms": 240.5478695873171,
+      "iqr_ms": [
+        144.37330444343388,
+        315.55098795797676
+      ],
+      "order_median_range_ms": [
+        232.28006903082132,
+        255.6457625469193
+      ],
+      "peak_cuda_allocated_mib": 622.43603515625,
+      "artifact_bytes": 75551950
+    }
+  ],
+  "new_reference_audit": [
+    {
+      "shot": 1,
+      "delta_pp": {
+        "all": 1.6393885888263924,
+        "logical_anomalies": 3.18733979808173,
+        "structural_anomalies": -0.019787520843166817
+      },
+      "passes": true
+    },
+    {
+      "shot": 4,
+      "delta_pp": {
+        "all": 1.2703097081547838,
+        "logical_anomalies": 2.40251649274429,
+        "structural_anomalies": 0.11586578065251274
+      },
+      "passes": true
+    }
+  ],
+  "disjoint_reference_files": {
+    "old_unique": 60,
+    "new_unique": 60,
+    "intersection": 0,
+    "content_sha256_intersection": 0
+  },
+  "validation_limit": "Final union head selected after viewing MVTec, LOCO, VisA controls; their scores are exploratory for final selection. New normal references are disjoint, test images reused. No independent logical image test for this final selection.",
+  "method": "foreground_consistent_bidirectional_coverage"
+}

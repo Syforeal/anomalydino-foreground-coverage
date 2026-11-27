@@ -1,0 +1,19 @@
+{
+  "status": "pass",
+  "device": "cpu",
+  "rows": [
+    {
+      "sample": "cable/test/good/000.png",
+      "score": 0.40748515725135803,
+      "expected": 0.40748482942581177,
+      "absolute_error": 3.2782554626464844e-07
+    },
+    {
+      "sample": "cable/test/cable_swap/000.png",
+      "score": 0.33320605754852295,
+      "expected": 0.33320608735084534,
+      "absolute_error": 2.9802322387695312e-08
+    }
+  ],
+  "note": "Raw-image CLI consistency only, not a new benchmark."
+}

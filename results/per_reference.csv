@@ -1,0 +1,343 @@
+dataset,task,category,shot,reference_group,reference_files,baseline_auc_pct,coverage_auc_pct,delta_pp
+MVTec AD,all,bottle,1,0,"[""bottle/train/good/000.png""]",99.84126984126985,99.84126984126985,0.0
+MVTec AD,all,bottle,1,1,"[""bottle/train/good/001.png""]",99.60317460317461,99.52380952380952,-0.07936507936508974
+MVTec AD,all,bottle,1,2,"[""bottle/train/good/002.png""]",98.96825396825396,98.96825396825396,0.0
+MVTec AD,all,bottle,4,0,"[""bottle/train/good/000.png"", ""bottle/train/good/001.png"", ""bottle/train/good/002.png"", ""bottle/train/good/003.png""]",99.76190476190476,99.84126984126985,0.07936507936508974
+MVTec AD,all,bottle,4,1,"[""bottle/train/good/004.png"", ""bottle/train/good/005.png"", ""bottle/train/good/006.png"", ""bottle/train/good/007.png""]",100.0,100.0,0.0
+MVTec AD,all,bottle,4,2,"[""bottle/train/good/008.png"", ""bottle/train/good/009.png"", ""bottle/train/good/010.png"", ""bottle/train/good/011.png""]",100.0,100.0,0.0
+MVTec AD,all,cable,1,0,"[""cable/train/good/000.png""]",93.14092953523237,93.14092953523239,1.4210854715202004e-14
+MVTec AD,all,cable,1,1,"[""cable/train/good/001.png""]",91.2856071964018,91.13568215892055,-0.1499250374812533
+MVTec AD,all,cable,1,2,"[""cable/train/good/002.png""]",90.25487256371815,90.04872563718142,-0.20614692653673217
+MVTec AD,all,cable,4,0,"[""cable/train/good/000.png"", ""cable/train/good/001.png"", ""cable/train/good/002.png"", ""cable/train/good/003.png""]",91.904047976012,91.79160419790105,-0.11244377811094353
+MVTec AD,all,cable,4,1,"[""cable/train/good/004.png"", ""cable/train/good/005.png"", ""cable/train/good/006.png"", ""cable/train/good/007.png""]",95.31484257871064,95.14617691154422,-0.1686656671664224
+MVTec AD,all,cable,4,2,"[""cable/train/good/008.png"", ""cable/train/good/009.png"", ""cable/train/good/010.png"", ""cable/train/good/011.png""]",94.26536731634184,93.89055472263867,-0.3748125937031688
+MVTec AD,all,capsule,1,0,"[""capsule/train/good/000.png""]",93.97686477861986,93.97686477861986,0.0
+MVTec AD,all,capsule,1,1,"[""capsule/train/good/001.png""]",81.97048264858397,81.41204627044274,-0.5584363781412236
+MVTec AD,all,capsule,1,2,"[""capsule/train/good/002.png""]",94.09652971679297,94.13641802951736,0.03988831272438631
+MVTec AD,all,capsule,4,0,"[""capsule/train/good/000.png"", ""capsule/train/good/001.png"", ""capsule/train/good/002.png"", ""capsule/train/good/003.png""]",94.17630634224172,94.41563621858796,0.2393298763462468
+MVTec AD,all,capsule,4,1,"[""capsule/train/good/004.png"", ""capsule/train/good/005.png"", ""capsule/train/good/006.png"", ""capsule/train/good/007.png""]",96.48982848025528,96.72915835660152,0.2393298763462326
+MVTec AD,all,capsule,4,2,"[""capsule/train/good/008.png"", ""capsule/train/good/009.png"", ""capsule/train/good/010.png"", ""capsule/train/good/011.png""]",95.17351416035102,95.53250897487037,0.3589948145193489
+MVTec AD,all,carpet,1,0,"[""carpet/train/good/000.png""]",100.0,100.0,0.0
+MVTec AD,all,carpet,1,1,"[""carpet/train/good/001.png""]",100.0,100.0,0.0
+MVTec AD,all,carpet,1,2,"[""carpet/train/good/002.png""]",100.0,100.0,0.0
+MVTec AD,all,carpet,4,0,"[""carpet/train/good/000.png"", ""carpet/train/good/001.png"", ""carpet/train/good/002.png"", ""carpet/train/good/003.png""]",100.0,100.0,0.0
+MVTec AD,all,carpet,4,1,"[""carpet/train/good/004.png"", ""carpet/train/good/005.png"", ""carpet/train/good/006.png"", ""carpet/train/good/007.png""]",100.0,100.0,0.0
+MVTec AD,all,carpet,4,2,"[""carpet/train/good/008.png"", ""carpet/train/good/009.png"", ""carpet/train/good/010.png"", ""carpet/train/good/011.png""]",100.0,100.0,0.0
+MVTec AD,all,grid,1,0,"[""grid/train/good/000.png""]",99.08103592314119,98.74686716791979,-0.33416875522139833
+MVTec AD,all,grid,1,1,"[""grid/train/good/001.png""]",99.33166248955723,99.24812030075188,-0.08354218880535313
+MVTec AD,all,grid,1,2,"[""grid/train/good/002.png""]",99.16457811194654,99.16457811194654,0.0
+MVTec AD,all,grid,4,0,"[""grid/train/good/000.png"", ""grid/train/good/001.png"", ""grid/train/good/002.png"", ""grid/train/good/003.png""]",99.33166248955723,99.33166248955723,0.0
+MVTec AD,all,grid,4,1,"[""grid/train/good/004.png"", ""grid/train/good/005.png"", ""grid/train/good/006.png"", ""grid/train/good/007.png""]",99.24812030075188,99.24812030075188,0.0
+MVTec AD,all,grid,4,2,"[""grid/train/good/008.png"", ""grid/train/good/009.png"", ""grid/train/good/010.png"", ""grid/train/good/011.png""]",99.08103592314119,98.74686716791979,-0.33416875522139833
+MVTec AD,all,hazelnut,1,0,"[""hazelnut/train/good/000.png""]",98.14285714285715,98.10714285714286,-0.035714285714291805
+MVTec AD,all,hazelnut,1,1,"[""hazelnut/train/good/001.png""]",99.21428571428571,98.96428571428572,-0.2499999999999858
+MVTec AD,all,hazelnut,1,2,"[""hazelnut/train/good/002.png""]",96.64285714285714,95.39285714285714,-1.25
+MVTec AD,all,hazelnut,4,0,"[""hazelnut/train/good/000.png"", ""hazelnut/train/good/001.png"", ""hazelnut/train/good/002.png"", ""hazelnut/train/good/003.png""]",99.53571428571428,99.32142857142857,-0.2142857142857082
+MVTec AD,all,hazelnut,4,1,"[""hazelnut/train/good/004.png"", ""hazelnut/train/good/005.png"", ""hazelnut/train/good/006.png"", ""hazelnut/train/good/007.png""]",100.0,100.0,0.0
+MVTec AD,all,hazelnut,4,2,"[""hazelnut/train/good/008.png"", ""hazelnut/train/good/009.png"", ""hazelnut/train/good/010.png"", ""hazelnut/train/good/011.png""]",99.78571428571429,99.67857142857143,-0.1071428571428612
+MVTec AD,all,leather,1,0,"[""leather/train/good/000.png""]",100.0,100.0,0.0
+MVTec AD,all,leather,1,1,"[""leather/train/good/001.png""]",100.0,100.0,0.0
+MVTec AD,all,leather,1,2,"[""leather/train/good/002.png""]",100.0,100.0,0.0
+MVTec AD,all,leather,4,0,"[""leather/train/good/000.png"", ""leather/train/good/001.png"", ""leather/train/good/002.png"", ""leather/train/good/003.png""]",100.0,100.0,0.0
+MVTec AD,all,leather,4,1,"[""leather/train/good/004.png"", ""leather/train/good/005.png"", ""leather/train/good/006.png"", ""leather/train/good/007.png""]",100.0,100.0,0.0
+MVTec AD,all,leather,4,2,"[""leather/train/good/008.png"", ""leather/train/good/009.png"", ""leather/train/good/010.png"", ""leather/train/good/011.png""]",100.0,100.0,0.0
+MVTec AD,all,metal_nut,1,0,"[""metal_nut/train/good/000.png""]",99.65786901270772,99.65786901270772,0.0
+MVTec AD,all,metal_nut,1,1,"[""metal_nut/train/good/001.png""]",100.0,100.0,0.0
+MVTec AD,all,metal_nut,1,2,"[""metal_nut/train/good/002.png""]",100.0,100.0,0.0
+MVTec AD,all,metal_nut,4,0,"[""metal_nut/train/good/000.png"", ""metal_nut/train/good/001.png"", ""metal_nut/train/good/002.png"", ""metal_nut/train/good/003.png""]",100.0,100.0,0.0
+MVTec AD,all,metal_nut,4,1,"[""metal_nut/train/good/004.png"", ""metal_nut/train/good/005.png"", ""metal_nut/train/good/006.png"", ""metal_nut/train/good/007.png""]",100.0,100.0,0.0
+MVTec AD,all,metal_nut,4,2,"[""metal_nut/train/good/008.png"", ""metal_nut/train/good/009.png"", ""metal_nut/train/good/010.png"", ""metal_nut/train/good/011.png""]",100.0,100.0,0.0
+MVTec AD,all,pill,1,0,"[""pill/train/good/000.png""]",91.43480632842335,90.8074195308238,-0.6273867975995557
+MVTec AD,all,pill,1,1,"[""pill/train/good/001.png""]",94.38079650845607,94.05346426623022,-0.3273322422258502
+MVTec AD,all,pill,1,2,"[""pill/train/good/002.png""]",91.18930714675395,91.1074740861975,-0.08183306055644834
+MVTec AD,all,pill,4,0,"[""pill/train/good/000.png"", ""pill/train/good/001.png"", ""pill/train/good/002.png"", ""pill/train/good/003.png""]",95.77195853791598,95.2809601745772,-0.49099836333877533
+MVTec AD,all,pill,4,1,"[""pill/train/good/004.png"", ""pill/train/good/005.png"", ""pill/train/good/006.png"", ""pill/train/good/007.png""]",95.44462629569011,95.0900163666121,-0.35460992907800915
+MVTec AD,all,pill,4,2,"[""pill/train/good/008.png"", ""pill/train/good/009.png"", ""pill/train/good/010.png"", ""pill/train/good/011.png""]",96.20840152755046,95.85379159847245,-0.35460992907800915
+MVTec AD,all,screw,1,0,"[""screw/train/good/000.png""]",88.95265423242468,88.25579012092643,-0.6968641114982432
+MVTec AD,all,screw,1,1,"[""screw/train/good/001.png""]",88.17380610780899,87.6409100225456,-0.5328960852633884
+MVTec AD,all,screw,1,2,"[""screw/train/good/002.png""]",90.32588645214183,90.12092641934822,-0.20496003279360764
+MVTec AD,all,screw,4,0,"[""screw/train/good/000.png"", ""screw/train/good/001.png"", ""screw/train/good/002.png"", ""screw/train/good/003.png""]",91.04324656691945,90.30539044886248,-0.7378561180569676
+MVTec AD,all,screw,4,1,"[""screw/train/good/004.png"", ""screw/train/good/005.png"", ""screw/train/good/006.png"", ""screw/train/good/007.png""]",91.71961467513835,91.65812666530027,-0.061488009838072344
+MVTec AD,all,screw,4,2,"[""screw/train/good/008.png"", ""screw/train/good/009.png"", ""screw/train/good/010.png"", ""screw/train/good/011.png""]",86.6571018651363,86.53412584546012,-0.12297601967617311
+MVTec AD,all,tile,1,0,"[""tile/train/good/000.png""]",99.92784992784993,99.92784992784993,0.0
+MVTec AD,all,tile,1,1,"[""tile/train/good/001.png""]",100.0,99.96392496392497,-0.03607503607503304
+MVTec AD,all,tile,1,2,"[""tile/train/good/002.png""]",100.0,99.96392496392497,-0.03607503607503304
+MVTec AD,all,tile,4,0,"[""tile/train/good/000.png"", ""tile/train/good/001.png"", ""tile/train/good/002.png"", ""tile/train/good/003.png""]",100.0,100.0,0.0
+MVTec AD,all,tile,4,1,"[""tile/train/good/004.png"", ""tile/train/good/005.png"", ""tile/train/good/006.png"", ""tile/train/good/007.png""]",100.0,100.0,0.0
+MVTec AD,all,tile,4,2,"[""tile/train/good/008.png"", ""tile/train/good/009.png"", ""tile/train/good/010.png"", ""tile/train/good/011.png""]",100.0,100.0,0.0
+MVTec AD,all,toothbrush,1,0,"[""toothbrush/train/good/000.png""]",99.44444444444444,98.88888888888889,-0.5555555555555571
+MVTec AD,all,toothbrush,1,1,"[""toothbrush/train/good/001.png""]",99.44444444444444,99.16666666666667,-0.27777777777777146
+MVTec AD,all,toothbrush,1,2,"[""toothbrush/train/good/002.png""]",100.0,100.0,0.0
+MVTec AD,all,toothbrush,4,0,"[""toothbrush/train/good/000.png"", ""toothbrush/train/good/001.png"", ""toothbrush/train/good/002.png"", ""toothbrush/train/good/003.png""]",100.0,99.72222222222223,-0.27777777777777146
+MVTec AD,all,toothbrush,4,1,"[""toothbrush/train/good/004.png"", ""toothbrush/train/good/005.png"", ""toothbrush/train/good/006.png"", ""toothbrush/train/good/007.png""]",99.72222222222223,99.44444444444444,-0.2777777777777857
+MVTec AD,all,toothbrush,4,2,"[""toothbrush/train/good/008.png"", ""toothbrush/train/good/009.png"", ""toothbrush/train/good/010.png"", ""toothbrush/train/good/011.png""]",100.0,100.0,0.0
+MVTec AD,all,transistor,1,0,"[""transistor/train/good/000.png""]",93.79166666666666,94.04166666666667,0.2500000000000142
+MVTec AD,all,transistor,1,1,"[""transistor/train/good/001.png""]",89.50000000000001,89.70833333333333,0.20833333333331439
+MVTec AD,all,transistor,1,2,"[""transistor/train/good/002.png""]",89.375,90.125,0.75
+MVTec AD,all,transistor,4,0,"[""transistor/train/good/000.png"", ""transistor/train/good/001.png"", ""transistor/train/good/002.png"", ""transistor/train/good/003.png""]",95.20833333333333,95.58333333333333,0.375
+MVTec AD,all,transistor,4,1,"[""transistor/train/good/004.png"", ""transistor/train/good/005.png"", ""transistor/train/good/006.png"", ""transistor/train/good/007.png""]",87.12500000000001,86.91666666666666,-0.20833333333335702
+MVTec AD,all,transistor,4,2,"[""transistor/train/good/008.png"", ""transistor/train/good/009.png"", ""transistor/train/good/010.png"", ""transistor/train/good/011.png""]",93.375,93.58333333333333,0.2083333333333286
+MVTec AD,all,wood,1,0,"[""wood/train/good/000.png""]",99.12280701754386,99.29824561403508,0.17543859649121885
+MVTec AD,all,wood,1,1,"[""wood/train/good/001.png""]",99.12280701754386,99.03508771929823,-0.08771929824563074
+MVTec AD,all,wood,1,2,"[""wood/train/good/002.png""]",98.24561403508771,98.59649122807016,0.3508771929824519
+MVTec AD,all,wood,4,0,"[""wood/train/good/000.png"", ""wood/train/good/001.png"", ""wood/train/good/002.png"", ""wood/train/good/003.png""]",99.29824561403508,99.47368421052632,0.17543859649123306
+MVTec AD,all,wood,4,1,"[""wood/train/good/004.png"", ""wood/train/good/005.png"", ""wood/train/good/006.png"", ""wood/train/good/007.png""]",97.80701754385966,98.07017543859648,0.26315789473682116
+MVTec AD,all,wood,4,2,"[""wood/train/good/008.png"", ""wood/train/good/009.png"", ""wood/train/good/010.png"", ""wood/train/good/011.png""]",98.59649122807016,98.6842105263158,0.08771929824563074
+MVTec AD,all,zipper,1,0,"[""zipper/train/good/000.png""]",98.84453781512606,98.97584033613445,0.13130252100839357
+MVTec AD,all,zipper,1,1,"[""zipper/train/good/001.png""]",98.68697478991596,98.68697478991596,0.0
+MVTec AD,all,zipper,1,2,"[""zipper/train/good/002.png""]",99.02836134453781,98.97584033613445,-0.05252100840336027
+MVTec AD,all,zipper,4,0,"[""zipper/train/good/000.png"", ""zipper/train/good/001.png"", ""zipper/train/good/002.png"", ""zipper/train/good/003.png""]",99.02836134453781,98.9233193277311,-0.10504201680672054
+MVTec AD,all,zipper,4,1,"[""zipper/train/good/004.png"", ""zipper/train/good/005.png"", ""zipper/train/good/006.png"", ""zipper/train/good/007.png""]",99.60609243697479,99.55357142857143,-0.05252100840336027
+MVTec AD,all,zipper,4,2,"[""zipper/train/good/008.png"", ""zipper/train/good/009.png"", ""zipper/train/good/010.png"", ""zipper/train/good/011.png""]",99.18592436974791,99.13340336134453,-0.05252100840337448
+VisA,all,candle,1,0,"[""candle/train/good/0000.JPG""]",87.78,87.47,-0.3100000000000023
+VisA,all,candle,1,1,"[""candle/train/good/0001.JPG""]",86.16,86.3,0.14000000000000057
+VisA,all,candle,1,2,"[""candle/train/good/0002.JPG""]",88.07000000000001,88.02,-0.05000000000001137
+VisA,all,candle,4,0,"[""candle/train/good/0000.JPG"", ""candle/train/good/0001.JPG"", ""candle/train/good/0002.JPG"", ""candle/train/good/0003.JPG""]",86.19,86.33000000000001,0.14000000000001478
+VisA,all,candle,4,1,"[""candle/train/good/0004.JPG"", ""candle/train/good/0005.JPG"", ""candle/train/good/0006.JPG"", ""candle/train/good/0007.JPG""]",93.3,93.6,0.29999999999999716
+VisA,all,candle,4,2,"[""candle/train/good/0008.JPG"", ""candle/train/good/0009.JPG"", ""candle/train/good/0010.JPG"", ""candle/train/good/0012.JPG""]",91.66000000000001,91.71000000000001,0.04999999999999716
+VisA,all,capsules,1,0,"[""capsules/train/good/000.JPG""]",98.23333333333333,98.06666666666666,-0.1666666666666714
+VisA,all,capsules,1,1,"[""capsules/train/good/001.JPG""]",98.83333333333334,98.13333333333333,-0.700000000000017
+VisA,all,capsules,1,2,"[""capsules/train/good/002.JPG""]",99.13333333333334,98.33333333333333,-0.8000000000000114
+VisA,all,capsules,4,0,"[""capsules/train/good/000.JPG"", ""capsules/train/good/001.JPG"", ""capsules/train/good/002.JPG"", ""capsules/train/good/003.JPG""]",99.55000000000001,99.33333333333333,-0.21666666666668277
+VisA,all,capsules,4,1,"[""capsules/train/good/004.JPG"", ""capsules/train/good/005.JPG"", ""capsules/train/good/006.JPG"", ""capsules/train/good/007.JPG""]",98.49999999999999,98.30000000000001,-0.19999999999997442
+VisA,all,capsules,4,2,"[""capsules/train/good/008.JPG"", ""capsules/train/good/009.JPG"", ""capsules/train/good/010.JPG"", ""capsules/train/good/012.JPG""]",99.31666666666665,99.13333333333334,-0.1833333333333087
+VisA,all,cashew,1,0,"[""cashew/train/good/000.JPG""]",78.46,79.60000000000001,1.1400000000000148
+VisA,all,cashew,1,1,"[""cashew/train/good/001.JPG""]",86.42,86.78,0.35999999999999943
+VisA,all,cashew,1,2,"[""cashew/train/good/002.JPG""]",90.42,91.02000000000001,0.6000000000000085
+VisA,all,cashew,4,0,"[""cashew/train/good/000.JPG"", ""cashew/train/good/001.JPG"", ""cashew/train/good/002.JPG"", ""cashew/train/good/003.JPG""]",93.26,93.88,0.6199999999999903
+VisA,all,cashew,4,1,"[""cashew/train/good/004.JPG"", ""cashew/train/good/005.JPG"", ""cashew/train/good/007.JPG"", ""cashew/train/good/008.JPG""]",93.28,94.36,1.0799999999999983
+VisA,all,cashew,4,2,"[""cashew/train/good/009.JPG"", ""cashew/train/good/010.JPG"", ""cashew/train/good/011.JPG"", ""cashew/train/good/014.JPG""]",94.0,94.96,0.9599999999999937
+VisA,all,chewinggum,1,0,"[""chewinggum/train/good/000.JPG""]",98.26,98.28,0.01999999999999602
+VisA,all,chewinggum,1,1,"[""chewinggum/train/good/001.JPG""]",97.78,97.72,-0.060000000000002274
+VisA,all,chewinggum,1,2,"[""chewinggum/train/good/002.JPG""]",98.42,98.6,0.1799999999999926
+VisA,all,chewinggum,4,0,"[""chewinggum/train/good/000.JPG"", ""chewinggum/train/good/001.JPG"", ""chewinggum/train/good/002.JPG"", ""chewinggum/train/good/003.JPG""]",98.98,98.98,0.0
+VisA,all,chewinggum,4,1,"[""chewinggum/train/good/004.JPG"", ""chewinggum/train/good/005.JPG"", ""chewinggum/train/good/007.JPG"", ""chewinggum/train/good/008.JPG""]",98.53999999999999,98.58,0.04000000000000625
+VisA,all,chewinggum,4,2,"[""chewinggum/train/good/009.JPG"", ""chewinggum/train/good/010.JPG"", ""chewinggum/train/good/011.JPG"", ""chewinggum/train/good/014.JPG""]",99.02,98.98,-0.03999999999999204
+VisA,all,fryum,1,0,"[""fryum/train/good/000.JPG""]",95.52000000000001,95.14,-0.38000000000000966
+VisA,all,fryum,1,1,"[""fryum/train/good/001.JPG""]",95.76,95.58,-0.18000000000000682
+VisA,all,fryum,1,2,"[""fryum/train/good/002.JPG""]",95.66000000000001,94.18,-1.480000000000004
+VisA,all,fryum,4,0,"[""fryum/train/good/000.JPG"", ""fryum/train/good/001.JPG"", ""fryum/train/good/002.JPG"", ""fryum/train/good/003.JPG""]",97.38,96.33999999999999,-1.0400000000000063
+VisA,all,fryum,4,1,"[""fryum/train/good/004.JPG"", ""fryum/train/good/005.JPG"", ""fryum/train/good/007.JPG"", ""fryum/train/good/008.JPG""]",98.03999999999999,97.54,-0.4999999999999858
+VisA,all,fryum,4,2,"[""fryum/train/good/009.JPG"", ""fryum/train/good/010.JPG"", ""fryum/train/good/011.JPG"", ""fryum/train/good/014.JPG""]",96.92,96.58000000000001,-0.3399999999999892
+VisA,all,macaroni1,1,0,"[""macaroni1/train/good/0000.JPG""]",85.52,84.99000000000001,-0.5299999999999869
+VisA,all,macaroni1,1,1,"[""macaroni1/train/good/0001.JPG""]",78.47999999999999,79.6,1.1200000000000045
+VisA,all,macaroni1,1,2,"[""macaroni1/train/good/0002.JPG""]",81.99,81.63,-0.35999999999999943
+VisA,all,macaroni1,4,0,"[""macaroni1/train/good/0000.JPG"", ""macaroni1/train/good/0001.JPG"", ""macaroni1/train/good/0002.JPG"", ""macaroni1/train/good/0003.JPG""]",85.34,85.22999999999999,-0.11000000000001364
+VisA,all,macaroni1,4,1,"[""macaroni1/train/good/0004.JPG"", ""macaroni1/train/good/0005.JPG"", ""macaroni1/train/good/0006.JPG"", ""macaroni1/train/good/0007.JPG""]",86.31,86.31,0.0
+VisA,all,macaroni1,4,2,"[""macaroni1/train/good/0008.JPG"", ""macaroni1/train/good/0009.JPG"", ""macaroni1/train/good/0010.JPG"", ""macaroni1/train/good/0012.JPG""]",87.69999999999999,87.75,0.05000000000001137
+VisA,all,macaroni2,1,0,"[""macaroni2/train/good/0000.JPG""]",60.129999999999995,52.52,-7.609999999999992
+VisA,all,macaroni2,1,1,"[""macaroni2/train/good/0001.JPG""]",56.26,57.099999999999994,0.8399999999999963
+VisA,all,macaroni2,1,2,"[""macaroni2/train/good/0002.JPG""]",64.27000000000001,64.67,0.3999999999999915
+VisA,all,macaroni2,4,0,"[""macaroni2/train/good/0000.JPG"", ""macaroni2/train/good/0001.JPG"", ""macaroni2/train/good/0002.JPG"", ""macaroni2/train/good/0003.JPG""]",68.54,66.14,-2.4000000000000057
+VisA,all,macaroni2,4,1,"[""macaroni2/train/good/0004.JPG"", ""macaroni2/train/good/0005.JPG"", ""macaroni2/train/good/0006.JPG"", ""macaroni2/train/good/0007.JPG""]",71.2,72.56,1.3599999999999994
+VisA,all,macaroni2,4,2,"[""macaroni2/train/good/0008.JPG"", ""macaroni2/train/good/0009.JPG"", ""macaroni2/train/good/0010.JPG"", ""macaroni2/train/good/0012.JPG""]",67.0,68.07,1.0699999999999932
+VisA,all,pcb1,1,0,"[""pcb1/train/good/0000.JPG""]",88.16000000000001,88.0,-0.1600000000000108
+VisA,all,pcb1,1,1,"[""pcb1/train/good/0001.JPG""]",88.66000000000001,90.36000000000001,1.7000000000000028
+VisA,all,pcb1,1,2,"[""pcb1/train/good/0002.JPG""]",86.86,87.73,0.8700000000000045
+VisA,all,pcb1,4,0,"[""pcb1/train/good/0000.JPG"", ""pcb1/train/good/0001.JPG"", ""pcb1/train/good/0002.JPG"", ""pcb1/train/good/0003.JPG""]",92.59,93.26,0.6700000000000017
+VisA,all,pcb1,4,1,"[""pcb1/train/good/0004.JPG"", ""pcb1/train/good/0005.JPG"", ""pcb1/train/good/0006.JPG"", ""pcb1/train/good/0007.JPG""]",88.09,88.5,0.4099999999999966
+VisA,all,pcb1,4,2,"[""pcb1/train/good/0008.JPG"", ""pcb1/train/good/0009.JPG"", ""pcb1/train/good/0010.JPG"", ""pcb1/train/good/0012.JPG""]",93.4,93.97,0.5699999999999932
+VisA,all,pcb2,1,0,"[""pcb2/train/good/0000.JPG""]",85.21,85.85000000000001,0.6400000000000148
+VisA,all,pcb2,1,1,"[""pcb2/train/good/0001.JPG""]",82.61999999999999,83.48,0.8600000000000136
+VisA,all,pcb2,1,2,"[""pcb2/train/good/0002.JPG""]",80.80000000000001,81.65,0.8499999999999943
+VisA,all,pcb2,4,0,"[""pcb2/train/good/0000.JPG"", ""pcb2/train/good/0001.JPG"", ""pcb2/train/good/0002.JPG"", ""pcb2/train/good/0003.JPG""]",87.13000000000001,87.62,0.4899999999999949
+VisA,all,pcb2,4,1,"[""pcb2/train/good/0004.JPG"", ""pcb2/train/good/0005.JPG"", ""pcb2/train/good/0006.JPG"", ""pcb2/train/good/0007.JPG""]",87.94,88.44,0.5
+VisA,all,pcb2,4,2,"[""pcb2/train/good/0008.JPG"", ""pcb2/train/good/0009.JPG"", ""pcb2/train/good/0010.JPG"", ""pcb2/train/good/0012.JPG""]",88.12,88.14,0.01999999999999602
+VisA,all,pcb3,1,0,"[""pcb3/train/good/0000.JPG""]",84.74257425742574,84.92079207920791,0.1782178217821695
+VisA,all,pcb3,1,1,"[""pcb3/train/good/0001.JPG""]",80.0,80.52475247524752,0.5247524752475243
+VisA,all,pcb3,1,2,"[""pcb3/train/good/0002.JPG""]",79.48514851485147,79.41584158415841,-0.0693069306930596
+VisA,all,pcb3,4,0,"[""pcb3/train/good/0000.JPG"", ""pcb3/train/good/0001.JPG"", ""pcb3/train/good/0002.JPG"", ""pcb3/train/good/0003.JPG""]",90.93069306930693,91.06930693069307,0.13861386138614762
+VisA,all,pcb3,4,1,"[""pcb3/train/good/0004.JPG"", ""pcb3/train/good/0005.JPG"", ""pcb3/train/good/0006.JPG"", ""pcb3/train/good/0007.JPG""]",91.63366336633662,91.88118811881188,0.24752475247525751
+VisA,all,pcb3,4,2,"[""pcb3/train/good/0008.JPG"", ""pcb3/train/good/0009.JPG"", ""pcb3/train/good/0010.JPG"", ""pcb3/train/good/0012.JPG""]",91.52475247524752,91.73267326732673,0.20792079207920722
+VisA,all,pcb4,1,0,"[""pcb4/train/good/0000.JPG""]",86.0990099009901,86.18811881188118,0.08910891089108475
+VisA,all,pcb4,1,1,"[""pcb4/train/good/0001.JPG""]",59.90099009900991,59.821782178217816,-0.07920792079209349
+VisA,all,pcb4,1,2,"[""pcb4/train/good/0002.JPG""]",83.67326732673267,83.73267326732673,0.059405940594061235
+VisA,all,pcb4,4,0,"[""pcb4/train/good/0000.JPG"", ""pcb4/train/good/0001.JPG"", ""pcb4/train/good/0002.JPG"", ""pcb4/train/good/0003.JPG""]",90.8019801980198,89.52475247524752,-1.277227722772281
+VisA,all,pcb4,4,1,"[""pcb4/train/good/0004.JPG"", ""pcb4/train/good/0005.JPG"", ""pcb4/train/good/0006.JPG"", ""pcb4/train/good/0007.JPG""]",97.64356435643565,97.36633663366337,-0.277227722772281
+VisA,all,pcb4,4,2,"[""pcb4/train/good/0008.JPG"", ""pcb4/train/good/0009.JPG"", ""pcb4/train/good/0010.JPG"", ""pcb4/train/good/0012.JPG""]",95.74257425742574,95.63366336633663,-0.1089108910891099
+VisA,all,pipe_fryum,1,0,"[""pipe_fryum/train/good/000.JPG""]",88.58,86.94,-1.6400000000000006
+VisA,all,pipe_fryum,1,1,"[""pipe_fryum/train/good/001.JPG""]",91.9,91.0,-0.9000000000000057
+VisA,all,pipe_fryum,1,2,"[""pipe_fryum/train/good/002.JPG""]",95.06,94.36,-0.7000000000000028
+VisA,all,pipe_fryum,4,0,"[""pipe_fryum/train/good/000.JPG"", ""pipe_fryum/train/good/001.JPG"", ""pipe_fryum/train/good/002.JPG"", ""pipe_fryum/train/good/003.JPG""]",90.96,89.58,-1.3799999999999955
+VisA,all,pipe_fryum,4,1,"[""pipe_fryum/train/good/004.JPG"", ""pipe_fryum/train/good/005.JPG"", ""pipe_fryum/train/good/007.JPG"", ""pipe_fryum/train/good/008.JPG""]",96.48,95.39999999999999,-1.0800000000000125
+VisA,all,pipe_fryum,4,2,"[""pipe_fryum/train/good/009.JPG"", ""pipe_fryum/train/good/010.JPG"", ""pipe_fryum/train/good/011.JPG"", ""pipe_fryum/train/good/014.JPG""]",96.84,96.28,-0.5600000000000023
+LOCO original refs,all,breakfast_box,1,0,"[""breakfast_box/train/good/000.png""]",75.33151989119347,80.06913748158223,4.737617590388766
+LOCO original refs,all,breakfast_box,1,1,"[""breakfast_box/train/good/001.png""]",76.88427972345008,80.27881672900375,3.3945370055536728
+LOCO original refs,all,breakfast_box,1,2,"[""breakfast_box/train/good/002.png""]",75.24651479088746,78.28403037515585,3.037515584268391
+LOCO original refs,all,breakfast_box,4,0,"[""breakfast_box/train/good/000.png"", ""breakfast_box/train/good/001.png"", ""breakfast_box/train/good/002.png"", ""breakfast_box/train/good/003.png""]",81.04386263175792,85.04476935282783,4.00090672106991
+LOCO original refs,all,breakfast_box,4,1,"[""breakfast_box/train/good/004.png"", ""breakfast_box/train/good/005.png"", ""breakfast_box/train/good/006.png"", ""breakfast_box/train/good/007.png""]",82.17159696248443,86.57486115833618,4.403264195851747
+LOCO original refs,all,breakfast_box,4,2,"[""breakfast_box/train/good/008.png"", ""breakfast_box/train/good/009.png"", ""breakfast_box/train/good/010.png"", ""breakfast_box/train/good/011.png""]",82.21693301598096,86.39918395103706,4.1822509350561035
+LOCO original refs,all,juice_bottle,1,0,"[""juice_bottle/train/good/000.png""]",59.335557158312305,60.1785070320952,0.8429498737828922
+LOCO original refs,all,juice_bottle,1,1,"[""juice_bottle/train/good/001.png""]",59.56545257843491,60.859177785791566,1.2937252073566583
+LOCO original refs,all,juice_bottle,1,2,"[""juice_bottle/train/good/002.png""]",64.52398124774614,65.93490804183195,1.4109267940858103
+LOCO original refs,all,juice_bottle,4,0,"[""juice_bottle/train/good/000.png"", ""juice_bottle/train/good/001.png"", ""juice_bottle/train/good/002.png"", ""juice_bottle/train/good/003.png""]",73.48990263252794,74.39596105301118,0.9060584204832338
+LOCO original refs,all,juice_bottle,4,1,"[""juice_bottle/train/good/004.png"", ""juice_bottle/train/good/005.png"", ""juice_bottle/train/good/006.png"", ""juice_bottle/train/good/007.png""]",84.17778579156148,84.38063469166967,0.20284890010819367
+LOCO original refs,all,juice_bottle,4,2,"[""juice_bottle/train/good/008.png"", ""juice_bottle/train/good/009.png"", ""juice_bottle/train/good/010.png"", ""juice_bottle/train/good/011.png""]",84.10115398485395,84.41218896501982,0.3110349801658714
+LOCO original refs,all,pushpins,1,0,"[""pushpins/train/good/000.png""]",50.67829457364342,50.62773845635322,-0.050556117290199154
+LOCO original refs,all,pushpins,1,1,"[""pushpins/train/good/001.png""]",49.7809234917425,49.65032018874284,-0.13060330299965983
+LOCO original refs,all,pushpins,1,2,"[""pushpins/train/good/002.png""]",55.73811931243681,55.82237950792046,0.08426019548365105
+LOCO original refs,all,pushpins,4,0,"[""pushpins/train/good/000.png"", ""pushpins/train/good/001.png"", ""pushpins/train/good/002.png"", ""pushpins/train/good/003.png""]",55.590663970340415,55.60751600943714,0.016852039096725946
+LOCO original refs,all,pushpins,4,1,"[""pushpins/train/good/004.png"", ""pushpins/train/good/005.png"", ""pushpins/train/good/006.png"", ""pushpins/train/good/007.png""]",52.949106841927865,52.79743849005729,-0.15166835187057615
+LOCO original refs,all,pushpins,4,2,"[""pushpins/train/good/008.png"", ""pushpins/train/good/009.png"", ""pushpins/train/good/010.png"", ""pushpins/train/good/011.png""]",51.67256488035052,51.63886080215707,-0.03370407819345189
+LOCO original refs,all,screw_bag,1,0,"[""screw_bag/train/good/000.png""]",56.45632158095666,56.37023729321058,-0.08608428774608257
+LOCO original refs,all,screw_bag,1,1,"[""screw_bag/train/good/001.png""]",51.56074556478778,51.83396960850363,0.2732240437158495
+LOCO original refs,all,screw_bag,1,2,"[""screw_bag/train/good/002.png""]",53.85507897297701,54.364099109214756,0.5090201362377442
+LOCO original refs,all,screw_bag,4,0,"[""screw_bag/train/good/000.png"", ""screw_bag/train/good/001.png"", ""screw_bag/train/good/002.png"", ""screw_bag/train/good/003.png""]",59.19604760835392,59.465528856950364,0.26948124859644196
+LOCO original refs,all,screw_bag,4,1,"[""screw_bag/train/good/004.png"", ""screw_bag/train/good/005.png"", ""screw_bag/train/good/006.png"", ""screw_bag/train/good/007.png""]",59.03510741821991,59.701324949472266,0.6662175312523573
+LOCO original refs,all,screw_bag,4,2,"[""screw_bag/train/good/008.png"", ""screw_bag/train/good/009.png"", ""screw_bag/train/good/010.png"", ""screw_bag/train/good/011.png""]",57.5791601167752,57.71764353619282,0.13848341941761788
+LOCO original refs,all,splicing_connectors,1,0,"[""splicing_connectors/train/good/000.png""]",60.465015021552674,62.01071102015936,1.5456959986066892
+LOCO original refs,all,splicing_connectors,1,1,"[""splicing_connectors/train/good/001.png""]",63.84812992554534,64.89310750206818,1.0449775765228395
+LOCO original refs,all,splicing_connectors,1,2,"[""splicing_connectors/train/good/002.png""]",68.47650977489441,70.11364131144684,1.637131536552431
+LOCO original refs,all,splicing_connectors,4,0,"[""splicing_connectors/train/good/000.png"", ""splicing_connectors/train/good/001.png"", ""splicing_connectors/train/good/002.png"", ""splicing_connectors/train/good/003.png""]",81.30796359994774,84.01184307920059,2.7038794792528478
+LOCO original refs,all,splicing_connectors,4,1,"[""splicing_connectors/train/good/004.png"", ""splicing_connectors/train/good/005.png"", ""splicing_connectors/train/good/006.png"", ""splicing_connectors/train/good/007.png""]",73.91039317281319,75.93939130056167,2.02899812774848
+LOCO original refs,all,splicing_connectors,4,2,"[""splicing_connectors/train/good/008.png"", ""splicing_connectors/train/good/009.png"", ""splicing_connectors/train/good/010.png"", ""splicing_connectors/train/good/011.png""]",65.6028214394566,67.44459441807811,1.8417729786215062
+LOCO original refs,logical_anomalies,breakfast_box,1,0,"[""breakfast_box/train/good/000.png""]",66.18237656508386,75.49019607843137,9.30781951334751
+LOCO original refs,logical_anomalies,breakfast_box,1,1,"[""breakfast_box/train/good/001.png""]",66.25324828726671,73.45854004252304,7.205291755256326
+LOCO original refs,logical_anomalies,breakfast_box,1,2,"[""breakfast_box/train/good/002.png""]",65.68627450980392,71.94660996928891,6.260335459484992
+LOCO original refs,logical_anomalies,breakfast_box,4,0,"[""breakfast_box/train/good/000.png"", ""breakfast_box/train/good/001.png"", ""breakfast_box/train/good/002.png"", ""breakfast_box/train/good/003.png""]",71.58043940467753,79.71887550200803,8.138436097330498
+LOCO original refs,logical_anomalies,breakfast_box,4,1,"[""breakfast_box/train/good/004.png"", ""breakfast_box/train/good/005.png"", ""breakfast_box/train/good/006.png"", ""breakfast_box/train/good/007.png""]",74.74604299551146,83.6640680368533,8.918025041341835
+LOCO original refs,logical_anomalies,breakfast_box,4,2,"[""breakfast_box/train/good/008.png"", ""breakfast_box/train/good/009.png"", ""breakfast_box/train/good/010.png"", ""breakfast_box/train/good/011.png""]",74.69879518072288,83.12071816678478,8.421922986061901
+LOCO original refs,logical_anomalies,juice_bottle,1,0,"[""juice_bottle/train/good/000.png""]",53.16152232544202,54.59994006592748,1.4384177404854555
+LOCO original refs,logical_anomalies,juice_bottle,1,1,"[""juice_bottle/train/good/001.png""]",54.93706922385376,57.13964638897213,2.2025771651183703
+LOCO original refs,logical_anomalies,juice_bottle,1,2,"[""juice_bottle/train/good/002.png""]",60.44351213664969,62.77344920587353,2.3299370692238455
+LOCO original refs,logical_anomalies,juice_bottle,4,0,"[""juice_bottle/train/good/000.png"", ""juice_bottle/train/good/001.png"", ""juice_bottle/train/good/002.png"", ""juice_bottle/train/good/003.png""]",69.20137848366797,70.64728798321845,1.4459094995504813
+LOCO original refs,logical_anomalies,juice_bottle,4,1,"[""juice_bottle/train/good/004.png"", ""juice_bottle/train/good/005.png"", ""juice_bottle/train/good/006.png"", ""juice_bottle/train/good/007.png""]",81.0833083608031,81.35301168714415,0.26970332634104466
+LOCO original refs,logical_anomalies,juice_bottle,4,2,"[""juice_bottle/train/good/008.png"", ""juice_bottle/train/good/009.png"", ""juice_bottle/train/good/010.png"", ""juice_bottle/train/good/011.png""]",80.52142643092598,80.92598142043752,0.40455498951153857
+LOCO original refs,logical_anomalies,pushpins,1,0,"[""pushpins/train/good/000.png""]",45.715878324573985,45.699952221691355,-0.015926102882630744
+LOCO original refs,logical_anomalies,pushpins,1,1,"[""pushpins/train/good/001.png""]",43.374741200828154,43.25529542920847,-0.11944577161968084
+LOCO original refs,logical_anomalies,pushpins,1,2,"[""pushpins/train/good/002.png""]",49.49832775919732,49.38684503901895,-0.11148272017837257
+LOCO original refs,logical_anomalies,pushpins,4,0,"[""pushpins/train/good/000.png"", ""pushpins/train/good/001.png"", ""pushpins/train/good/002.png"", ""pushpins/train/good/003.png""]",49.57795827361045,49.57795827361045,0.0
+LOCO original refs,logical_anomalies,pushpins,4,1,"[""pushpins/train/good/004.png"", ""pushpins/train/good/005.png"", ""pushpins/train/good/006.png"", ""pushpins/train/good/007.png""]",45.238095238095234,45.10272336359293,-0.13537187450230448
+LOCO original refs,logical_anomalies,pushpins,4,2,"[""pushpins/train/good/008.png"", ""pushpins/train/good/009.png"", ""pushpins/train/good/010.png"", ""pushpins/train/good/011.png""]",46.35292243987897,46.058289536550404,-0.2946329033285622
+LOCO original refs,logical_anomalies,screw_bag,1,0,"[""screw_bag/train/good/000.png""]",45.11786526265407,44.81273184156994,-0.305133421084129
+LOCO original refs,logical_anomalies,screw_bag,1,1,"[""screw_bag/train/good/001.png""]",41.32463802800048,41.43233217661842,0.10769414861793791
+LOCO original refs,logical_anomalies,screw_bag,1,2,"[""screw_bag/train/good/002.png""]",42.73064496829006,43.25116668661002,0.5205217183199622
+LOCO original refs,logical_anomalies,screw_bag,4,0,"[""screw_bag/train/good/000.png"", ""screw_bag/train/good/001.png"", ""screw_bag/train/good/002.png"", ""screw_bag/train/good/003.png""]",47.911930118463566,48.03159028359458,0.11966016513101607
+LOCO original refs,logical_anomalies,screw_bag,4,1,"[""screw_bag/train/good/004.png"", ""screw_bag/train/good/005.png"", ""screw_bag/train/good/006.png"", ""screw_bag/train/good/007.png""]",48.59399305971043,49.3837501495752,0.7897570898647714
+LOCO original refs,logical_anomalies,screw_bag,4,2,"[""screw_bag/train/good/008.png"", ""screw_bag/train/good/009.png"", ""screw_bag/train/good/010.png"", ""screw_bag/train/good/011.png""]",45.752064137848514,46.02728251764988,0.2752183798013661
+LOCO original refs,logical_anomalies,splicing_connectors,1,0,"[""splicing_connectors/train/good/000.png""]",55.56333644568938,57.975412387177094,2.412075941487714
+LOCO original refs,logical_anomalies,splicing_connectors,1,1,"[""splicing_connectors/train/good/001.png""]",58.994708994708986,61.39122315592904,2.396514161220054
+LOCO original refs,logical_anomalies,splicing_connectors,1,2,"[""splicing_connectors/train/good/002.png""]",65.71739807033924,68.67413632119515,2.9567382508559064
+LOCO original refs,logical_anomalies,splicing_connectors,4,0,"[""splicing_connectors/train/good/000.png"", ""splicing_connectors/train/good/001.png"", ""splicing_connectors/train/good/002.png"", ""splicing_connectors/train/good/003.png""]",77.47432306255835,81.06909430438843,3.594771241830074
+LOCO original refs,logical_anomalies,splicing_connectors,4,1,"[""splicing_connectors/train/good/004.png"", ""splicing_connectors/train/good/005.png"", ""splicing_connectors/train/good/006.png"", ""splicing_connectors/train/good/007.png""]",69.32773109243698,72.47899159663865,3.151260504201673
+LOCO original refs,logical_anomalies,splicing_connectors,4,2,"[""splicing_connectors/train/good/008.png"", ""splicing_connectors/train/good/009.png"", ""splicing_connectors/train/good/010.png"", ""splicing_connectors/train/good/011.png""]",60.48085901027077,63.7410519763461,3.26019296607533
+LOCO original refs,structural_anomalies,breakfast_box,1,0,"[""breakfast_box/train/good/000.png""]",83.7690631808279,84.29193899782133,0.5228758169934338
+LOCO original refs,structural_anomalies,breakfast_box,1,1,"[""breakfast_box/train/good/001.png""]",86.68845315904139,86.5686274509804,-0.11982570806098636
+LOCO original refs,structural_anomalies,breakfast_box,1,2,"[""breakfast_box/train/good/002.png""]",84.06318082788673,84.1285403050109,0.06535947712417567
+LOCO original refs,structural_anomalies,breakfast_box,4,0,"[""breakfast_box/train/good/000.png"", ""breakfast_box/train/good/001.png"", ""breakfast_box/train/good/002.png"", ""breakfast_box/train/good/003.png""]",89.77124183006536,89.95642701525055,0.18518518518519045
+LOCO original refs,structural_anomalies,breakfast_box,4,1,"[""breakfast_box/train/good/004.png"", ""breakfast_box/train/good/005.png"", ""breakfast_box/train/good/006.png"", ""breakfast_box/train/good/007.png""]",89.01960784313727,89.25925925925927,0.23965141612200114
+LOCO original refs,structural_anomalies,breakfast_box,4,2,"[""breakfast_box/train/good/008.png"", ""breakfast_box/train/good/009.png"", ""breakfast_box/train/good/010.png"", ""breakfast_box/train/good/011.png""]",89.15032679738563,89.42265795206973,0.2723311546840961
+LOCO original refs,structural_anomalies,juice_bottle,1,0,"[""juice_bottle/train/good/000.png""]",68.66229062924401,68.60570393843368,-0.05658669081033452
+LOCO original refs,structural_anomalies,juice_bottle,1,1,"[""juice_bottle/train/good/001.png""]",66.55726573110003,66.4780443639656,-0.07922136713443706
+LOCO original refs,structural_anomalies,juice_bottle,1,2,"[""juice_bottle/train/good/002.png""]",70.68809416025351,70.71072883657764,0.022634676324130965
+LOCO original refs,structural_anomalies,juice_bottle,4,0,"[""juice_bottle/train/good/000.png"", ""juice_bottle/train/good/001.png"", ""juice_bottle/train/good/002.png"", ""juice_bottle/train/good/003.png""]",79.96831145314621,80.05885015844272,0.09053870529650965
+LOCO original refs,structural_anomalies,juice_bottle,4,1,"[""juice_bottle/train/good/004.png"", ""juice_bottle/train/good/005.png"", ""juice_bottle/train/good/006.png"", ""juice_bottle/train/good/007.png""]",88.85242191036669,88.95427795382524,0.10185604345855381
+LOCO original refs,structural_anomalies,juice_bottle,4,2,"[""juice_bottle/train/good/008.png"", ""juice_bottle/train/good/009.png"", ""juice_bottle/train/good/010.png"", ""juice_bottle/train/good/011.png""]",89.5088275237664,89.67858759619737,0.16976007243097513
+LOCO original refs,structural_anomalies,pushpins,1,0,"[""pushpins/train/good/000.png""]",56.253354804079436,56.163893361960994,-0.08946144211844143
+LOCO original refs,structural_anomalies,pushpins,1,1,"[""pushpins/train/good/001.png""]",56.97799248523886,56.83485417784935,-0.14313830738950628
+LOCO original refs,structural_anomalies,pushpins,1,2,"[""pushpins/train/good/002.png""]",62.74825550187868,63.05242440508141,0.30416890320272927
+LOCO original refs,structural_anomalies,pushpins,4,0,"[""pushpins/train/good/000.png"", ""pushpins/train/good/001.png"", ""pushpins/train/good/002.png"", ""pushpins/train/good/003.png""]",62.34567901234569,62.38146358919307,0.03578457684737657
+LOCO original refs,structural_anomalies,pushpins,4,1,"[""pushpins/train/good/004.png"", ""pushpins/train/good/005.png"", ""pushpins/train/good/006.png"", ""pushpins/train/good/007.png""]",61.612095186974415,61.44211844694936,-0.16997674002505647
+LOCO original refs,structural_anomalies,pushpins,4,2,"[""pushpins/train/good/008.png"", ""pushpins/train/good/009.png"", ""pushpins/train/good/010.png"", ""pushpins/train/good/011.png""]",57.64895330112719,57.908391483270705,0.2594381821435121
+LOCO original refs,structural_anomalies,screw_bag,1,0,"[""screw_bag/train/good/000.png""]",75.39984006397441,75.67972810875649,0.2798880447820835
+LOCO original refs,structural_anomalies,screw_bag,1,1,"[""screw_bag/train/good/001.png""]",68.6625349860056,69.21231507397042,0.5497800879648196
+LOCO original refs,structural_anomalies,screw_bag,1,2,"[""screw_bag/train/good/002.png""]",72.44102359056377,72.93082766893242,0.4898040783686497
+LOCO original refs,structural_anomalies,screw_bag,4,0,"[""screw_bag/train/good/000.png"", ""screw_bag/train/good/001.png"", ""screw_bag/train/good/002.png"", ""screw_bag/train/good/003.png""]",78.04878048780488,78.56857257097163,0.5197920831667489
+LOCO original refs,structural_anomalies,screw_bag,4,1,"[""screw_bag/train/good/004.png"", ""screw_bag/train/good/005.png"", ""screw_bag/train/good/006.png"", ""screw_bag/train/good/007.png""]",76.47940823670532,76.9392243102759,0.45981607357057896
+LOCO original refs,structural_anomalies,screw_bag,4,2,"[""screw_bag/train/good/008.png"", ""screw_bag/train/good/009.png"", ""screw_bag/train/good/010.png"", ""screw_bag/train/good/011.png""]",77.3390643742503,77.24910035985606,-0.08996401439424062
+LOCO original refs,structural_anomalies,splicing_connectors,1,0,"[""splicing_connectors/train/good/000.png""]",66.69303015323777,67.13791398912507,0.4448838358872962
+LOCO original refs,structural_anomalies,splicing_connectors,1,1,"[""splicing_connectors/train/good/001.png""]",70.01482946119624,69.34256055363322,-0.6722689075630228
+LOCO original refs,structural_anomalies,splicing_connectors,1,2,"[""splicing_connectors/train/good/002.png""]",71.98220464656451,71.94265941670785,-0.03954522985665676
+LOCO original refs,structural_anomalies,splicing_connectors,4,0,"[""splicing_connectors/train/good/000.png"", ""splicing_connectors/train/good/001.png"", ""splicing_connectors/train/good/002.png"", ""splicing_connectors/train/good/003.png""]",86.17894216510135,87.75086505190312,1.5719228868017723
+LOCO original refs,structural_anomalies,splicing_connectors,4,1,"[""splicing_connectors/train/good/004.png"", ""splicing_connectors/train/good/005.png"", ""splicing_connectors/train/good/006.png"", ""splicing_connectors/train/good/007.png""]",79.73306969846762,80.33613445378151,0.6030647553138948
+LOCO original refs,structural_anomalies,splicing_connectors,4,2,"[""splicing_connectors/train/good/008.png"", ""splicing_connectors/train/good/009.png"", ""splicing_connectors/train/good/010.png"", ""splicing_connectors/train/good/011.png""]",72.11072664359861,72.15027187345527,0.03954522985665676
+LOCO new refs,all,breakfast_box,1,12,"[""breakfast_box/train/good/012.png""]",78.09701915448261,83.82069590842117,5.7236767539385625
+LOCO new refs,all,breakfast_box,1,13,"[""breakfast_box/train/good/013.png""]",77.32630624504137,80.88518644452,3.5588801994786365
+LOCO new refs,all,breakfast_box,1,14,"[""breakfast_box/train/good/014.png""]",79.63277796667799,84.5404057576788,4.907627791000806
+LOCO new refs,all,breakfast_box,4,3,"[""breakfast_box/train/good/012.png"", ""breakfast_box/train/good/013.png"", ""breakfast_box/train/good/014.png"", ""breakfast_box/train/good/015.png""]",82.26793607616456,87.09622577354641,4.828289697381848
+LOCO new refs,all,breakfast_box,4,4,"[""breakfast_box/train/good/016.png"", ""breakfast_box/train/good/017.png"", ""breakfast_box/train/good/018.png"", ""breakfast_box/train/good/019.png""]",82.01292077524653,85.53213192791569,3.5192111526691576
+LOCO new refs,all,breakfast_box,4,5,"[""breakfast_box/train/good/020.png"", ""breakfast_box/train/good/021.png"", ""breakfast_box/train/good/022.png"", ""breakfast_box/train/good/023.png""]",82.55695341720504,86.35951490422758,3.802561487022544
+LOCO new refs,all,juice_bottle,1,12,"[""juice_bottle/train/good/012.png""]",59.34457266498379,60.29120086548865,0.9466282005048612
+LOCO new refs,all,juice_bottle,1,13,"[""juice_bottle/train/good/013.png""]",62.41435268662099,63.4015506671475,0.9871979805265099
+LOCO new refs,all,juice_bottle,1,14,"[""juice_bottle/train/good/014.png""]",61.91849981968988,63.42859718716192,1.5100973674720422
+LOCO new refs,all,juice_bottle,4,3,"[""juice_bottle/train/good/012.png"", ""juice_bottle/train/good/013.png"", ""juice_bottle/train/good/014.png"", ""juice_bottle/train/good/015.png""]",67.42246664262531,67.77407140281284,0.3516047601875272
+LOCO new refs,all,juice_bottle,4,4,"[""juice_bottle/train/good/016.png"", ""juice_bottle/train/good/017.png"", ""juice_bottle/train/good/018.png"", ""juice_bottle/train/good/019.png""]",85.29120086548863,85.49404976559683,0.20284890010819367
+LOCO new refs,all,juice_bottle,4,5,"[""juice_bottle/train/good/020.png"", ""juice_bottle/train/good/021.png"", ""juice_bottle/train/good/022.png"", ""juice_bottle/train/good/023.png""]",75.31554273350162,75.95564370717635,0.6401009736747341
+LOCO new refs,all,pushpins,1,12,"[""pushpins/train/good/012.png""]",55.91085271317829,55.860296595888094,-0.050556117290199154
+LOCO new refs,all,pushpins,1,13,"[""pushpins/train/good/013.png""]",53.23137849679811,53.43360296595888,0.2022244691607753
+LOCO new refs,all,pushpins,1,14,"[""pushpins/train/good/014.png""]",49.595551061678464,49.49443882709808,-0.1011122345803841
+LOCO new refs,all,pushpins,4,3,"[""pushpins/train/good/012.png"", ""pushpins/train/good/013.png"", ""pushpins/train/good/014.png"", ""pushpins/train/good/015.png""]",55.38001348163127,55.384226491405464,0.004213009774190368
+LOCO new refs,all,pushpins,4,4,"[""pushpins/train/good/016.png"", ""pushpins/train/good/017.png"", ""pushpins/train/good/018.png"", ""pushpins/train/good/019.png""]",53.783282777216044,53.581058308055276,-0.2022244691607682
+LOCO new refs,all,pushpins,4,5,"[""pushpins/train/good/020.png"", ""pushpins/train/good/021.png"", ""pushpins/train/good/022.png"", ""pushpins/train/good/023.png""]",52.17391304347827,51.954836535220764,-0.21907650825750835
+LOCO new refs,all,screw_bag,1,12,"[""screw_bag/train/good/012.png""]",55.90238790328617,56.45632158095666,0.5539336776704928
+LOCO new refs,all,screw_bag,1,13,"[""screw_bag/train/good/013.png""]",56.62474736132943,56.72954562467252,0.10479826334308484
+LOCO new refs,all,screw_bag,1,14,"[""screw_bag/train/good/014.png""]",58.94528033535445,60.01571973950146,1.0704394041470167
+LOCO new refs,all,screw_bag,4,3,"[""screw_bag/train/good/012.png"", ""screw_bag/train/good/013.png"", ""screw_bag/train/good/014.png"", ""screw_bag/train/good/015.png""]",62.70304663522719,63.21955236170373,0.516505726476538
+LOCO new refs,all,screw_bag,4,4,"[""screw_bag/train/good/016.png"", ""screw_bag/train/good/017.png"", ""screw_bag/train/good/018.png"", ""screw_bag/train/good/019.png""]",58.56351523317613,58.66082790628041,0.09731267310427683
+LOCO new refs,all,screw_bag,4,5,"[""screw_bag/train/good/020.png"", ""screw_bag/train/good/021.png"", ""screw_bag/train/good/022.png"", ""screw_bag/train/good/023.png""]",59.27464630586121,59.854779549367464,0.5801332435062534
+LOCO new refs,all,splicing_connectors,1,12,"[""splicing_connectors/train/good/012.png""]",62.51578351547873,64.2356424435059,1.7198589280271648
+LOCO new refs,all,splicing_connectors,1,13,"[""splicing_connectors/train/good/013.png""]",68.16301650193756,68.9859363434493,0.8229198415117338
+LOCO new refs,all,splicing_connectors,1,14,"[""splicing_connectors/train/good/014.png""]",60.69142682979927,63.32564113728393,2.634214307484662
+LOCO new refs,all,splicing_connectors,4,3,"[""splicing_connectors/train/good/012.png"", ""splicing_connectors/train/good/013.png"", ""splicing_connectors/train/good/014.png"", ""splicing_connectors/train/good/015.png""]",79.5968128183916,80.5547089302042,0.9578961118126017
+LOCO new refs,all,splicing_connectors,4,4,"[""splicing_connectors/train/good/016.png"", ""splicing_connectors/train/good/017.png"", ""splicing_connectors/train/good/018.png"", ""splicing_connectors/train/good/019.png""]",78.84355814864806,80.6287281752079,1.7851700265598396
+LOCO new refs,all,splicing_connectors,4,5,"[""splicing_connectors/train/good/020.png"", ""splicing_connectors/train/good/021.png"", ""splicing_connectors/train/good/022.png"", ""splicing_connectors/train/good/023.png""]",76.64910523795008,78.83920407541255,2.1900988374624717
+LOCO new refs,logical_anomalies,breakfast_box,1,12,"[""breakfast_box/train/good/012.png""]",68.10772501771794,79.77793527049374,11.670210252775803
+LOCO new refs,logical_anomalies,breakfast_box,1,13,"[""breakfast_box/train/good/013.png""]",70.37562012756909,78.07701393810537,7.701393810536274
+LOCO new refs,logical_anomalies,breakfast_box,1,14,"[""breakfast_box/train/good/014.png""]",69.4897236002835,79.61256791873376,10.122844318450262
+LOCO new refs,logical_anomalies,breakfast_box,4,3,"[""breakfast_box/train/good/012.png"", ""breakfast_box/train/good/013.png"", ""breakfast_box/train/good/014.png"", ""breakfast_box/train/good/015.png""]",72.66713914481456,82.73092369477912,10.063784549964566
+LOCO new refs,logical_anomalies,breakfast_box,4,4,"[""breakfast_box/train/good/016.png"", ""breakfast_box/train/good/017.png"", ""breakfast_box/train/good/018.png"", ""breakfast_box/train/good/019.png""]",72.78525868178598,80.06142215922513,7.276163477439155
+LOCO new refs,logical_anomalies,breakfast_box,4,5,"[""breakfast_box/train/good/020.png"", ""breakfast_box/train/good/021.png"", ""breakfast_box/train/good/022.png"", ""breakfast_box/train/good/023.png""]",74.36806047720293,82.19938577840776,7.831325301204828
+LOCO new refs,logical_anomalies,juice_bottle,1,12,"[""juice_bottle/train/good/012.png""]",54.397662571171715,56.01588252921786,1.6182199580461472
+LOCO new refs,logical_anomalies,juice_bottle,1,13,"[""juice_bottle/train/good/013.png""]",57.77644590949955,59.52951753071621,1.7530716212166624
+LOCO new refs,logical_anomalies,juice_bottle,1,14,"[""juice_bottle/train/good/014.png""]",56.457896314054544,58.93017680551394,2.4722804914593937
+LOCO new refs,logical_anomalies,juice_bottle,4,3,"[""juice_bottle/train/good/012.png"", ""juice_bottle/train/good/013.png"", ""juice_bottle/train/good/014.png"", ""juice_bottle/train/good/015.png""]",63.964638897213064,64.58645489961043,0.6218160023973667
+LOCO new refs,logical_anomalies,juice_bottle,4,4,"[""juice_bottle/train/good/016.png"", ""juice_bottle/train/good/017.png"", ""juice_bottle/train/good/018.png"", ""juice_bottle/train/good/019.png""]",82.49175906502848,82.79142942762961,0.2996703626011339
+LOCO new refs,logical_anomalies,juice_bottle,4,5,"[""juice_bottle/train/good/020.png"", ""juice_bottle/train/good/021.png"", ""juice_bottle/train/good/022.png"", ""juice_bottle/train/good/023.png""]",71.9508540605334,72.96224153431227,1.0113874737788677
+LOCO new refs,logical_anomalies,pushpins,1,12,"[""pushpins/train/good/012.png""]",51.92705844879757,51.83150183150184,-0.09555661729572762
+LOCO new refs,logical_anomalies,pushpins,1,13,"[""pushpins/train/good/013.png""]",45.99458512501991,46.193661411052716,0.19907628603280614
+LOCO new refs,logical_anomalies,pushpins,1,14,"[""pushpins/train/good/014.png""]",45.99458512501992,46.106067845198275,0.11148272017835836
+LOCO new refs,logical_anomalies,pushpins,4,3,"[""pushpins/train/good/012.png"", ""pushpins/train/good/013.png"", ""pushpins/train/good/014.png"", ""pushpins/train/good/015.png""]",50.16722408026756,50.07963051441311,-0.08759356585444777
+LOCO new refs,logical_anomalies,pushpins,4,4,"[""pushpins/train/good/016.png"", ""pushpins/train/good/017.png"", ""pushpins/train/good/018.png"", ""pushpins/train/good/019.png""]",46.91829909221214,46.65551839464883,-0.2627806975633078
+LOCO new refs,logical_anomalies,pushpins,4,5,"[""pushpins/train/good/020.png"", ""pushpins/train/good/021.png"", ""pushpins/train/good/022.png"", ""pushpins/train/good/023.png""]",41.55916547220895,41.32823698041089,-0.23092849179806052
+LOCO new refs,logical_anomalies,screw_bag,1,12,"[""screw_bag/train/good/012.png""]",44.334091181045835,44.866578915878904,0.5324877348330688
+LOCO new refs,logical_anomalies,screw_bag,1,13,"[""screw_bag/train/good/013.png""]",48.77946631566351,49.01280363766903,0.23333732200551793
+LOCO new refs,logical_anomalies,screw_bag,1,14,"[""screw_bag/train/good/014.png""]",49.92820390092139,51.30429579992821,1.3760918990068234
+LOCO new refs,logical_anomalies,screw_bag,4,3,"[""screw_bag/train/good/012.png"", ""screw_bag/train/good/013.png"", ""screw_bag/train/good/014.png"", ""screw_bag/train/good/015.png""]",51.14873758525786,51.90857963383989,0.7598420485820299
+LOCO new refs,logical_anomalies,screw_bag,4,4,"[""screw_bag/train/good/016.png"", ""screw_bag/train/good/017.png"", ""screw_bag/train/good/018.png"", ""screw_bag/train/good/019.png""]",46.72131147540984,46.846954648797414,0.12564317338757292
+LOCO new refs,logical_anomalies,screw_bag,4,5,"[""screw_bag/train/good/020.png"", ""screw_bag/train/good/021.png"", ""screw_bag/train/good/022.png"", ""screw_bag/train/good/023.png""]",46.73327749192294,47.22388416896016,0.4906066770372206
+LOCO new refs,logical_anomalies,splicing_connectors,1,12,"[""splicing_connectors/train/good/012.png""]",57.461873638344215,60.96327419856832,3.5014005602241056
+LOCO new refs,logical_anomalies,splicing_connectors,1,13,"[""splicing_connectors/train/good/013.png""]",66.2542794895736,67.95051353874884,1.6962340491752315
+LOCO new refs,logical_anomalies,splicing_connectors,1,14,"[""splicing_connectors/train/good/014.png""]",53.75816993464052,58.67569249922191,4.91752256458139
+LOCO new refs,logical_anomalies,splicing_connectors,4,3,"[""splicing_connectors/train/good/012.png"", ""splicing_connectors/train/good/013.png"", ""splicing_connectors/train/good/014.png"", ""splicing_connectors/train/good/015.png""]",75.41238717709305,77.99564270152504,2.5832555244319906
+LOCO new refs,logical_anomalies,splicing_connectors,4,4,"[""splicing_connectors/train/good/016.png"", ""splicing_connectors/train/good/017.png"", ""splicing_connectors/train/good/018.png"", ""splicing_connectors/train/good/019.png""]",74.08963585434174,76.98412698412699,2.8944911297852514
+LOCO new refs,logical_anomalies,splicing_connectors,4,5,"[""splicing_connectors/train/good/020.png"", ""splicing_connectors/train/good/021.png"", ""splicing_connectors/train/good/022.png"", ""splicing_connectors/train/good/023.png""]",74.58761282290693,77.24867724867725,2.66106442577032
+LOCO new refs,structural_anomalies,breakfast_box,1,12,"[""breakfast_box/train/good/012.png""]",87.30936819172113,87.54901960784314,0.23965141612200114
+LOCO new refs,structural_anomalies,breakfast_box,1,13,"[""breakfast_box/train/good/013.png""]",83.73638344226579,83.47494553376906,-0.2614379084967311
+LOCO new refs,structural_anomalies,breakfast_box,1,14,"[""breakfast_box/train/good/014.png""]",88.98692810457517,89.08496732026144,0.09803921568627061
+LOCO new refs,structural_anomalies,breakfast_box,4,3,"[""breakfast_box/train/good/012.png"", ""breakfast_box/train/good/013.png"", ""breakfast_box/train/good/014.png"", ""breakfast_box/train/good/015.png""]",91.12200435729848,91.12200435729848,0.0
+LOCO new refs,structural_anomalies,breakfast_box,4,4,"[""breakfast_box/train/good/016.png"", ""breakfast_box/train/good/017.png"", ""breakfast_box/train/good/018.png"", ""breakfast_box/train/good/019.png""]",90.52287581699348,90.5773420479303,0.0544662309368249
+LOCO new refs,structural_anomalies,breakfast_box,4,5,"[""breakfast_box/train/good/020.png"", ""breakfast_box/train/good/021.png"", ""breakfast_box/train/good/022.png"", ""breakfast_box/train/good/023.png""]",90.10893246187364,90.19607843137256,0.08714596949891984
+LOCO new refs,structural_anomalies,juice_bottle,1,12,"[""juice_bottle/train/good/012.png""]",66.81756450882752,66.74966047985514,-0.06790402897237868
+LOCO new refs,structural_anomalies,juice_bottle,1,13,"[""juice_bottle/train/good/013.png""]",69.4205522861023,69.25079221367133,-0.16976007243097513
+LOCO new refs,structural_anomalies,juice_bottle,1,14,"[""juice_bottle/train/good/014.png""]",70.16749660479856,70.22408329560888,0.056586690810320306
+LOCO new refs,structural_anomalies,juice_bottle,4,3,"[""juice_bottle/train/good/012.png"", ""juice_bottle/train/good/013.png"", ""juice_bottle/train/good/014.png"", ""juice_bottle/train/good/015.png""]",72.64599366229064,72.5894069714803,-0.05658669081033452
+LOCO new refs,structural_anomalies,juice_bottle,4,4,"[""juice_bottle/train/good/016.png"", ""juice_bottle/train/good/017.png"", ""juice_bottle/train/good/018.png"", ""juice_bottle/train/good/019.png""]",89.52014486192846,89.57673155273879,0.05658669081033452
+LOCO new refs,structural_anomalies,juice_bottle,4,5,"[""juice_bottle/train/good/020.png"", ""juice_bottle/train/good/021.png"", ""juice_bottle/train/good/022.png"", ""juice_bottle/train/good/023.png""]",80.39837030330467,80.47759167043911,0.07922136713443706
+LOCO new refs,structural_anomalies,pushpins,1,12,"[""pushpins/train/good/012.png""]",60.38647342995168,60.38647342995169,1.4210854715202004e-14
+LOCO new refs,structural_anomalies,pushpins,1,13,"[""pushpins/train/good/013.png""]",61.36160314904275,61.56736446591518,0.20576131687243304
+LOCO new refs,structural_anomalies,pushpins,1,14,"[""pushpins/train/good/014.png""]",53.64108069422079,53.301127214170684,-0.33995348005010584
+LOCO new refs,structural_anomalies,pushpins,4,3,"[""pushpins/train/good/012.png"", ""pushpins/train/good/013.png"", ""pushpins/train/good/014.png"", ""pushpins/train/good/015.png""]",61.23635713007695,61.34371086061906,0.1073537305421155
+LOCO new refs,structural_anomalies,pushpins,4,4,"[""pushpins/train/good/016.png"", ""pushpins/train/good/017.png"", ""pushpins/train/good/018.png"", ""pushpins/train/good/019.png""]",61.49579531222044,61.361603149042764,-0.1341921631776728
+LOCO new refs,structural_anomalies,pushpins,4,5,"[""pushpins/train/good/020.png"", ""pushpins/train/good/021.png"", ""pushpins/train/good/022.png"", ""pushpins/train/good/023.png""]",64.09912327786725,63.893361960994824,-0.20576131687242594
+LOCO new refs,structural_anomalies,screw_bag,1,12,"[""screw_bag/train/good/012.png""]",75.22990803678529,75.81967213114754,0.589764094362252
+LOCO new refs,structural_anomalies,screw_bag,1,13,"[""screw_bag/train/good/013.png""]",69.73210715713715,69.62215113954419,-0.10995601759296392
+LOCO new refs,structural_anomalies,screw_bag,1,14,"[""screw_bag/train/good/014.png""]",74.01039584166334,74.57017193122752,0.5597760895641812
+LOCO new refs,structural_anomalies,screw_bag,4,3,"[""screw_bag/train/good/012.png"", ""screw_bag/train/good/013.png"", ""screw_bag/train/good/014.png"", ""screw_bag/train/good/015.png""]",82.00719712115155,82.1171531387445,0.1099560175929497
+LOCO new refs,structural_anomalies,screw_bag,4,4,"[""screw_bag/train/good/016.png"", ""screw_bag/train/good/017.png"", ""screw_bag/train/good/018.png"", ""screw_bag/train/good/019.png""]",78.3486605357857,78.39864054378248,0.04998000799677982
+LOCO new refs,structural_anomalies,screw_bag,4,5,"[""screw_bag/train/good/020.png"", ""screw_bag/train/good/021.png"", ""screw_bag/train/good/022.png"", ""screw_bag/train/good/023.png""]",80.22790883646542,80.9576169532187,0.7297081167532866
+LOCO new refs,structural_anomalies,splicing_connectors,1,12,"[""splicing_connectors/train/good/012.png""]",68.93722194760258,68.39347503707364,-0.5437469105289381
+LOCO new refs,structural_anomalies,splicing_connectors,1,13,"[""splicing_connectors/train/good/013.png""]",70.58823529411765,70.30153237765694,-0.2867029164607118
+LOCO new refs,structural_anomalies,splicing_connectors,1,14,"[""splicing_connectors/train/good/014.png""]",69.50074147305982,69.23381117152742,-0.2669303015323976
+LOCO new refs,structural_anomalies,splicing_connectors,4,3,"[""splicing_connectors/train/good/012.png"", ""splicing_connectors/train/good/013.png"", ""splicing_connectors/train/good/014.png"", ""splicing_connectors/train/good/015.png""]",84.91349480968857,83.80622837370242,-1.1072664359861477
+LOCO new refs,structural_anomalies,splicing_connectors,4,4,"[""splicing_connectors/train/good/016.png"", ""splicing_connectors/train/good/017.png"", ""splicing_connectors/train/good/018.png"", ""splicing_connectors/train/good/019.png""]",84.8838358872961,85.25951557093427,0.37567968363816817
+LOCO new refs,structural_anomalies,splicing_connectors,4,5,"[""splicing_connectors/train/good/020.png"", ""splicing_connectors/train/good/021.png"", ""splicing_connectors/train/good/022.png"", ""splicing_connectors/train/good/023.png""]",79.268413247652,80.8601087493821,1.5916955017301007
